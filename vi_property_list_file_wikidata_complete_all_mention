@@ -1,0 +1,964 @@
+P1000	record held
+P1001	thuộc quyền tài phán
+P101	lĩnh vực làm việc
+P1010	Iran statistics ID
+P1017	số kiểm soát Thư viện Vatican
+P1018	cơ quan kiểm soát ngôn ngữ
+P102	đảng viên của đảng chính trị
+P1022	CNO-11 occupation code
+P1027	được trao bởi
+P1028	donated by
+P1029	(các) người lái
+P103	ngôn ngữ mẹ đẻ
+P1034	main food source
+P1036	số phân loại Dewey
+P1037	người quản lý/giám đốc
+P1038	họ hàng
+P1043	IDEO Job ID
+P1049	thần của
+P105	cấp bậc phân loại
+P1050	tình trạng sức khỏe
+P1053	ResearcherID
+P1056	sản xuất
+P1058	ERA Journal ID
+P1059	CVR number
+P106	nghề nghiệp
+P1060	disease transmission process
+P1066	học trò của
+P1071	vị trí sáng tạo
+P1072	readable file format
+P1075	hiệu trưởng
+P1079	launch contractor
+P108	nhà tuyển dụng
+P1080	thuộc thế giới giả thưởng
+P1081	Chỉ số Phát triển Con người
+P1082	dân số
+P1086	số nguyên tử
+P109	chữ ký
+P1092	total produced
+P1096	độ lệch tâm quỹ đạo
+P110	người minh họa
+P1108	độ âm điện
+P111	đại lượng vật lý được đo
+P1114	số lượng
+P112	người sáng lập
+P1121	trạng thái ôxy hóa
+P1122	spin quantum number
+P1128	số nhân viên
+P113	airline hub
+P1132	số lượng tham gia
+P1142	tư tưởng chính trị
+P115	sân vận động
+P1150	Khung phân loại Regensburg
+P1158	location of landing
+P1165	home world
+P117	cấu trúc hóa học
+P118	liên đoàn thể thao
+P1181	giá trị số
+P119	nơi chôn cất
+P1191	ngày biểu diễn lần đầu tiên
+P1196	hình thái chết
+P1198	tỷ lệ thất nghiệp
+P1202	carries scientific instrument
+P121	hoạt động
+P1215	cấp sao biểu kiến
+P1219	Internet Broadway Database show ID
+P123	nhà xuất bản
+P1236	Parsons code
+P1242	Theatricalia play ID
+P1246	patent number
+P1268	tiêu biểu cho
+P1269	khía cạnh của
+P127	chủ sở hữu
+P1283	đóng phim
+P1286	Munzinger Pop ID
+P1287	Komponisten der Gegenwart ID
+P1289	Kritisches Lexikon zur fremdsprachigen Gegenwartsliteratur ID
+P129	tương tác vật lý với
+P1290	người đỡ đầu
+P1299	được miêu tả bởi
+P1302	nơi đến chủ yếu
+P1303	nhạc cụ
+P1304	ngân hàng trung ương
+P1308	người giữ chức vụ
+P131	nằm trong phạm vi của khu vực hành chính
+P1312	has facet polytope
+P1313	chức vụ đứng đầu chính quyền
+P1314	số nhịp
+P1322	dual to
+P1324	kho mã nguồn
+P1327	partner in business or sport
+P1332	điểm cực bắc
+P1333	điểm cực nam
+P1336	chính quyền tuyên bố chủ quyền
+P1340	màu mắt
+P1344	tham gia
+P1346	người thắng cuộc
+P135	phong trào
+P136	thể loại nghệ thuật
+P1362	Theaterlexikon der Schweiz ID
+P1365	thay thế cho
+P1366	được thay thế bởi
+P1368	National Library of Latvia ID
+P137	nhà quản lý
+P1373	daily patronage
+P1376	trung tâm hành chính của
+P138	được đặt tên theo
+P1382	trùng với
+P1383	bao gồm khu dân cư
+P1394	Glottolog code
+P1398	công trình thay thế cho
+P1399	bị kết án
+P140	tôn giáo
+P1410	number of seats in assembly
+P1411	đề cử giải thưởng
+P1412	nói, viết hoặc ký bằng các ngôn ngữ
+P1414	GUI toolkit or framework
+P1419	hình dạng
+P1421	URL GRIN
+P1422	Sandrart.net person ID
+P1423	chủ đề chính của bản mẫu
+P1430	Open Plaques subject ID
+P1433	xuất bản trong tác phẩm
+P1435	xếp hạng di sản
+P1436	quy mô bộ sưu tập
+P1438	Jewish Encyclopedia ID (Russian)
+P144	phỏng theo
+P1441	xuất hiện trong tác phẩm
+P1444	điểm đến
+P1445	fictional universe described in
+P1451	nội dung khẩu hiệu
+P1454	dạng luật pháp
+P1455	danh sách tác phẩm
+P1462	standards body
+P1476	tiêu đề
+P1478	has immediate cause
+P1479	has contributing factor
+P149	phong cách kiến trúc
+P150	các phân cấp hành chính
+P1532	quốc gia trong thể thao
+P1535	sử dụng bởi
+P1536	immediate cause of
+P1538	số hộ gia đình
+P1540	dân số nam
+P1541	CQ Ranking male cyclist ID
+P1542	dẫn đến
+P1546	khẩu hiệu
+P1548	maximum Strahler number
+P155	phần tiếp theo của
+P1555	Executive Order number
+P1557	biểu thị
+P156	phần kế trước của
+P1567	NIS/INS code
+P157	người giết
+P1582	natural product of taxon
+P1585	Brazilian municipality code
+P1589	điểm sâu nhất
+P159	vị trí trụ sở
+P1593	defender
+P1598	consecrator
+P1602	Art UK venue ID
+P1604	biosafety level
+P161	diễn viên
+P162	nhà sản xuất
+P1622	lái xe bên
+P1640	curator
+P1649	KMDb person ID
+P166	giải thưởng
+P1661	Alexa rank
+P1667	Getty Thesaurus of Geographic Names ID
+P1670	Canadiana Authorities ID (former scheme)
+P1672	this taxon is source of
+P1678	has vertex figure
+P1685	Pokémon index
+P169	tổng giám đốc điều hành
+P1699	định danh tòa nhà SkyscraperPage
+P17	quốc gia
+P170	sáng tác
+P1703	is pollinated by
+P1704	is pollinator of
+P1705	nhãn bản ngữ
+P171	đơn vị phân loại mẹ
+P1711	British Museum person or institution ID
+P1714	Journalisted ID
+P1716	nhãn hiệu
+P172	dân tộc
+P1733	định danh ứng dụng Steam
+P175	người biểu diễn
+P1754	thể loại ứng với danh sách
+P176	hãng sản xuất
+P1762	Hornbostel-Sachs classification
+P177	băng qua
+P178	nhà phát triển
+P1789	chief operating officer
+P179	loạt
+P1792	thể loại cho nhóm người
+P1795	Smithsonian American Art Museum person/institution ID
+P180	mô tả
+P1809	choreographer
+P1817	addressee
+P1820	Open Food Facts food additive ID
+P183	endemic to
+P1830	sở hữu
+P184	cố vấn tiến sĩ
+P1840	investigated by
+P185	nghiên cứu sinh
+P1853	nhóm máu
+P186	chất liệu
+P1870	ARK Name Assigning Authority Number
+P1871	CERL Thesaurus ID
+P1876	vessel
+P1877	after a work by
+P1880	đo bằng
+P1881	danh sách nhân vật
+P1885	nhà thờ chính tòa
+P1889	khác với
+P189	nơi khám phá
+P1891	ký bởi
+P19	nơi sinh
+P190	thành phố kết nghĩa
+P1909	side effect
+P1923	đội tham gia
+P1924	vắc-xin phòng chống
+P193	nhà thầu xây dựng chính
+P194	cơ quan lập pháp
+P1944	relief location map
+P195	bộ sưu tập
+P1950	họ thứ hai trong tên tiếng Tây Ban Nha
+P1954	Discogs master ID
+P1956	takeoff and landing capability
+P1958	Trismegistos Geo ID
+P1981	FSK film rating
+P1987	MCN code
+P199	các chi nhánh tổ chức
+P1990	species kept
+P1993	TeX string
+P1995	chuyên khoa
+P1999	UNESCO language status
+P20	nơi mất
+P200	inflows
+P2002	tên người dùng X
+P2004	NALT ID
+P2005	Catalogus Professorum Halensis
+P2019	AllMovie person ID
+P2020	WorldFootball.net person ID
+P2026	ID Aviabase
+P2027	Colour Index International constitution ID
+P2031	bắt đầu hoạt động
+P2038	ResearchGate profile ID
+P2042	Artsy artist ID
+P2044	cao độ so với mực nước biển
+P2046	diện tích
+P2047	độ dài thời gian
+P205	quốc gia trong lưu vực
+P2050	sải cánh
+P2058	depositary
+P206	tọa lạc trong hoặc bên cạnh thủy vực
+P2067	khối lượng
+P2076	nhiệt độ
+P2078	URL hướng dẫn người dùng
+P2079	phương pháp chế tạo
+P208	cơ quan hành pháp
+P2089	Library of Congress JukeBox ID (former scheme)
+P2091	World Rowing rower ID
+P2094	competition class
+P2097	thời gian nhiệm kỳ
+P21	giới tính
+P2116	molar enthalpy of vaporization
+P2121	tiền thưởng
+P2124	số thành viên
+P2139	tổng doanh thu
+P2143	genome size
+P2172	Parliamentary record ID
+P2174	định danh nghệ sĩ Bảo tàng Nghệ thuật Hiện đại
+P2175	medical condition treated
+P2176	thuốc hoặc liệu pháp dùng để điều trị
+P2179	ACM Classification Code (2012)
+P2184	lịch sử của đề tài
+P219	ISO 639-2
+P2195	Soccerbase manager ID
+P22	cha
+P2202	lower flammable limit
+P2207	Spotify track ID
+P221	ISO 639-6
+P2216	radial velocity
+P2218	tài sản
+P2222	gyromagnetic ratio
+P2225	lưu lượng
+P2226	giá trị vốn hóa thị trường
+P2231	explosive velocity
+P2234	thể tích
+P2238	ký hiệu chính thức
+P2239	first aid measures
+P2244	cận điểm
+P2253	DfE URN
+P2257	tần số xảy ra
+P2258	mã mạng di động quốc gia
+P2263	ID ISOCAT
+P2268	Musée d'Orsay artist ID
+P2270	Emporis building complex ID
+P2283	sử dụng
+P2286	arterial supply
+P2288	lymphatic drainage
+P2292	consumption rate
+P2293	liên hệ di truyền
+P2323	Swedish Olympic Committee athlete ID
+P2338	Musopen composer ID
+P234	InChI
+P2340	CESAR person ID
+P2341	indigenous to
+P2344	AGORHA work ID
+P2348	thời kỳ
+P236	ISSN
+P237	bài miêu tả huy hiệu
+P2372	ODIS ID
+P2378	chỉ định bởi
+P2384	statement describes
+P2385	French diocesan architects ID
+P2387	Elonet person ID
+P2389	lãnh đạo của
+P2392	teaching method
+P2396	image of function
+P2407	short-term exposure limit
+P2408	set in period
+P241	quân chủng
+P2416	sports discipline competed in
+P2428	RePEc Short-ID
+P2437	số mùa phát sóng
+P2438	narrator
+P244	số kiểm soát của Thư viện Quốc hội Mỹ
+P2449	Turkish Football Federation coach  ID
+P2452	GeoNames feature code
+P246	ký hiệu nguyên tố
+P2460	Persons of Ancient Athens
+P2465	số phim Allcinema
+P2472	ACMA Radiocommunications Client Number
+P248	được tuyên bố trong
+P2482	SABR person ID
+P2497	Latvian National Address Register ID
+P25	mẹ
+P2500	league level below
+P2519	Scope.dk person ID
+P2521	dạng giống cái của nhãn
+P2526	National Historic Sites of Canada ID
+P2533	WomenWriters ID
+P2546	sidekick of
+P2554	production designer
+P2559	hướng dẫn sử dụng Wikidata
+P2560	GPU
+P2563	khả năng siêu phàm
+P2564	Köppen climate classification
+P2565	global warming potential
+P2573	số trẻ em không được đến trường
+P2578	học về
+P2579	môn học
+P2586	INSEE department code
+P2593	Latvian Olympic Committee athlete ID (archived)
+P2597	Gram staining
+P26	người phối ngẫu
+P2612	định danh chủ đề TED
+P2625	PASE ID
+P2634	model
+P264	hãng đĩa ghi âm
+P2643	Carnegie Classification of Institutions of Higher Education
+P2647	source of material
+P2650	quan tâm
+P2651	CRICOS Provider Code
+P2652	partnership with
+P2673	next crossing upstream
+P2684	Kijkwijzer rating
+P269	định danh IdRef
+P2695	type locality (geology)
+P27	quốc tịch
+P270	CALIS
+P271	NACSIS-CAT author ID
+P2713	sectional view
+P272	đơn vị sản xuất
+P2723	Deezer album ID
+P2734	Unz Review author ID
+P2736	Biographical Directory of Federal Judges alpha ID
+P2738	disjoint union of
+P274	công thức hóa học
+P2740	ResearchGate institute ID
+P2746	production statistics
+P275	giấy phép
+P2750	Photographers’ Identities Catalog ID
+P2752	ID Sổ đăng ký Sinh vật New Zealand
+P2755	exploitation mark number
+P2758	CNC film rating (France)
+P2759	AUSNUT food ID
+P276	vị trí
+P2777	FIS snowboarder ID
+P278	mã GOST 7.75–97
+P2789	nối liền
+P279	là tập hợp con của
+P2793	clearance
+P2799	BVMC person ID
+P2805	Goratings ID
+P281	mã bưu chính
+P2811	PGA Tour golf player ID
+P2818	Sherdog fighter ID
+P2819	Yandex Music release ID
+P282	hệ thống chữ viết
+P2827	flower color
+P2831	totem
+P2846	disabled accessibility
+P2849	produced by
+P2851	nhận các phương thức thanh toán
+P2857	WWE superstar ID
+P2858	Killer List of Videogames ID
+P286	huấn luyện viên trưởng
+P2860	tác phẩm trích dẫn
+P2869	record or record progression
+P287	người thiết kế
+P2884	điện thế dân dụng
+P2892	UMLS CUI
+P2894	ngày trong tuần
+P2896	thời gian giữa các số
+P2900	số fax
+P2908	SecondHandSongs work ID
+P291	nơi xuất bản
+P2919	nhãn trong ngôn ngữ ký hiệu
+P2935	connector
+P2936	sử dụng ngôn ngữ
+P2941	Munk's Roll ID
+P2950	Nomisma ID
+P2951	Cultural heritage database in Austria ObjektID
+P2956	NAIF ID
+P2962	title of chess person
+P2966	National Library of Wales Authority ID
+P2970	Kinopolis film ID
+P2975	host
+P2979	số nhận dạng hàng hải
+P2983	UNDP country code
+P2988	GOST 7.67 cyrillic
+P2989	có cách ngữ pháp
+P2993	partition coefficient water/octanol
+P2997	tuổi thành niên
+P2999	age of consent
+P30	lục địa
+P3005	valid in place
+P3012	Statistics Canada Geographic code
+P3017	Rolling Stone artist ID
+P3018	nằm trong khu bảo tồn thiên nhiên
+P3048	Racing-Reference driver ID
+P3051	Kindred Britain ID
+P3052	Bloomberg person ID
+P3063	gestation period
+P3065	RERO ID
+P3073	CosIng number
+P3075	tôn giáo chính thức
+P3083	SIMBAD ID
+P3091	mount
+P3095	thực hành bởi
+P3100	ID Quần thực vật Australia
+P3101	ID FloraBase
+P3108	định danh Yelp
+P3109	Peakbagger mountain ID
+P3111	FEI athlete ID
+P3114	ISzDb person ID
+P3117	DSSTox substance ID
+P3118	OpenDomesday settlement ID
+P3132	dòng cuối cùng
+P3136	elCinema person ID
+P3144	elFilm person ID
+P3163	Scottish Charity number
+P3165	Horsetelex ID
+P3172	World Bridge Federation person ID
+P3173	nhìn tới
+P3174	art director
+P3179	lãnh thổ trùng với
+P3192	Last.fm ID
+P3202	UAI code
+P3203	Ciné-Ressources film ID
+P3205	patient of
+P3222	NE.se ID
+P3238	trunk prefix
+P3258	LiveJournal ID
+P3261	anatomical branch of
+P3263	base
+P3264	radix
+P3270	tuổi giáo dục bắt buộc thấp nhất
+P3275	storyboard artist
+P3277	KANTL member ID
+P3279	statistical leader
+P3280	BAnQ authority ID
+P3291	DocCheck Flexikon En ID
+P3300	musical conductor
+P3301	broadcast by
+P3302	Open Media Database film ID
+P3306	ICAA rating
+P3307	Galiciana authority ID
+P3318	Guía Digital del Patrimonio Cultural de Andalucía ID
+P3320	ủy viên ban giám đốc
+P3338	Encyclopedia of Surfing ID
+P3341	Kvikmyndir person ID
+P3342	nhân vật quan trọng
+P3349	designed to carry
+P3354	positive therapeutic predictor for
+P3373	anh chị em
+P3392	Surman ID
+P3402	CNC film rating (Romania)
+P3408	World Aquatics athlete ID
+P3410	Clergy of the Church of England database ID
+P3412	Canadian Environmental Sustainability Indicators ID (Protected areas)
+P3414	Yle Areena item ID
+P3416	end period
+P3417	định danh Quora
+P3425	Natura 2000 site ID
+P3430	SNAC ARK ID
+P3445	Cinema of Israel ID
+P3459	EURING number
+P348	phiên bản ổn định
+P3487	maximal incubation period in humans
+P35	nguyên thủ quốc gia
+P3536	euroleague.net player ID
+P3539	NFL.com player ID (former scheme)
+P3542	FIBA.com player ID (archived)
+P3545	Theoi Project ID
+P3548	Australian Business Number
+P355	tổ chức con
+P3559	maximum size or capacity
+P3567	HHOF.com NHL player ID
+P3569	Cultureel Woordenboek ID
+P3579	ID người dùng Weibo
+P3580	SIPCA code
+P3581	Pro Football Hall of Fame ID (old)
+P3591	ID WCSPF
+P36	trung tâm hành chính
+P3603	Minneapolis Institute of Art constituent ID
+P3604	World Triathlon triathlete ID
+P3606	ID ĐVPL BOLD Systems
+P3635	Peakbagger area ID
+P3636	PDB ligand ID
+P364	ngôn ngữ gốc của tác phẩm
+P3653	ARRS runner ID
+P366	cách dùng
+P367	ký hiệu thiên văn học
+P3681	ESPN FC player ID
+P3686	ESPN.com NFL player ID
+P3690	IFSC climber ID
+P3697	Sports Reference college football player ID
+P3698	Tennis Australia player ID
+P37	ngôn ngữ chính thức
+P3708	PhDTree person ID
+P371	người dẫn chương trình
+P3712	mục tiêu của dự án hoặc hành động
+P3738	minimum wavelength of sensitivity
+P3741	seed dispersal
+P3744	số người theo dõi
+P3760	Iditarod musher ID
+P3761	tiền tố định tuyến IPv4
+P3763	MIMO instrument ID
+P3764	pole position
+P3766	European Athletics athlete ID
+P3767	French Athletics Federation athlete ID
+P3781	has active ingredient
+P3793	tiền tố định tuyến IPv6
+P3795	Flora of Israel Online plant ID
+P38	đơn vị tiền tệ
+P380	mã định danh Mérimée
+P3815	volcano observatory
+P3816	film script
+P3828	mặc
+P3832	Europeana Fashion Vocabulary ID
+P3833	diaspora
+P3839	Tab4u artist ID
+P3844	Deutsche Synchronkartei film ID
+P3848	Irish Rugby Football Union men's player ID
+P3855	LombardiaBeniCulturali artwork ID
+P3856	Quebec municipalities geographical code
+P3872	patronage
+P3874	Justia Patents inventor ID
+P3876	thể loại cựu học sinh
+P3889	Swiss Federal Archives ID
+P3895	INAO product ID
+P3896	hình dạng địa lý
+P39	chức vụ
+P3902	bữa ăn cuối cùng
+P3909	lời hấp hối
+P3912	khổ báo
+P3916	UNESCO Thesaurus ID
+P3931	chủ thể giữ bản quyền
+P3952	Stereo Ve Mono artist ID
+P3965	Bridgeman artist ID
+P397	thiên thể mẹ
+P3973	PIM authority ID
+P3977	Songkick venue ID
+P3979	Unifrance company ID
+P398	thiên thể con
+P3980	Unifrance person ID
+P3989	members have occupation
+P399	thiên thể cùng đôi
+P40	con cái
+P400	nền tảng
+P4000	has fruit type
+P402	số quan hệ OpenStreetMap
+P4021	danskefilm animated film ID
+P4026	Cullum number
+P403	cửa sông
+P4043	emulates
+P4053	Team Deutschland athlete ID
+P407	ngôn ngữ của tên gọi hoặc tác phẩm
+P4087	số manga MyAnimeList
+P4090	Biodiversity Repository ID
+P4097	MuseScore ID
+P410	quân hàm
+P4104	Carnegie Hall agent ID
+P4132	linguistic typology
+P414	sở giao dịch chứng khoán
+P4151	game mechanics
+P417	thánh quan thầy
+P4192	Ligue Nationale de Handball player ID
+P4197	IBM graphic character set global ID
+P4198	Google Play Music artist ID (former scheme)
+P4200	Christie's creator ID
+P421	nằm trong múi giờ
+P4224	nội dung thể loại
+P4230	Sefaria ID
+P4239	vocalized name
+P424	mã ngôn ngữ Wikimedia
+P425	môn học của chuyên ngành
+P4252	All-Russian Mathematical Portal ID
+P4255	Banglapedia ID (English)
+P4263	THW Kiel player ID
+P4264	định danh công ty LinkedIn
+P427	dạng phân loại
+P4273	New York City Landmarks Preservation Commission ID
+P4276	Cinémathèque québécoise work ID
+P4285	Theses.fr person ID
+P4292	possessed by spirit
+P4293	PM20 folder ID
+P4296	stellar rotational velocity
+P4311	ID đơn vị phân loại FOIH
+P4316	kinship equivalent in SPARQL at Wikidata
+P4330	chứa
+P4333	GenBank assembly accession number
+P4338	LOINC ID
+P4343	WBPLN author ID
+P4348	Lotsawa House Tibetan author ID
+P4353	nominated by
+P4365	Hawai‘i Sports Hall of Fame ID (archived)
+P4369	Cairn author ID
+P437	phương tiện phân phối
+P4375	North Carolina Sports Hall of Fame ID
+P4376	Oklahoma Sports Hall of Fame ID (dead link)
+P4384	DAMIT asteroid ID
+P4389	Science Museum people ID
+P4395	BrainInfo ID (hierarchical)
+P4402	Women's Collegiate Tennis Hall of Fame ID
+P4405	NLBPA ID
+P4407	Opera Vivra singer ID
+P4411	Quora username
+P4415	Sport Australia Hall of Fame inductee ID
+P4416	Quebec Sports Hall of Fame ID
+P4424	mandates
+P4426	Y-DNA Haplogroup
+P4428	implementation of
+P443	cách phát âm (đoạn âm thanh)
+P4436	The Coptic Library ID
+P4442	mean age
+P4446	reward program
+P4466	Unified Astronomy Thesaurus ID
+P4468	Mountain Bike Hall of Fame inductee ID
+P4469	IGHOF athlete ID
+P4472	Czech Jockey Club horse ID
+P4477	Humble Store ID
+P4495	Xenopus Anatomical Ontology ID
+P450	chuyến bay vũ trụ
+P4501	albedo
+P451	người tình
+P452	ngành kinh doanh
+P4533	Czech street ID
+P4537	Spider Ontology ID
+P4548	Commonwealth Games Federation athlete ID (archived)
+P455	định danh Emporis
+P4552	dãy núi
+P4553	RA Collections ID
+P4561	Basketball Reference WNBA player ID
+P4563	Art Museum of Estonia artist ID
+P4567	Mã 5 chữ BTO
+P4573	Merchant Category Code
+P4581	Städel Museum artist ID
+P4583	U.S. Gymnastics Hall of Fame athlete ID
+P4584	xuất hiện lần đầu
+P4585	Accademia della Crusca ID
+P4592	Mountain Project ID
+P4599	monomer of
+P460	được xem là đồng nghĩa với
+P4600	polymer of
+P4604	World Rugby Hall of Fame inductee ID
+P461	trái nghĩa với
+P4611	LACMA ID
+P4614	lưu vực
+P462	màu sắc
+P4628	ICTV virus genome composition
+P463	thành viên của
+P4638	The Peerage person ID
+P4643	Philadelphia Museum of Art work ID
+P4644	ESCO skill ID
+P465	màu sắc (thập lục phân)
+P4652	ESCO Occupation ID
+P4659	Musée d'Orsay artwork ID
+P466	người/tổ chức cư ngụ
+P4661	reservoir created
+P4664	Wiki Aves bird ID
+P4671	Hall of Light ID
+P4675	xuất hiện dưới dạng
+P4683	National Gallery of Art artwork ID
+P469	hồ trên sông
+P4690	Oireachtas member ID
+P4691	OpenSecrets organization ID
+P4696	CIQUAL2017 ID
+P47	tiếp giáp với
+P4702	Google Arts & Culture partner ID
+P4716	Académie des Inscriptions et Belles-Lettres member ID
+P4718	Basketball Reference NBA coach ID
+P473	số vùng điện thoại
+P4733	produced sound
+P4743	animal breed
+P4746	Elhuyar ZTH ID
+P4751	Sports-Reference.com college basketball coach ID
+P4759	Luminous-Lint ID
+P477	Canadian Register of Historic Places ID
+P4774	biological phase
+P4776	MAC Address Block Large ID
+P4777	has boundary
+P4792	dam
+P4794	season starts
+P4802	BVPB authority ID
+P4813	PARES ID
+P4816	Lemon 64 ID
+P4819	Swedish Portrait Archive ID
+P4823	American National Biography ID
+P4841	tỷ lệ sinh
+P4843	development of anatomical structure
+P4844	research intervention
+P4845	Bulbapedia article ID
+P4848	Libraries.org ID
+P485	có lưu trữ tại
+P4852	JECFA database ID
+P486	MeSH descriptor ID
+P4862	Amazon author ID
+P4878	symbolizes
+P488	chủ tịch
+P4904	Tropicos publication ID
+P4912	century breaks
+P4916	Ready64 ID
+P4917	Gamebase64 ID
+P4928	Ricorso author ID
+P4930	Julien ID
+P4931	Todotango.com person ID
+P4933	Big Cartoon Database ID
+P4939	VERIF ID
+P4947	TMDB movie ID
+P495	quốc gia xuất xứ
+P4952	safety classification and labelling
+P496	ORCID
+P4967	prerequisite
+P4971	UK Provider Reference Number
+P4978	PRS Legislative Research MP ID
+P50	tác giả
+P500	lãnh thổ bên ngoài của
+P5004	phản đối
+P501	lãnh thổ nội địa ở trong
+P5021	khóa thi
+P5025	gens
+P5038	Fogis.se player ID
+P5047	Rosetta Code page ID
+P5061	ký hiệu đơn vị
+P5080	Norsk biografisk leksikon ID
+P509	nguyên nhân chết
+P51	âm thanh
+P5108	HanCinema film ID
+P5109	có giống ngữ pháp
+P511	tiền tố kính ngữ
+P5131	possible medical findings
+P5136	ít hơn
+P5152	KAVI rating
+P5167	vehicles per thousand people
+P517	interaction
+P5176	KIT Linked Open Numbers ID
+P5179	FloraCatalana ID
+P520	vũ khí
+P5218	Armenian Cinema ID
+P522	type of orbit
+P5224	OlimpBase Women's Chess Olympiad player ID
+P5226	BRAHMS artist ID
+P5229	Carnegie Hall work ID
+P5239	Artists in Canada record number
+P524	cuối khoảng thời gian
+P5246	Pornhub star ID
+P5252	winter view
+P5254	FilmTv.it person ID
+P5259	Swedish Gravestone ID
+P5267	YouPorn performer ID (archived)
+P5270	Mondo ID
+P5271	Saint Louis Art Museum person ID
+P5273	Nelson-Atkins Museum of Art person ID
+P5290	Redump.org ID
+P53	nhà
+P530	quan hệ ngoại giao
+P532	port of registry
+P5325	Swedish Academy member ID
+P533	mục tiêu
+P5331	OCLC work ID
+P5335	Or Movement settlement ID
+P5337	Google News topics ID
+P5338	SilentEra.com film ID
+P534	streak color
+P5354	Amphibian Species of the World ID
+P5365	Internet Book Database of Fiction writer ID
+P5369	Encyclopædia Universalis author ID
+P537	twinning
+P538	mineral fracture
+P539	Museofile ID
+P5397	ID Tierstimmenarchiv
+P5398	TDKIV term ID
+P54	cầu thủ của đội thể thao
+P5414	The Paris Review interviewee ID
+P5415	Whonamedit? doctor ID
+P5417	Common Procurement Vocabulary code
+P542	khai mạc bởi
+P5422	has pattern
+P5449	Inventory of French sanctuaries ID
+P5459	RHE doctor ID
+P5460	grants
+P547	kỷ niệm
+P5479	ultimate tensile strength
+P549	Mathematics Genealogy Project ID
+P5496	Médicos históricos doctor ID
+P5498	Base de datos de premiados person ID
+P550	chivalric order
+P5506	Poetry In Voice poet ID
+P551	nơi cư trú
+P553	tài khoản trang Web tại
+P5534	Open Media Database person ID
+P5541	Paris Faculty of Science professor ID
+P569	ngày sinh
+P57	đạo diễn
+P570	ngày mất
+P571	ngày thành lập hoặc tạo ra
+P575	ngày khám phá
+P576	ngày giải thể, bãi bỏ, hoặc phá bỏ
+P577	ngày xuất bản/phát hành
+P579	IMA status and/or rank
+P58	nhà biên kịch
+P580	ngày bắt đầu
+P582	ngày kết thúc
+P585	thời điểm
+P589	point group
+P59	chòm sao
+P594	Ensembl gene ID
+P595	Guide to Pharmacology Ligand ID
+P598	commander of (DEPRECATED)
+P6	người đứng đầu chính quyền
+P607	cuộc xung đột
+P61	được phát hiện bởi
+P610	điểm cao nhất
+P618	nguồn năng lượng
+P629	là ấn bản hoặc bản dịch của
+P631	kỹ sư kết cấu
+P633	Quebec cultural heritage directory ID
+P635	số ISTAT
+P641	môn thể thao
+P649	NRHP reference number
+P652	UNII
+P655	dịch giả
+P657	số RTECS
+P658	danh sách bài hát
+P661	định danh ChemSpider
+P665	KEGG ID
+P669	trên đường
+P674	nhân vật
+P676	người viết lời bài hát
+P680	chức năng phân tử
+P681	thành phần tế bào
+P684	ortholog
+P688	encodes
+P689	afflicts
+P69	trường học
+P690	space group
+P695	UN number
+P702	encoded by
+P703	found in taxon
+P706	nằm trên hoặc trong địa mạo
+P707	spacecraft bus
+P708	giáo phận
+P710	người tham gia
+P711	Strunz 8th edition (series ID, updated)
+P713	Nickel-Strunz '10th ed', review of (9th ed/ 2009 update)
+P715	DrugBank ID
+P721	định danh OKATO
+P725	diễn viên lồng tiếng
+P726	ứng cử viên
+P729	ngày bắt đầu phục vụ
+P734	họ
+P735	tên
+P737	ảnh hưởng bởi
+P740	vị trí thành lập
+P745	Low German Bibliography and Biography ID
+P747	có ấn bản hoặc bản dịch
+P749	tổ chức mẹ
+P750	nhà phân phối
+P757	World Heritage Site ID
+P758	Kulturminne ID
+P761	Lake ID (Sweden)
+P769	significant drug interaction
+P770	nguyên nhân phá hủy
+P775	Swedish urban area code
+P78	tên miền cấp cao nhất
+P780	triệu chứng và dấu hiệu
+P784	mushroom cap shape
+P787	spore print color
+P788	mushroom ecological type
+P789	edibility
+P793	sự kiện quan trọng
+P797	chính quyền
+P800	tác phẩm chính
+P802	học trò
+P805	lời phát biểu thuộc chủ đề
+P807	được tách ra khỏi
+P808	Asset of cultural interest code
+P812	chuyên ngành học
+P815	TSN ITIS
+P816	decays to
+P825	dành riêng cho
+P826	giọng
+P828	nguyên nhân
+P832	ngày lễ công cộng
+P837	ngày trong năm của chu kỳ xảy ra
+P84	kiến trúc sư
+P840	narrative location
+P859	nhà tài trợ
+P86	người soạn nhạc
+P863	InPhO ID
+P865	BMLO ID
+P867	mã nghề nghiệp ROME (v3)
+P868	món ăn truyền thống
+P87	librettist
+P870	instrumentation
+P882	FIPS 6-4
+P885	thượng nguồn sông
+P901	FIPS 10-4 (quốc gia và khu vực)
+P905	PORT film ID
+P91	thiên hướng tình dục
+P915	filming location
+P918	NOC Occupation Code
+P92	cơ sở pháp lý
+P921	chủ đề
+P927	vị trí giải phẫu
+P937	nơi công tác
+P941	lấy cảm hứng từ
+P942	theme music
+P945	nguyện trung thành
+P946	ISIN
+P947	RSL ID (person)
+P952	mã nghề nghiệp ISCO
+P962	MycoBank taxon name ID
+P97	danh hiệu quý tộc
+P974	phụ lưu
+P98	biên tập viên
+P981	BAG residence ID
+P996	tập tin quét trên Wikimedia Commons
+P999	ARICNS
