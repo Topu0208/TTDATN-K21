@@ -17,6 +17,7 @@
 - 21120405 Trần Minh Triết
 - 21120417 Nguyễn Thị Ngọc Châm
 
+Liên hệ với chúng tôi tại email: `<Student ID>.hcmus.edu.vn`
 ## 2. Mô tả đề tài
 
 Đồ án tập trung vào việc xây dựng một hệ thống trả lời câu hỏi dựa trên đồ thị tri thức Wikidata, kết hợp với mô hình ngôn ngữ lớn (LLM). Hệ thống sẽ tiếp nhận câu hỏi từ người dùng, chuyển đổi thành truy vấn SPARQL để truy xuất dữ liệu từ Wikidata và trả về câu trả lời phù hợp.
