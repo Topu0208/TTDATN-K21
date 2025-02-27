@@ -1,0 +1,124 @@
+1. 
+	"template": "Ask (ent-pred-obj1 . ent-pred-obj2)"
+	"sparql_wikidata": "ASK WHERE { wd:Q3130 wdt:P190 wd:Q490 . wd:Q3130 wdt:P190 wd:Q72259 }",
+	"s_expression": ( ASK ( AND ( Q3130 P190 Q490 ) ( Q3130 P190 Q72259 ) ) )
+
+2.
+	"template": "?E is_a Type, ?E pred Obj  value. MAX/MIN (value)"
+	"sparql_wikidata": "select ?ent where { ?ent wdt:P31 wd:Q21009056 . ?ent wdt:P2406 ?obj } ORDER BY DESC(?obj)LIMIT 5 "
+	"s_expression": ( MAX ( JOIN ( R P2406 ) ( JOIN P31 Q21009056 ) ) )
+
+3.  
+	"template": "E REF xF . xF RFG ?G",
+	"sparql_wikidata": "SELECT ?answer WHERE { wd:Q36956 wdt:P2293 ?X . ?X wdt:P684 ?answer}",
+	"s_expression": ( JOIN ( R P684 ) ( JOIN ( R P2293 ) Q36956 ) )
+
+4. 
+        "template": " <S P ?O ; ?O instanceOf Type>",
+        "sparql_wikidata": " select distinct ?obj where { wd:Q2813 wdt:P176 ?obj . ?obj wdt:P31 wd:Q891723 } ",
+	"s_expression": ( AND ( JOIN ( R P176 ) Q2813 ) ( JOIN P31 Q2813 ) )
+5. 
+        "template": "?E is_a Type. ?E pred Obj. ?E-secondClause value. MIN (value)",
+        "sparql_wikidata": "select ?ent where { ?ent wdt:P31 wd:Q500834 . ?ent wdt:P1356 ?obj . ?ent wdt:P276 wd:Q664. } ORDER BY ASC(?obj)LIMIT 5 ",
+	"s_expression": ( MIN ( JOIN ( R P1356 ) ( AND ( JOIN P31 Q500834 ) ( JOIN P276 Q664 ) ) ) )
+6. 
+        "template": "?E is_a Type. ?E pred Obj. ?E-secondClause value. MAX (value)",
+        "sparql_wikidata": "select ?ent where { ?ent wdt:P31 wd:Q8092 . ?ent wdt:P2630 ?obj . ?ent wdt:P910 wd:Q8528870 } ORDER BY DESC(?obj)LIMIT 5 ",
+	"s_expression": ( MAX ( JOIN ( R P2630 ) ( AND ( JOIN P31 Q8092 ) ( JOIN P910 Q8528870 ) ) ) )
+
+7.         
+        "template": "?D RDE E",
+        "sparql_wikidata": "select distinct ?answer where { ?answer wdt:P1479 wd:Q83437}",
+	"s_expression": ( JOIN P1479 Q83437 )
+8.
+        "template": "(E pred F) prop ?value",
+        "sparql_wikidata": "SELECT ?obj WHERE { wd:Q273978 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P805 wd:Q751924 }",
+	"s_expression": ( JOIN ( R P1411) ( AND ( JOIN ( R P1411 ) Q273978 ) ( JOIN P805 Q751924 ) ) ) 
+
+9.       "template": "(E pred ?Obj ) prop value",
+        "sparql_wikidata": "SELECT ?value WHERE { wd:Q8027 p:P69 ?s . ?s ps:P69 wd:Q687514 . ?s pq:P512 ?value}",
+	"s_expression": ( JOIN ( R P512 )( AND ( JOIN ( R P69 ) Q8027 ) ( JOIN P69 Q687514 ) ) )
+10 .         
+        "template": "<?S P O ; ?S InstanceOf Type>",
+        "sparql_wikidata": " select distinct ?sbj where { ?sbj wdt:P101 wd:Q161437 . ?sbj wdt:P31 wd:Q5 } ",
+	"s_expression": ( AND ( JOIN P101 Q161437 ) ( JOIN P31 Q5 ) )
+11. 
+        "template": "E REF ?F . ?F RFG G",
+        "sparql_wikidata": "SELECT ?answer WHERE { wd:Q126194 wdt:P400 ?answer . ?answer wdt:P747 wd:Q483881}",
+	"s_expression": ( AND ( JOIN ( R P400 ) Q126194 ) ( JOIN P747 Q483881 ) )
+12.  
+        "template": "ASK ?sbj ?pred ?obj filter ?obj = num",
+        "sparql_wikidata": "ASK WHERE { wd:Q41485581 wdt:P1357 ?obj filter(?obj = 25) } ",
+	"s_expression": ( ASK ( = ( JOIN ( R P1357 ) Q41485581 ) 25 ) )
+13. 
+
+        "template": "select where (ent-pred-obj1 . ent-pred-obj2)",
+        "sparql_wikidata": "SELECT ?ans_1 ?ans_2 WHERE { wd:Q18432 wdt:P190 ?ans_1 . wd:Q18432 wdt:P131 ?ans_2 }",
+	"s_expression": ( JOIN ( R P190 ) Q18432 ) ( JOIN ( R P131 ) Q18432 )
+14.   
+        "template": "Count ent (ent-pred-obj)",
+        "sparql_wikidata": "SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P201 wd:Q104437 }",
+	"s_expression": ( COUNT ( JOIN P201 Q104437 ) )
+15. 
+        "template": "Count Obj (ent-pred-obj)",
+        "sparql_wikidata": "SELECT (COUNT(?obj) AS ?value ) { wd:Q670 wdt:P1121 ?obj }",
+	"s_expression":  ( COUNT ( JOIN ( R P1121 ) Q670 ) )
+
+16. 
+        "template": "E REF ?F",
+        "sparql_wikidata": "select distinct ?answer where { wd:Q309153 wdt:P2363 ?answer}",
+	"s_expression": ( JOIN ( R P2363 ) Q309153 )
+17. 
+        "template": " <?S P O ; ?S instanceOf Type ; starts with character >",
+        "sparql_wikidata": "SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q403523 . ?sbj wdt:P155 wd:Q188654 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'c')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25 ",
+	"s_expression": ( CHAR ( AND (JOIN P31 Q403523 ) ( JOIN P155 Q188654 ) ) 'c' )
+18.
+        "template": "Ask (ent-pred-obj)",
+        "sparql_wikidata": "ASK WHERE { wd:Q56008 wdt:P451 wd:Q242015 }",
+	"s_expression": ( ASK ( Q56008 P451 Q242015 ) )
+19. 
+        "template": " <?S P O ; ?S instanceOf Type ; contains word >",
+        "sparql_wikidata": "SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q755707 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), '\u00f8yer')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25 ",
+	"s_expression": ( WORD ( JOIN P31 Q755707) '\u00f8yer' )
+20. 
+        "template": "C RCD xD . xD RDE ?E",
+        "sparql_wikidata": "SELECT ?answer WHERE { wd:Q10640455 wdt:P171 ?X . ?X wdt:P105 ?answer}",
+	"s_expression": ( JOIN ( R P105) ( JOIN ( R P171 ) Q10640455 ) ) 
+21.
+SELECT ?obj WHERE { 
+            wd:Q43067 p:P735 ?s . 
+            ?s ps:P735 ?obj . 
+            ?s pq:P1545 ?x filter(contains(?x,'1')) 
+        }
+s_expression = "( JOIN ( R P735 ) ( FILTER ( JOIN ( R P1545 ) ( JOIN ( R P735 ) Q43067 ) ) ( '1' ) ) )"   
+
+
+22.
+SELECT ?answer WHERE { 
+            wd:Q77117 wdt:P19 ?answer . 
+            ?answer wdt:P1082 ?x FILTER(contains(?x,'101165.0')) 
+        }
+
+s_expression = "( JOIN ( R P19 ) ( FILTER ( JOIN ( R P1082 ) Q77117 ) ( '101165.0' ) ) )"   
+23.
+SELECT ?obj WHERE { 
+            wd:Q1045 p:P1082 ?s . 
+            ?s ps:P1082 ?obj . 
+            ?s pq:P585 ?x filter(contains(YEAR(?x),'2009')) 
+        }
+s_expression = "( JOIN ( R P1082 ) ( FILTER ( JOIN ( R P585 ) ( JOIN ( R P1082 ) Q1045 ) ) ( '2009' ) ) )"
+
+24.
+SELECT ?answer WHERE { 
+            wd:Q860385 wdt:P138 ?answer . 
+            ?answer wdt:P570 ?x FILTER(contains(YEAR(?x),'1602')) 
+        }
+s_expression = "( FILTER ( JOIN ( R P570 ) ( JOIN ( R P138 ) Q860385 ) ) ( YEAR '1602' ) )"
+25.
+SELECT DISTINCT ?sbj ?sbj_label WHERE { 
+            ?sbj wdt:P31 wd:Q11410 . 
+            ?sbj rdfs:label ?sbj_label . 
+            FILTER(STRSTARTS(lcase(?sbj_label), 'z')) . 
+            FILTER (lang(?sbj_label) = 'en') 
+        } LIMIT 25
+s_expression = "( WORD ( JOIN P31 Q11410 ) 'z' )"

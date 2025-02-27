@@ -1,0 +1,411 @@
+[
+    {
+        "question_id": 1,
+        "question": "Who is the  country for head of state of Mahmoud Abbas",
+        "sparql": " select distinct ?sbj where { ?sbj wdt:P35 wd:Q127998 . ?sbj wdt:P31 wd:Q6256 } ",
+        "answer": [
+            "http://www.wikidata.org/entity/Q219060"
+        ],
+        "s_expr": "( AND ( JOIN P35 Q127998 ) ( JOIN P31 Q6256 ) )",
+        "nor_s_expr": "( AND ( JOIN [ nguyên thủ quốc gia ] [ Mahmoud Abbas ] ) ( JOIN [ là một ] [ quốc gia ] ) )",
+        "gold_entity_map": {
+            "Q6256": "quốc gia",
+            "Q127998": "Mahmoud Abbas"
+        },
+        "gold_relation_map": {
+            "P35": "nguyên thủ quốc gia",
+            "P31": "là một"
+        }
+    },
+    {
+        "question_id": 2,
+        "question": "What was the population of Somalia in 2009-0-0?",
+        "sparql": "SELECT ?obj WHERE { wd:Q1045 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2009')) }",
+        "answer": [
+            "9380854"
+        ],
+        "s_expr": "( JOIN ( R P1082 ) ( FILTER ( JOIN ( R P585 ) ( JOIN ( R P1082 ) Q1045 ) ) ( '2009' ) ) )",
+        "nor_s_expr": "( JOIN ( R [ dân số ] ) ( FILTER ( JOIN ( R [ P585 ] ) ( JOIN ( R [ dân số ] ) [ Somalia ] ) ) ( '2009' ) ) )",
+        "gold_entity_map": {
+            "Q1045": "Somalia"
+        },
+        "gold_relation_map": {
+            "P1082": "dân số"
+        }
+    },
+    {
+        "question_id": 3,
+        "question": "Which female actress is the voice over on South Park and is employed as a singer?",
+        "sparql": "SELECT ?answer WHERE { wd:Q16538 wdt:P725 ?answer . ?answer wdt:P106 wd:Q177220}",
+        "answer": [
+            "http://www.wikidata.org/entity/Q44414",
+            "http://www.wikidata.org/entity/Q106662",
+            "http://www.wikidata.org/entity/Q133151",
+            "http://www.wikidata.org/entity/Q152929",
+            "http://www.wikidata.org/entity/Q206439",
+            "http://www.wikidata.org/entity/Q218718",
+            "http://www.wikidata.org/entity/Q223769",
+            "http://www.wikidata.org/entity/Q261865",
+            "http://www.wikidata.org/entity/Q270128",
+            "http://www.wikidata.org/entity/Q503710",
+            "http://www.wikidata.org/entity/Q2365265"
+        ],
+        "s_expr": "( AND ( JOIN ( R P725 ) Q16538 ) ( JOIN P106 Q177220 ) )",
+        "nor_s_expr": "( AND ( JOIN ( R [ diễn viên lồng tiếng ] ) [ South Park ] ) ( JOIN [ nghề nghiệp ] [ ca sĩ ] ) )",
+        "gold_entity_map": {
+            "Q177220": "ca sĩ",
+            "Q16538": "South Park"
+        },
+        "gold_relation_map": {
+            "P725": "diễn viên lồng tiếng",
+            "P106": "nghề nghiệp"
+        }
+    },
+    {
+        "question_id": 4,
+        "question": "What is nominated for of Dolores del Río that is for work is La Otra ?",
+        "sparql": "SELECT ?obj WHERE { wd:Q124057 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P1686 wd:Q3915489 }",
+        "answer": [
+            "http://www.wikidata.org/entity/Q4790397"
+        ],
+        "s_expr": "( JOIN ( R P1411 ) ( AND ( JOIN ( R P1411 ) Q124057 ) ( JOIN P1686 Q3915489 ) ) )",
+        "nor_s_expr": "( JOIN ( R [ đề cử giải thưởng ] ) ( AND ( JOIN ( R [ đề cử giải thưởng ] ) [ Dolores del Rio ] ) ( JOIN [ P1686 ] [ La Otra ] ) ) )",
+        "gold_entity_map": {
+            "Q3915489": "La Otra",
+            "Q124057": "Dolores del Rio"
+        },
+        "gold_relation_map": {
+            "P1411": "đề cử giải thưởng"
+        }
+    },
+    {
+        "question_id": 5,
+        "question": "What was the population of Clermont-Ferrand on 1-1-2013?",
+        "sparql": "SELECT ?obj WHERE { wd:Q42168 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2013')) }",
+        "answer": [
+            "141463"
+        ],
+        "s_expr": "( JOIN ( R P1082 ) ( FILTER ( JOIN ( R P585 ) ( JOIN ( R P1082 ) Q42168 ) ) ( '2013' ) ) )",
+        "nor_s_expr": "( JOIN ( R [ dân số ] ) ( FILTER ( JOIN ( R [ P585 ] ) ( JOIN ( R [ dân số ] ) [ Clermont-Ferrand ] ) ) ( '2013' ) ) )",
+        "gold_entity_map": {
+            "Q42168": "Clermont-Ferrand"
+        },
+        "gold_relation_map": {
+            "P1082": "dân số"
+        }
+    },
+    {
+        "question_id": 6,
+        "question": "On Lake Winnipeg what is the lakes on river?",
+        "sparql": "select distinct ?answer where { ?answer wdt:P469 wd:Q3272}",
+        "answer": [
+            "http://www.wikidata.org/entity/Q3292"
+        ],
+        "s_expr": "( JOIN P469 Q3272 )",
+        "nor_s_expr": "( JOIN [ hồ trên sông ] [ Hồ Winnipeg ] )",
+        "gold_entity_map": {
+            "Q3272": "Hồ Winnipeg"
+        },
+        "gold_relation_map": {
+            "P469": "hồ trên sông"
+        }
+    },
+    {
+        "question_id": 7,
+        "question": "What open cluster has the largest radius?",
+        "sparql": "select ?ent where { ?ent wdt:P31 wd:Q11387 . ?ent wdt:P2120 ?obj } ORDER BY DESC(?obj)LIMIT 5 ",
+        "answer": [
+            "http://www.wikidata.org/entity/Q641074",
+            "http://www.wikidata.org/entity/Q13878",
+            "http://www.wikidata.org/entity/Q13626",
+            "http://www.wikidata.org/entity/Q13910",
+            "http://www.wikidata.org/entity/Q1072618"
+        ],
+        "s_expr": "( MAX ( JOIN ( R P2120 ) ( JOIN P31 Q11387 ) ) )",
+        "nor_s_expr": "( MAX ( JOIN ( R [ bán kính ] ) ( JOIN [ là một ] [ cụm sao mở ] ) ) )",
+        "gold_entity_map": {
+            "Q11387": "cụm sao mở"
+        },
+        "gold_relation_map": {
+            "P31": "là một",
+            "P2120": "bán kính"
+        }
+    },
+    {
+        "question_id": 8,
+        "question": "What is the end time for Whitehaven resident Jonathan Swift?",
+        "sparql": "SELECT ?value WHERE { wd:Q41166 p:P551 ?s . ?s ps:P551 wd:Q1012481 . ?s pq:P582 ?value}",
+        "answer": [
+            "1671-01-01T00:00:00Z"
+        ],
+        "s_expr": "( JOIN ( R P582 ) ( AND ( JOIN ( R P551 ) Q41166 ) ( JOIN P551 Q1012481 ) ) )",
+        "nor_s_expr": "( JOIN ( R [ P582 ] ) ( AND ( JOIN ( R [ nơi cư trú ] ) [ Jonathan Swift ] ) ( JOIN [ nơi cư trú ] [ Whitehaven ] ) ) )",
+        "gold_entity_map": {
+            "Q1012481": "Whitehaven",
+            "Q41166": "Jonathan Swift"
+        },
+        "gold_relation_map": {
+            "P551": "nơi cư trú"
+        }
+    },
+    {
+        "question_id": 9,
+        "question": "TELL ME MODE OF TRANSPORT WHOSE NAME HAS THE WORD VEHICLE IN IT.",
+        "sparql": "SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q334166 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'vehicle')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25 ",
+        "answer": [
+            "http://www.wikidata.org/entity/Q752870",
+            "motor vehicle",
+            "http://www.wikidata.org/entity/Q946596",
+            "off-road vehicle",
+            "http://www.wikidata.org/entity/Q13629441",
+            "electric vehicle"
+        ],
+        "s_expr": "( WORD ( JOIN P31 Q334166 ) 'vehicle' )",
+        "nor_s_expr": "( WORD ( JOIN [ là một ] [ chế độ phương tiện ] ) 'vehicle' )",
+        "gold_entity_map": {
+            "Q334166": "chế độ phương tiện"
+        },
+        "gold_relation_map": {
+            "P31": "là một"
+        }
+    },
+    {
+        "question_id": 10,
+        "question": "Which of Danny Elfman's works was nominated for an Academy Award for Best Original Score?",
+        "sparql": "SELECT ?value WHERE { wd:Q193338 p:P1411 ?s . ?s ps:P1411 wd:Q488651 . ?s pq:P1686 ?value}",
+        "answer": [
+            "http://www.wikidata.org/entity/Q201687",
+            "http://www.wikidata.org/entity/Q278997"
+        ],
+        "s_expr": "( JOIN ( R P1686 ) ( AND ( JOIN ( R P1411 ) Q193338 ) ( JOIN P1411 Q488651 ) ) )",
+        "nor_s_expr": "( JOIN ( R [ P1686 ] ) ( AND ( JOIN ( R [ đề cử giải thưởng ] ) [ Danny Elfman ] ) ( JOIN [ đề cử giải thưởng ] [ Giải Oscar cho Nhạc phim hay nhất ] ) ) )",
+        "gold_entity_map": {
+            "Q488651": "Giải Oscar cho Nhạc phim hay nhất",
+            "Q193338": "Danny Elfman"
+        },
+        "gold_relation_map": {
+            "P1411": "đề cử giải thưởng"
+        }
+    },
+    {
+        "question_id": 11,
+        "question": "Franz Waxman was nominated for which statement of subject at the 23rd Academy Awards?",
+        "sparql": "SELECT ?obj WHERE { wd:Q213611 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P805 wd:Q917076 }",
+        "answer": [
+            "http://www.wikidata.org/entity/Q22752868"
+        ],
+        "s_expr": "( JOIN ( R P1411 ) ( AND ( JOIN ( R P1411 ) Q213611 ) ( JOIN P805 Q917076 ) ) )",
+        "nor_s_expr": "( JOIN ( R [ đề cử giải thưởng ] ) ( AND ( JOIN ( R [ đề cử giải thưởng ] ) [ Franz Waxman ] ) ( JOIN [ P805 ] [ 23rd Academy Awards ] ) ) )",
+        "gold_entity_map": {
+            "Q213611": "Franz Waxman",
+            "Q917076": "23rd Academy Awards"
+        },
+        "gold_relation_map": {
+            "P1411": "đề cử giải thưởng"
+        }
+    },
+    {
+        "question_id": 12,
+        "question": "Who was nominated for the Truman Show at the Academy Awards for Best Supporting Actor?",
+        "sparql": "SELECT ?value WHERE { wd:Q214801 p:P1411 ?s . ?s ps:P1411 wd:Q106291 . ?s pq:P2453 ?value}",
+        "answer": [
+            "http://www.wikidata.org/entity/Q104791"
+        ],
+        "s_expr": "( JOIN ( R P2453 ) ( AND ( JOIN ( R P1411 ) Q214801 ) ( JOIN P1411 Q106291 ) ) )",
+        "nor_s_expr": "( JOIN ( R [ P2453 ] ) ( AND ( JOIN ( R [ đề cử giải thưởng ] ) [ Chương trình Truman ] ) ( JOIN [ đề cử giải thưởng ] [ Giải Oscar cho Nam diễn viên phụ xuất sắc nhất ] ) ) )",
+        "gold_entity_map": {
+            "Q106291": "Giải Oscar cho Nam diễn viên phụ xuất sắc nhất",
+            "Q214801": "Chương trình Truman"
+        },
+        "gold_relation_map": {
+            "P1411": "đề cử giải thưởng"
+        }
+    },
+    {
+        "question_id": 13,
+        "question": "what are the cinematic technique that contains the word tilt in their name",
+        "sparql": "SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1001378 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'tilt')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25 ",
+        "answer": [
+            "http://www.wikidata.org/entity/Q2919140",
+            "tilt"
+        ],
+        "s_expr": "( WORD ( JOIN P31 Q1001378 ) 'tilt' )",
+        "nor_s_expr": "( WORD ( JOIN [ là một ] [ cinematic technique ] ) 'tilt' )",
+        "gold_entity_map": {
+            "Q1001378": "cinematic technique"
+        },
+        "gold_relation_map": {
+            "P31": "là một"
+        }
+    },
+    {
+        "question_id": 14,
+        "question": "When did socialist state for contains administrative territorial entity of Beijing?",
+        "sparql": " select distinct ?sbj where { ?sbj wdt:P150 wd:Q956 . ?sbj wdt:P31 wd:Q842112 } ",
+        "answer": [
+            "http://www.wikidata.org/entity/Q148"
+        ],
+        "s_expr": "( AND ( JOIN P150 Q956 ) ( JOIN P31 Q842112 ) )",
+        "nor_s_expr": "( AND ( JOIN [ các phân cấp hành chính ] [ Bắc Kinh ] ) ( JOIN [ là một ] [ hệ thống xã hội chủ nghĩa ] ) )",
+        "gold_entity_map": {
+            "Q956": "Bắc Kinh",
+            "Q842112": "hệ thống xã hội chủ nghĩa"
+        },
+        "gold_relation_map": {
+            "P31": "là một",
+            "P150": "các phân cấp hành chính"
+        }
+    },
+    {
+        "question_id": 15,
+        "question": "Which is the PIM authority ID of Paul Erdős?",
+        "sparql": "select distinct ?answer where { wd:Q173746 wdt:P3973 ?answer}",
+        "answer": [
+            "PIM52895"
+        ],
+        "s_expr": "( JOIN ( R P3973 ) Q173746 )",
+        "nor_s_expr": "( JOIN ( R [ PIM authority ID ] ) [ Paul Erdös ] )",
+        "gold_entity_map": {
+            "Q173746": "Paul Erdös"
+        },
+        "gold_relation_map": {
+            "P3973": "PIM authority ID"
+        }
+    },
+    {
+        "question_id": 16,
+        "question": "\"Who is wedded to to Radha, that has a child named Samba ?\"",
+        "sparql": "SELECT ?answer WHERE { wd:Q113904 wdt:P26 ?answer . ?answer wdt:P40 wd:Q2841495}",
+        "answer": [
+            "http://www.wikidata.org/entity/Q42891"
+        ],
+        "s_expr": "( AND ( JOIN ( R P26 ) Q113904 ) ( JOIN P40 Q2841495 ) )",
+        "nor_s_expr": "( AND ( JOIN ( R [ người phối ngẫu ] ) [ Radha ] ) ( JOIN [ con cái ] [ Samba ] ) )",
+        "gold_entity_map": {
+            "Q113904": "Radha",
+            "Q2841495": "Samba"
+        },
+        "gold_relation_map": {
+            "P40": "con cái",
+            "P26": "người phối ngẫu"
+        }
+    },
+    {
+        "question_id": 17,
+        "question": "What is the MIA constituent ID for Johannes Gutenberg?",
+        "sparql": "select distinct ?answer where { wd:Q8958 wdt:P3603 ?answer}",
+        "answer": [
+            "12201"
+        ],
+        "s_expr": "( JOIN ( R P3603 ) Q8958 )",
+        "nor_s_expr": "( JOIN ( R [ Minneapolis Institute of Art constituent ID ] ) [ Johannes Gutenberg ] )",
+        "gold_entity_map": {
+            "Q8958": "Johannes Gutenberg"
+        },
+        "gold_relation_map": {
+            "P3603": "Minneapolis Institute of Art constituent ID"
+        }
+    },
+    {
+        "question_id": 18,
+        "question": "What is in the category of Percy Bysshe Shelley?",
+        "sparql": "select distinct ?answer where { wd:Q93343 wdt:P5506 ?answer}",
+        "answer": [
+            "percy-bysshe-shelley"
+        ],
+        "s_expr": "( JOIN ( R P5506 ) Q93343 )",
+        "nor_s_expr": "( JOIN ( R [ Poetry In Voice poet ID ] ) [ Percy Bysshe Shelley ] )",
+        "gold_entity_map": {
+            "Q93343": "Percy Bysshe Shelley"
+        },
+        "gold_relation_map": {
+            "P5506": "Poetry In Voice poet ID"
+        }
+    },
+    {
+        "question_id": 19,
+        "question": "What is the TDKIV ID for the blog?",
+        "sparql": "select distinct ?answer where { wd:Q30849 wdt:P5398 ?answer}",
+        "answer": [
+            "000014546"
+        ],
+        "s_expr": "( JOIN ( R P5398 ) Q30849 )",
+        "nor_s_expr": "( JOIN ( R [ TDKIV term ID ] ) [ Blog ] )",
+        "gold_entity_map": {
+            "Q30849": "Blog"
+        },
+        "gold_relation_map": {
+            "P5398": "TDKIV term ID"
+        }
+    },
+    {
+        "question_id": 20,
+        "question": "What is the cause and place of John Denver's death?",
+        "sparql": "SELECT ?ans_1 ?ans_2 WHERE { wd:Q105460 wdt:P509 ?ans_1 . wd:Q105460 wdt:P20 ?ans_2 }",
+        "answer": [
+            "http://www.wikidata.org/entity/Q744913",
+            "http://www.wikidata.org/entity/Q487315"
+        ],
+        "s_expr": "( JOIN ( R P509 ) Q105460 ) ( JOIN ( R P20 ) Q105460 )",
+        "nor_s_expr": "( JOIN ( R [ nguyên nhân chết ] ) [ John Denver ] ) ( JOIN ( R [ nơi mất ] ) [ John Denver ] )",
+        "gold_entity_map": {
+            "Q105460": "John Denver"
+        },
+        "gold_relation_map": {
+            "P509": "nguyên nhân chết",
+            "P20": "nơi mất"
+        }
+    },
+    {
+        "question_id": 21,
+        "question": "Mention the spaceflight crew participant for accompanying Yuri Gagarin",
+        "sparql": " select distinct ?sbj where { ?sbj wdt:P1029 wd:Q7327 . ?sbj wdt:P31 wd:Q752783 } ",
+        "answer": [
+            "http://www.wikidata.org/entity/Q182524"
+        ],
+        "s_expr": "( AND ( JOIN P1029 Q7327 ) ( JOIN P31 Q752783 ) )",
+        "nor_s_expr": "( AND ( JOIN [ (các) người lái ] [ Yuri Alekseievich Gagarin ] ) ( JOIN [ là một ] [ chuyến bay vũ trụ có con người ] ) )",
+        "gold_entity_map": {
+            "Q752783": "chuyến bay vũ trụ có con người",
+            "Q7327": "Yuri Alekseievich Gagarin"
+        },
+        "gold_relation_map": {
+            "P1029": "(các) người lái",
+            "P31": "là một"
+        }
+    },
+    {
+        "question_id": 22,
+        "question": "What is the maximum Strahler number for Loire?",
+        "sparql": "select distinct ?answer where { wd:Q1469 wdt:P1548 ?answer}",
+        "answer": [
+            "8"
+        ],
+        "s_expr": "( JOIN ( R P1548 ) Q1469 )",
+        "nor_s_expr": "( JOIN ( R [ maximum Strahler number ] ) [ Sông Loire ] )",
+        "gold_entity_map": {
+            "Q1469": "Sông Loire"
+        },
+        "gold_relation_map": {
+            "P1548": "maximum Strahler number"
+        }
+    },
+    {
+        "question_id": 23,
+        "question": "Who is the eponym of Lake Eyre that also is the winner of the Founder's Medal?",
+        "sparql": "SELECT ?answer WHERE { wd:Q179970 wdt:P138 ?answer . ?answer wdt:P166 wd:Q26268774}",
+        "answer": [
+            "http://www.wikidata.org/entity/Q357792"
+        ],
+        "s_expr": "( AND ( JOIN ( R P138 ) Q179970 ) ( JOIN P166 Q26268774 ) )",
+        "nor_s_expr": "( AND ( JOIN ( R [ được đặt tên theo ] ) [ Hồ Eyre ] ) ( JOIN [ giải thưởng ] [ Founder’s Medal ] ) )",
+        "gold_entity_map": {
+            "Q179970": "Hồ Eyre",
+            "Q26268774": "Founder’s Medal"
+        },
+        "gold_relation_map": {
+            "P166": "giải thưởng",
+            "P138": "được đặt tên theo"
+        }
+    }
+]
