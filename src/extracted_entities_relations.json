@@ -1,0 +1,1492 @@
+[
+    {
+        "input": "( JOIN [ hồ trên sông ] [ Hồ Winnipeg ] )",
+        "relation": [
+            [
+                "P469"
+            ]
+        ],
+        "entity": [
+            [
+                "Q3272"
+            ]
+        ],
+        "gold_rel": {
+            "P469": "hồ trên sông"
+        },
+        "gold_ent": {
+            "Q3272": "Hồ Winnipeg"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ ngày kết thúc ] ) ( AND ( JOIN ( R [ nơi cư trú ] ) [ Jonathan Swift ] ) ( JOIN [ nơi cư trú ] [ Whitehaven ] ) ) )",
+        "relation": [
+            [
+                "P582",
+                "P8554"
+            ],
+            [
+                "P551",
+                "P263"
+            ],
+            [
+                "P551",
+                "P263"
+            ]
+        ],
+        "entity": [
+            [
+                "Q41166",
+                "Q75582640",
+                "Q59670832",
+                "Q28045120",
+                "Q28045261",
+                "Q28044968",
+                "Q83488600"
+            ],
+            [
+                "Q1012481",
+                "Q3887073",
+                "Q7996010",
+                "Q7996008",
+                "Q4468460",
+                "Q17531479",
+                "Q25223501"
+            ]
+        ],
+        "gold_rel": {
+            "P582": "ngày kết thúc",
+            "P551": "nơi cư trú"
+        },
+        "gold_ent": {
+            "Q1012481": "Whitehaven",
+            "Q41166": "Jonathan Swift"
+        }
+    },
+    {
+        "input": "( AND ( JOIN [ nguyên thủ quốc gia ] [ Mahmoud Abbas ] ) ( JOIN [ là một ] [ quốc gia ] ) )",
+        "relation": [
+            [
+                "P35",
+                "P1906"
+            ],
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q127998",
+                "Q45193693",
+                "Q10515624",
+                "Q118316155",
+                "Q92784952",
+                "Q56875417",
+                "Q57052790"
+            ],
+            [
+                "Q6256",
+                "Q7275",
+                "Q3624078",
+                "Q132453",
+                "Q177323",
+                "Q123480",
+                "Q212439"
+            ]
+        ],
+        "gold_rel": {
+            "P35": "nguyên thủ quốc gia",
+            "P31": "là một"
+        },
+        "gold_ent": {
+            "Q6256": "quốc gia",
+            "Q127998": "Mahmoud Abbas"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ đề cử giải thưởng ] ) ( AND ( JOIN ( R [ đề cử giải thưởng ] ) [ Dolores del Rio ] ) ( JOIN [ cho tác phẩm ] [ La Otra ] ) ) )",
+        "relation": [
+            [
+                "P1411"
+            ],
+            [
+                "P1411"
+            ],
+            [
+                "P1686"
+            ]
+        ],
+        "entity": [
+            [
+                "Q124057",
+                "Q5289567",
+                "Q57081559",
+                "Q97167800"
+            ],
+            [
+                "Q1248297",
+                "Q3915489",
+                "Q115940051",
+                "Q124433034",
+                "Q22081918",
+                "Q5102566",
+                "Q590308"
+            ]
+        ],
+        "gold_rel": {
+            "P1686": "cho tác phẩm",
+            "P1411": "đề cử giải thưởng"
+        },
+        "gold_ent": {
+            "Q3915489": "La Otra",
+            "Q124057": "Dolores del Rio"
+        }
+    },
+    {
+        "input": "( MAX ( JOIN ( R [ bán kính ] ) ( JOIN [ là một ] [ cụm sao mở ] ) ) )",
+        "relation": [
+            [
+                "P2120"
+            ],
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q11387"
+            ]
+        ],
+        "gold_rel": {
+            "P2120": "bán kính",
+            "P31": "là một"
+        },
+        "gold_ent": {
+            "Q11387": "cụm sao mở"
+        }
+    },
+    {
+        "input": "( WORD ( JOIN [ là một ] [ chế độ phương tiện ] ) 'vehicle' )",
+        "relation": [
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q334166"
+            ]
+        ],
+        "gold_rel": {
+            "P31": "là một"
+        },
+        "gold_ent": {
+            "Q334166": "chế độ phương tiện"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ đề cử giải thưởng ] ) ( AND ( JOIN ( R [ đề cử giải thưởng ] ) [ Franz Waxman ] ) ( JOIN [ lời phát biểu thuộc chủ đề ] [ 23rd Academy Awards ] ) ) )",
+        "relation": [
+            [
+                "P1411"
+            ],
+            [
+                "P1411"
+            ],
+            [
+                "P805"
+            ]
+        ],
+        "entity": [
+            [
+                "Q213611"
+            ],
+            [
+                "Q917076"
+            ]
+        ],
+        "gold_rel": {
+            "P1411": "đề cử giải thưởng",
+            "P805": "lời phát biểu thuộc chủ đề"
+        },
+        "gold_ent": {
+            "Q917076": "23rd Academy Awards",
+            "Q213611": "Franz Waxman"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ dân số ] ) ( FILTER ( JOIN ( R [ thời điểm ] ) ( JOIN ( R [ dân số ] ) [ Clermont-Ferrand ] ) ) ( '2013' ) ) )",
+        "relation": [
+            [
+                "P1082",
+                "P1539",
+                "P1540",
+                "P6343",
+                "P6344"
+            ],
+            [
+                "P585"
+            ],
+            [
+                "P1082",
+                "P1539",
+                "P1540",
+                "P6343",
+                "P6344"
+            ]
+        ],
+        "entity": [
+            [
+                "Q42168",
+                "Q572094",
+                "Q1032205",
+                "Q1381437",
+                "Q1419423",
+                "Q1431123",
+                "Q465682"
+            ]
+        ],
+        "gold_rel": {
+            "P585": "thời điểm",
+            "P1082": "dân số"
+        },
+        "gold_ent": {
+            "Q42168": "Clermont-Ferrand"
+        }
+    },
+    {
+        "input": "( WORD ( JOIN [ là một ] [ cinematic technique ] ) 'tilt' )",
+        "relation": [
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q1001378",
+                "Q4688031",
+                "Q129987075",
+                "Q127988145"
+            ]
+        ],
+        "gold_rel": {
+            "P31": "là một"
+        },
+        "gold_ent": {
+            "Q1001378": "cinematic technique"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ Minneapolis Institute of Art constituent ID ] ) [ Johannes Gutenberg ] )",
+        "relation": [
+            [
+                "P3603"
+            ]
+        ],
+        "entity": [
+            [
+                "Q8958",
+                "Q23459618",
+                "Q130704354",
+                "Q161982",
+                "Q101266358",
+                "Q101266337",
+                "Q101266291"
+            ]
+        ],
+        "gold_rel": {
+            "P3603": "Minneapolis Institute of Art constituent ID"
+        },
+        "gold_ent": {
+            "Q8958": "Johannes Gutenberg"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ dân số ] ) ( FILTER ( JOIN ( R [ thời điểm ] ) ( JOIN ( R [ dân số ] ) [ Somalia ] ) ) ( '2009' ) ) )",
+        "relation": [
+            [
+                "P1082",
+                "P1539",
+                "P1540",
+                "P6343",
+                "P6344"
+            ],
+            [
+                "P585"
+            ],
+            [
+                "P1082",
+                "P1539",
+                "P1540",
+                "P6343",
+                "P6344"
+            ]
+        ],
+        "entity": [
+            [
+                "Q1045",
+                "Q51131324",
+                "Q319984",
+                "Q139107",
+                "Q704736",
+                "Q19895980",
+                "Q103967789"
+            ]
+        ],
+        "gold_rel": {
+            "P585": "thời điểm",
+            "P1082": "dân số"
+        },
+        "gold_ent": {
+            "Q1045": "Somalia"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ cho tác phẩm ] ) ( AND ( JOIN ( R [ đề cử giải thưởng ] ) [ Danny Elfman ] ) ( JOIN [ đề cử giải thưởng ] [ Giải Oscar cho Nhạc phim hay nhất ] ) ) )",
+        "relation": [
+            [
+                "P1686"
+            ],
+            [
+                "P1411"
+            ],
+            [
+                "P1411"
+            ]
+        ],
+        "entity": [
+            [
+                "Q193338",
+                "Q78209291",
+                "Q20684003",
+                "Q76003089"
+            ],
+            [
+                "Q488651"
+            ]
+        ],
+        "gold_rel": {
+            "P1411": "đề cử giải thưởng",
+            "P1686": "cho tác phẩm"
+        },
+        "gold_ent": {
+            "Q488651": "Giải Oscar cho Nhạc phim hay nhất",
+            "Q193338": "Danny Elfman"
+        }
+    },
+    {
+        "input": "( AND ( JOIN ( R [ diễn viên lồng tiếng ] ) [ South Park ] ) ( JOIN [ nghề nghiệp ] [ ca sĩ ] ) )",
+        "relation": [
+            [
+                "P725"
+            ],
+            [
+                "P106"
+            ]
+        ],
+        "entity": [
+            [
+                "Q16538",
+                "Q54622175",
+                "Q951038",
+                "Q1955703",
+                "Q2636173",
+                "Q4540147",
+                "Q650733"
+            ],
+            [
+                "Q177220",
+                "Q488205",
+                "Q2252262",
+                "Q2865819",
+                "Q1371914",
+                "Q5570696",
+                "Q5005741"
+            ]
+        ],
+        "gold_rel": {
+            "P106": "nghề nghiệp",
+            "P725": "diễn viên lồng tiếng"
+        },
+        "gold_ent": {
+            "Q177220": "ca sĩ",
+            "Q16538": "South Park"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ TDKIV term ID ] ) [ Blog ] )",
+        "relation": [
+            [
+                "P5398"
+            ]
+        ],
+        "entity": [
+            [
+                "Q30849",
+                "Q106066006",
+                "Q8246794",
+                "Q171186",
+                "Q92438",
+                "Q30911295",
+                "Q67491749"
+            ]
+        ],
+        "gold_rel": {
+            "P5398": "TDKIV term ID"
+        },
+        "gold_ent": {
+            "Q30849": "Blog"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ maximum Strahler number ] ) [ Sông Loire ] )",
+        "relation": [
+            [
+                "P1548"
+            ]
+        ],
+        "entity": [
+            [
+                "Q1469",
+                "Q12572"
+            ]
+        ],
+        "gold_rel": {
+            "P1548": "maximum Strahler number"
+        },
+        "gold_ent": {
+            "Q1469": "Sông Loire"
+        }
+    },
+    {
+        "input": "( AND ( JOIN ( R [ được đặt tên theo ] ) [ Hồ Eyre ] ) ( JOIN [ giải thưởng ] [ Founder’s Medal ] ) )",
+        "relation": [
+            [
+                "P138"
+            ],
+            [
+                "P166"
+            ]
+        ],
+        "entity": [
+            [
+                "Q179970"
+            ],
+            [
+                "Q26268774",
+                "Q26882562",
+                "Q63285609",
+                "Q25975544"
+            ]
+        ],
+        "gold_rel": {
+            "P138": "được đặt tên theo",
+            "P166": "giải thưởng"
+        },
+        "gold_ent": {
+            "Q26268774": "Founder’s Medal",
+            "Q179970": "Hồ Eyre"
+        }
+    },
+    {
+        "input": "( AND ( JOIN [ (các) người lái ] [ Yuri Alekseievich Gagarin ] ) ( JOIN [ là một ] [ chuyến bay vũ trụ có con người ] ) )",
+        "relation": [
+            [
+                "P1029"
+            ],
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q7327"
+            ],
+            [
+                "Q752783"
+            ]
+        ],
+        "gold_rel": {
+            "P1029": "(các) người lái",
+            "P31": "là một"
+        },
+        "gold_ent": {
+            "Q752783": "chuyến bay vũ trụ có con người",
+            "Q7327": "Yuri Alekseievich Gagarin"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ nominee ] ) ( AND ( JOIN ( R [ đề cử giải thưởng ] ) [ Chương trình Truman ] ) ( JOIN [ đề cử giải thưởng ] [ Giải Oscar cho Nam diễn viên phụ xuất sắc nhất ] ) ) )",
+        "relation": [
+            [
+                "P1346",
+                "P2453",
+                "P1411"
+            ],
+            [
+                "P1411"
+            ],
+            [
+                "P1411"
+            ]
+        ],
+        "entity": [
+            [
+                "Q214801"
+            ],
+            [
+                "Q106291"
+            ]
+        ],
+        "gold_rel": {
+            "P1411": "đề cử giải thưởng",
+            "P2453": "nominee"
+        },
+        "gold_ent": {
+            "Q106291": "Giải Oscar cho Nam diễn viên phụ xuất sắc nhất",
+            "Q214801": "Chương trình Truman"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ thành viên của ] ) ( JOIN ( R [ nơi khám phá ] ) [ Bệnh virus Ebola ] ) )",
+        "relation": [
+            [
+                "P463"
+            ],
+            [
+                "P189",
+                "P65"
+            ]
+        ],
+        "entity": [
+            [
+                "Q51993"
+            ]
+        ],
+        "gold_rel": {
+            "P463": "thành viên của",
+            "P189": "nơi khám phá"
+        },
+        "gold_ent": {
+            "Q51993": "Bệnh virus Ebola"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ nguyên nhân chết ] ) [ John Denver ] ) ( JOIN ( R [ nơi mất ] ) [ John Denver ] )",
+        "relation": [
+            [
+                "P509"
+            ],
+            [
+                "P20"
+            ]
+        ],
+        "entity": [
+            [
+                "Q105460",
+                "Q6229213",
+                "Q58235143",
+                "Q6229218",
+                "Q67922270",
+                "Q16850484",
+                "Q3809197"
+            ],
+            [
+                "Q105460",
+                "Q6229213",
+                "Q58235143",
+                "Q6229218",
+                "Q67922270",
+                "Q16850484",
+                "Q3809197"
+            ]
+        ],
+        "gold_rel": {
+            "P509": "nguyên nhân chết",
+            "P20": "nơi mất"
+        },
+        "gold_ent": {
+            "Q105460": "John Denver"
+        }
+    },
+    {
+        "input": "( WORD ( JOIN [ là một ] [ ethnolect ] ) 'american' )",
+        "relation": [
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q951873",
+                "Q111215476"
+            ]
+        ],
+        "gold_rel": {
+            "P31": "là một",
+            "P2341": "indigenous to"
+        },
+        "gold_ent": {
+            "Q951873": "ethnolect",
+            "Q30": "Hoa Kỳ"
+        }
+    },
+    {
+        "input": "( AND ( JOIN ( R [ người phối ngẫu ] ) [ Radha ] ) ( JOIN [ con cái ] [ Samba ] ) )",
+        "relation": [
+            [
+                "P26"
+            ],
+            [
+                "P40"
+            ]
+        ],
+        "entity": [
+            [
+                "Q113904",
+                "Q15411472",
+                "Q18098850",
+                "Q14943379",
+                "Q4263257",
+                "Q48465205",
+                "Q21933640"
+            ],
+            [
+                "Q11403",
+                "Q1830735",
+                "Q2731787",
+                "Q37556330",
+                "Q18101010",
+                "Q137952",
+                "Q2617109"
+            ]
+        ],
+        "gold_rel": {
+            "P26": "người phối ngẫu",
+            "P40": "con cái"
+        },
+        "gold_ent": {
+            "Q2841495": "Samba",
+            "Q113904": "Radha"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ PIM authority ID ] ) [ Paul Erdös ] )",
+        "relation": [
+            [
+                "P3973"
+            ]
+        ],
+        "entity": [
+            [
+                "Q173746",
+                "Q75049002",
+                "Q990479",
+                "Q592034",
+                "Q7150513",
+                "Q47481596",
+                "Q81017549"
+            ]
+        ],
+        "gold_rel": {
+            "P3973": "PIM authority ID"
+        },
+        "gold_ent": {
+            "Q173746": "Paul Erdös"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ người phối ngẫu ] ) ( JOIN ( R [ diễn viên ] ) [ Bepanaah ] ) )",
+        "relation": [
+            [
+                "P26"
+            ],
+            [
+                "P175",
+                "P161",
+                "P725"
+            ]
+        ],
+        "entity": [
+            [
+                "Q4890903"
+            ]
+        ],
+        "gold_rel": {
+            "P26": "người phối ngẫu",
+            "P161": "diễn viên"
+        },
+        "gold_ent": {
+            "Q4890903": "Bepanaah"
+        }
+    },
+    {
+        "input": "( FILTER ( JOIN ( R [ ngày mất ] ) ( JOIN ( R [ được đặt tên theo ] ) [ Mảng Juan de Fuca ] ) ) ( YEAR '1602' ) )",
+        "relation": [
+            [
+                "P570",
+                "P746"
+            ],
+            [
+                "P138"
+            ]
+        ],
+        "entity": [
+            [
+                "Q860385"
+            ]
+        ],
+        "gold_rel": {
+            "P138": "được đặt tên theo",
+            "P570": "ngày mất"
+        },
+        "gold_ent": {
+            "Q860385": "Mảng Juan de Fuca"
+        }
+    },
+    {
+        "input": "( AND ( JOIN ( R [ nhà xuất bản ] ) [ Space Invaders ] ) ( JOIN [ là một ] [ kinh doanh ] ) )",
+        "relation": [
+            [
+                "P123"
+            ],
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q220665",
+                "Q28469965",
+                "Q1577564",
+                "Q99199076",
+                "Q114472280",
+                "Q114483086",
+                "Q114478656"
+            ],
+            [
+                "Q4830453",
+                "Q746359",
+                "Q3353185",
+                "Q188606",
+                "Q734253",
+                "Q48519",
+                "Q273088"
+            ]
+        ],
+        "gold_rel": {
+            "P123": "nhà xuất bản",
+            "P31": "là một"
+        },
+        "gold_ent": {
+            "Q220665": "Space Invaders",
+            "Q4830453": "kinh doanh"
+        }
+    },
+    {
+        "input": "( AND ( JOIN [ các phân cấp hành chính ] [ Bắc Kinh ] ) ( JOIN [ là một ] [ hệ thống xã hội chủ nghĩa ] ) )",
+        "relation": [
+            [
+                "P150"
+            ],
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q956",
+                "Q10902440",
+                "Q133525",
+                "Q814738",
+                "Q573637",
+                "Q673041",
+                "Q2567360"
+            ],
+            [
+                "Q842112"
+            ]
+        ],
+        "gold_rel": {
+            "P31": "là một",
+            "P150": "các phân cấp hành chính"
+        },
+        "gold_ent": {
+            "Q842112": "hệ thống xã hội chủ nghĩa",
+            "Q956": "Bắc Kinh"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ BMLO ID ] ) [ Friedrich Wilhelm I của Phổ ] )",
+        "relation": [
+            [
+                "P865"
+            ]
+        ],
+        "entity": [
+            [
+                "Q105013"
+            ]
+        ],
+        "gold_rel": {
+            "P865": "BMLO ID"
+        },
+        "gold_ent": {
+            "Q105013": "Friedrich Wilhelm I của Phổ"
+        }
+    },
+    {
+        "input": "( AND ( JOIN [ người sáng lập ] [ Ingvar Kamprad ] ) ( JOIN [ là một ] [ kinh doanh ] ) )",
+        "relation": [
+            [
+                "P112"
+            ],
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q216932",
+                "Q54078",
+                "Q10535612"
+            ],
+            [
+                "Q4830453",
+                "Q746359",
+                "Q3353185",
+                "Q188606",
+                "Q734253",
+                "Q48519",
+                "Q273088"
+            ]
+        ],
+        "gold_rel": {
+            "P112": "người sáng lập",
+            "P31": "là một"
+        },
+        "gold_ent": {
+            "Q216932": "Ingvar Kamprad",
+            "Q4830453": "kinh doanh"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ chức vụ ] ) ( FILTER ( JOIN ( R [ ngày bắt đầu ] ) ( JOIN ( R [ chức vụ ] ) [ Harry S. Truman ] ) ) ( '1935' ) ) )",
+        "relation": [
+            [
+                "P39",
+                "P1313",
+                "P541",
+                "P2388"
+            ],
+            [
+                "P580",
+                "P729",
+                "P8555"
+            ],
+            [
+                "P39",
+                "P1313",
+                "P541",
+                "P2388"
+            ]
+        ],
+        "entity": [
+            [
+                "Q11613",
+                "Q7492376",
+                "Q47510494",
+                "Q80079605",
+                "Q58351299",
+                "Q525981",
+                "Q59502656"
+            ]
+        ],
+        "gold_rel": {
+            "P580": "ngày bắt đầu",
+            "P39": "chức vụ"
+        },
+        "gold_ent": {
+            "Q11613": "Harry S. Truman"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ tiếp giáp với ] ) ( JOIN ( R [ nằm trên hoặc trong địa mạo ] ) [ Nam Phi ] ) )",
+        "relation": [
+            [
+                "P47"
+            ],
+            [
+                "P706"
+            ]
+        ],
+        "entity": [
+            [
+                "Q258",
+                "Q27394",
+                "Q48887811",
+                "Q6961127",
+                "Q437098",
+                "Q32216437",
+                "Q7189973"
+            ]
+        ],
+        "gold_rel": {
+            "P47": "tiếp giáp với",
+            "P706": "nằm trên hoặc trong địa mạo"
+        },
+        "gold_ent": {
+            "Q27394": "Nam Phi"
+        }
+    },
+    {
+        "input": "( AND ( JOIN [ nằm trong phạm vi của khu vực hành chính ] [ Roma ] ) ( JOIN [ là một ] [ công viên ] ) )",
+        "relation": [
+            [
+                "P131",
+                "P3842"
+            ],
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q220",
+                "Q15119",
+                "Q8060",
+                "Q27959455",
+                "Q93022",
+                "Q37534311",
+                "Q209878"
+            ],
+            [
+                "Q22698",
+                "Q46169",
+                "Q194195",
+                "Q309276",
+                "Q22746",
+                "Q180402",
+                "Q740326"
+            ]
+        ],
+        "gold_rel": {
+            "P131": "nằm trong phạm vi của khu vực hành chính",
+            "P31": "là một"
+        },
+        "gold_ent": {
+            "Q22698": "công viên",
+            "Q220": "Roma"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ tác phẩm chính ] ) ( JOIN ( R [ người biểu diễn ] ) [ The Beatles' Story ] ) )",
+        "relation": [
+            [
+                "P800"
+            ],
+            [
+                "P175"
+            ]
+        ],
+        "entity": [
+            [
+                "Q2304936"
+            ]
+        ],
+        "gold_rel": {
+            "P800": "tác phẩm chính",
+            "P175": "người biểu diễn"
+        },
+        "gold_ent": {
+            "Q2304936": "The Beatles' Story"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ arterial supply ] ) [ mũi người ] )",
+        "relation": [
+            [
+                "P2286"
+            ]
+        ],
+        "entity": [
+            [
+                "Q2673594"
+            ]
+        ],
+        "gold_rel": {
+            "P2286": "arterial supply"
+        },
+        "gold_ent": {
+            "Q2673594": "mũi người"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ albedo ] ) [ Sao Thổ ] )",
+        "relation": [
+            [
+                "P4501"
+            ]
+        ],
+        "entity": [
+            [
+                "Q193",
+                "Q1638397",
+                "Q15895218",
+                "Q42544",
+                "Q192236",
+                "Q19708089",
+                "Q17364030"
+            ]
+        ],
+        "gold_rel": {
+            "P4501": "albedo"
+        },
+        "gold_ent": {
+            "Q193": "Sao Thổ"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ thuốc hoặc liệu pháp dùng để điều trị ] ) ( JOIN ( R [ nguyên nhân chết ] ) [ Madhavrao I ] ) )",
+        "relation": [
+            [
+                "P2176"
+            ],
+            [
+                "P509"
+            ]
+        ],
+        "entity": [
+            [
+                "Q5971343",
+                "Q6727333"
+            ]
+        ],
+        "gold_rel": {
+            "P2176": "thuốc hoặc liệu pháp dùng để điều trị",
+            "P509": "nguyên nhân chết"
+        },
+        "gold_ent": {
+            "Q5971343": "Madhavrao I"
+        }
+    },
+    {
+        "input": "( WORD ( JOIN [ là một ] [ nhánh khoa học ] ) 'volkerpsychologie' )",
+        "relation": [
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q2465832"
+            ]
+        ],
+        "gold_rel": {
+            "P31": "là một"
+        },
+        "gold_ent": {
+            "Q2465832": "nhánh khoa học"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ lô mộ địa ] ) ( AND ( JOIN ( R [ nơi chôn cất ] ) [ Henrik Ibsen ] ) ( JOIN [ nơi chôn cất ] [ Vår Frelsers gravlund ] ) ) )",
+        "relation": [
+            [
+                "P965"
+            ],
+            [
+                "P119"
+            ],
+            [
+                "P119"
+            ]
+        ],
+        "entity": [
+            [
+                "Q36661",
+                "Q121942303",
+                "Q3437671",
+                "Q55431302",
+                "Q106472944",
+                "Q106371903",
+                "Q12714106"
+            ],
+            [
+                "Q1069938",
+                "Q96748372"
+            ]
+        ],
+        "gold_rel": {
+            "P965": "lô mộ địa",
+            "P119": "nơi chôn cất"
+        },
+        "gold_ent": {
+            "Q1069938": "Vår Frelsers gravlund",
+            "Q36661": "Henrik Ibsen"
+        }
+    },
+    {
+        "input": "( COUNT ( JOIN ( R [ danh hiệu quý tộc ] ) [ Charles II le Chauve ] ) )",
+        "relation": [
+            [
+                "P97"
+            ]
+        ],
+        "entity": [
+            [
+                "Q71231"
+            ]
+        ],
+        "gold_rel": {
+            "P97": "danh hiệu quý tộc"
+        },
+        "gold_ent": {
+            "Q71231": "Charles II le Chauve"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ Poetry In Voice poet ID ] ) [ Percy Bysshe Shelley ] )",
+        "relation": [
+            [
+                "P5506"
+            ]
+        ],
+        "entity": [
+            [
+                "Q93343",
+                "Q28048817",
+                "Q75305807",
+                "Q106565220",
+                "Q96075190",
+                "Q56184033",
+                "Q103886298"
+            ]
+        ],
+        "gold_rel": {
+            "P5506": "Poetry In Voice poet ID"
+        },
+        "gold_ent": {
+            "Q93343": "Percy Bysshe Shelley"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ người phối ngẫu ] ) ( FILTER ( JOIN ( R [ ngày bắt đầu ] ) ( JOIN ( R [ người phối ngẫu ] ) [ Shirley Jackson ] ) ) ( '1940' ) ) )",
+        "relation": [
+            [
+                "P26"
+            ],
+            [
+                "P580",
+                "P729",
+                "P8555"
+            ],
+            [
+                "P26"
+            ]
+        ],
+        "entity": [
+            [
+                "Q239910",
+                "Q7498780",
+                "Q76628689",
+                "Q76633002",
+                "Q76639029",
+                "Q41308532",
+                "Q127471899"
+            ]
+        ],
+        "gold_rel": {
+            "P580": "ngày bắt đầu",
+            "P26": "người phối ngẫu"
+        },
+        "gold_ent": {
+            "Q239910": "Shirley Jackson"
+        }
+    },
+    {
+        "input": "( AND ( JOIN [ place served by transport hub ] [ Beograd ] ) ( JOIN [ là một ] [ sân bay ] ) )",
+        "relation": [
+            [
+                "P931"
+            ],
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q3711",
+                "Q140353",
+                "Q1566873",
+                "Q4890843",
+                "Q65420921",
+                "Q240631",
+                "Q116147942"
+            ],
+            [
+                "Q1248784",
+                "Q695850",
+                "Q644371",
+                "Q181479",
+                "Q177477",
+                "Q46033",
+                "Q194188"
+            ]
+        ],
+        "gold_rel": {
+            "P931": "place served by transport hub",
+            "P31": "là một"
+        },
+        "gold_ent": {
+            "Q1248784": "sân bay",
+            "Q3711": "Beograd"
+        }
+    },
+    {
+        "input": "( AND ( JOIN ( R [ nhà tuyển dụng ] ) [ Louis Agassiz ] ) ( JOIN [ tổ chức con ] [ Davis Center for Russian and Eurasian Studies, Harvard University ] ) )",
+        "relation": [
+            [
+                "P108"
+            ],
+            [
+                "P355"
+            ]
+        ],
+        "entity": [
+            [
+                "Q122972",
+                "Q51500289",
+                "Q80905981",
+                "Q60419035",
+                "Q1871480",
+                "Q92331720",
+                "Q15997088"
+            ],
+            [
+                "Q45137420"
+            ]
+        ],
+        "gold_rel": {
+            "P355": "tổ chức con",
+            "P108": "nhà tuyển dụng"
+        },
+        "gold_ent": {
+            "Q45137420": "Davis Center for Russian and Eurasian Studies, Harvard University",
+            "Q122972": "Louis Agassiz"
+        }
+    },
+    {
+        "input": "( AND ( JOIN ( R [ nằm trong phạm vi của khu vực hành chính ] ) [ Khu vực Al Jawf ] ) ( JOIN [ quan hệ ngoại giao ] [ Thụy Điển ] ) )",
+        "relation": [
+            [
+                "P131",
+                "P3842"
+            ],
+            [
+                "P530"
+            ]
+        ],
+        "entity": [
+            [
+                "Q1471266"
+            ],
+            [
+                "Q34",
+                "Q80638",
+                "Q339353",
+                "Q838246",
+                "Q146757",
+                "Q1965517",
+                "Q6132621"
+            ]
+        ],
+        "gold_rel": {
+            "P530": "quan hệ ngoại giao",
+            "P131": "nằm trong phạm vi của khu vực hành chính"
+        },
+        "gold_ent": {
+            "Q1471266": "Khu vực Al Jawf",
+            "Q34": "Thụy Điển"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ thành phố kết nghĩa ] ) ( FILTER ( JOIN ( R [ ngày bắt đầu ] ) ( JOIN ( R [ thành phố kết nghĩa ] ) [ New Orleans ] ) ) ( '2012' ) ) )",
+        "relation": [
+            [
+                "P190"
+            ],
+            [
+                "P580",
+                "P729",
+                "P8555"
+            ],
+            [
+                "P190"
+            ]
+        ],
+        "entity": [
+            [
+                "Q34404",
+                "Q2522995",
+                "Q747847",
+                "Q61794189",
+                "Q3875298",
+                "Q21196329",
+                "Q17145680"
+            ]
+        ],
+        "gold_rel": {
+            "P190": "thành phố kết nghĩa",
+            "P580": "ngày bắt đầu"
+        },
+        "gold_ent": {
+            "Q34404": "New Orleans"
+        }
+    },
+    {
+        "input": "( WORD ( JOIN [ là một ] [ đội tuyển thể thao quốc gia ] ) 'team' )",
+        "relation": [
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q1194951"
+            ]
+        ],
+        "gold_rel": {
+            "P17": "quốc gia",
+            "P31": "là một"
+        },
+        "gold_ent": {
+            "Q1194951": "đội tuyển thể thao quốc gia",
+            "Q408": "Úc"
+        }
+    },
+    {
+        "input": "( AND ( JOIN [ measures ] [ trí thông minh ] ) ( JOIN [ là một ] [ IQ test ] ) )",
+        "relation": [
+            [
+                "P111",
+                "P2575",
+                "P7141"
+            ],
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q83500",
+                "Q11660",
+                "Q3353185",
+                "Q499210",
+                "Q5937824",
+                "Q182604",
+                "Q371381"
+            ],
+            [
+                "Q12021385",
+                "Q126188227",
+                "Q170277",
+                "Q126188228",
+                "Q1051792",
+                "Q55884904",
+                "Q45299272"
+            ]
+        ],
+        "gold_rel": {
+            "P2575": "measures",
+            "P31": "là một"
+        },
+        "gold_ent": {
+            "Q12021385": "IQ test",
+            "Q83500": "trí thông minh"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ thời điểm ] ) ( AND ( JOIN ( R [ giải thưởng ] ) [ Glen Campbell ] ) ( JOIN [ giải thưởng ] [ Grammy Đại sảnh Danh vọng ] ) ) )",
+        "relation": [
+            [
+                "P585"
+            ],
+            [
+                "P166"
+            ],
+            [
+                "P166"
+            ]
+        ],
+        "entity": [
+            [
+                "Q162667",
+                "Q1184879",
+                "Q56461797",
+                "Q114486304",
+                "Q5567618",
+                "Q56462121",
+                "Q19661883"
+            ],
+            [
+                "Q81180"
+            ]
+        ],
+        "gold_rel": {
+            "P585": "thời điểm",
+            "P166": "giải thưởng"
+        },
+        "gold_ent": {
+            "Q81180": "Grammy Đại sảnh Danh vọng",
+            "Q162667": "Glen Campbell"
+        }
+    },
+    {
+        "input": "( JOIN ( R [ có giống ngữ pháp ] ) ( JOIN ( R [ nói, viết hoặc ký bằng các ngôn ngữ ] ) [ Aleksandar Šapić ] ) )",
+        "relation": [
+            [
+                "P5109"
+            ],
+            [
+                "P1412"
+            ]
+        ],
+        "entity": [
+            [
+                "Q960994"
+            ]
+        ],
+        "gold_rel": {
+            "P5109": "có giống ngữ pháp",
+            "P1412": "nói, viết hoặc ký bằng các ngôn ngữ"
+        },
+        "gold_ent": {
+            "Q960994": "Aleksandar Šapić"
+        }
+    },
+    {
+        "input": "( WORD ( JOIN [ là một ] [ space center ] ) 'space' )",
+        "relation": [
+            [
+                "P31"
+            ]
+        ],
+        "entity": [
+            [
+                "Q1192221",
+                "Q2306277",
+                "Q2749172",
+                "Q67424146",
+                "Q319747",
+                "Q2552541"
+            ]
+        ],
+        "gold_rel": {
+            "P31": "là một"
+        },
+        "gold_ent": {
+            "Q1192221": "space center"
+        }
+    }
+]

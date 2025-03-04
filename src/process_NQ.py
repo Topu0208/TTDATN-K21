@@ -43,8 +43,8 @@ def prepare_dataloader(args,split):
     for cnt, item in tqdm(enumerate(examples)):
         question=item['question_vi']
         input = 'Question: { '+question+' }'       
-        output = item['nor_s_expr_vi']
-        json_data.append({"instruction":instruction,"input":input,"output":output})
+        output = item['nor_s_expr']
+        json_data.append({"instruction":instruction,"input":input,"output":output,"history":[]})
                
     
     output_dir = 'LLMs/Data/{}_Wikidata_NQ_{}/examples.json'.format(args.dataset_type, split)
