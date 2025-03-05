@@ -30,10 +30,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q6607"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q5849",
-            "http://www.wikidata.org/entity/Q123"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -105,8 +102,6 @@
             "Xue Qiu"
         ],
         "result": [
-            "http://www.wikidata.org/entity/Q774719",
-            "Jadzia Dax",
             "http://www.wikidata.org/entity/Q856303",
             "Xie Zhen",
             "http://www.wikidata.org/entity/Q855728",
@@ -115,36 +110,28 @@
             "Xuan Zan",
             "http://www.wikidata.org/entity/Q855732",
             "Ruan Xiaoqi",
-            "http://www.wikidata.org/entity/Q858947",
-            "Cai Xun",
-            "http://www.wikidata.org/entity/Q866608",
-            "Xiang Chong",
             "http://www.wikidata.org/entity/Q865950",
             "Xue Yong",
+            "http://www.wikidata.org/entity/Q866608",
+            "Xiang Chong",
+            "http://www.wikidata.org/entity/Q774719",
+            "Jadzia Dax",
+            "http://www.wikidata.org/entity/Q858947",
+            "Cai Xun",
             "http://www.wikidata.org/entity/Q866866",
             "Sun Xin",
+            "http://www.wikidata.org/entity/Q637202",
+            "Zaphod Beeblebrox",
+            "http://www.wikidata.org/entity/Q652189",
+            "Br'er Fox",
+            "http://www.wikidata.org/entity/Q924583",
+            "Exar Kun",
+            "http://www.wikidata.org/entity/Q837838",
+            "Xu Ning",
             "http://www.wikidata.org/entity/Q51759",
             "Xanatos",
             "http://www.wikidata.org/entity/Q942938",
             "Dexter Morgan",
-            "http://www.wikidata.org/entity/Q391557",
-            "Agaton Sax",
-            "http://www.wikidata.org/entity/Q924583",
-            "Exar Kun",
-            "http://www.wikidata.org/entity/Q682371",
-            "Index",
-            "http://www.wikidata.org/entity/Q711855",
-            "Lu Xiaofeng",
-            "http://www.wikidata.org/entity/Q652189",
-            "Br'er Fox",
-            "http://www.wikidata.org/entity/Q637202",
-            "Zaphod Beeblebrox",
-            "http://www.wikidata.org/entity/Q837838",
-            "Xu Ning",
-            "http://www.wikidata.org/entity/Q700263",
-            "Pei Xuan",
-            "http://www.wikidata.org/entity/Q704070",
-            "Xuan Wu",
             "http://www.wikidata.org/entity/Q855657",
             "Xiao Rang",
             "http://www.wikidata.org/entity/Q855009",
@@ -153,8 +140,18 @@
             "Huang Xin",
             "http://www.wikidata.org/entity/Q855638",
             "Ruan Xiaoer",
+            "http://www.wikidata.org/entity/Q682371",
+            "Index",
             "http://www.wikidata.org/entity/Q1045338",
-            "Xing Daorong"
+            "Xing Daorong",
+            "http://www.wikidata.org/entity/Q391557",
+            "Agaton Sax",
+            "http://www.wikidata.org/entity/Q711855",
+            "Lu Xiaofeng",
+            "http://www.wikidata.org/entity/Q700263",
+            "Pei Xuan",
+            "http://www.wikidata.org/entity/Q704070",
+            "Xuan Wu"
         ],
         "precision": 0.4,
         "recall": 0.4,
@@ -169,58 +166,7 @@
             "http://www.wikidata.org/entity/Q8861",
             "http://www.wikidata.org/entity/Q17175"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q774719",
-            "Jadzia Dax",
-            "http://www.wikidata.org/entity/Q856303",
-            "Xie Zhen",
-            "http://www.wikidata.org/entity/Q855728",
-            "Shi Xiu",
-            "http://www.wikidata.org/entity/Q855698",
-            "Xuan Zan",
-            "http://www.wikidata.org/entity/Q855732",
-            "Ruan Xiaoqi",
-            "http://www.wikidata.org/entity/Q858947",
-            "Cai Xun",
-            "http://www.wikidata.org/entity/Q866608",
-            "Xiang Chong",
-            "http://www.wikidata.org/entity/Q865950",
-            "Xue Yong",
-            "http://www.wikidata.org/entity/Q866866",
-            "Sun Xin",
-            "http://www.wikidata.org/entity/Q51759",
-            "Xanatos",
-            "http://www.wikidata.org/entity/Q942938",
-            "Dexter Morgan",
-            "http://www.wikidata.org/entity/Q391557",
-            "Agaton Sax",
-            "http://www.wikidata.org/entity/Q924583",
-            "Exar Kun",
-            "http://www.wikidata.org/entity/Q682371",
-            "Index",
-            "http://www.wikidata.org/entity/Q711855",
-            "Lu Xiaofeng",
-            "http://www.wikidata.org/entity/Q652189",
-            "Br'er Fox",
-            "http://www.wikidata.org/entity/Q637202",
-            "Zaphod Beeblebrox",
-            "http://www.wikidata.org/entity/Q837838",
-            "Xu Ning",
-            "http://www.wikidata.org/entity/Q700263",
-            "Pei Xuan",
-            "http://www.wikidata.org/entity/Q704070",
-            "Xuan Wu",
-            "http://www.wikidata.org/entity/Q855657",
-            "Xiao Rang",
-            "http://www.wikidata.org/entity/Q855009",
-            "Xie Bao",
-            "http://www.wikidata.org/entity/Q855062",
-            "Huang Xin",
-            "http://www.wikidata.org/entity/Q855638",
-            "Ruan Xiaoer",
-            "http://www.wikidata.org/entity/Q1045338",
-            "Xing Daorong"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -270,9 +216,9 @@
             "http://www.wikidata.org/entity/Q4893846"
         ],
         "result": [],
-        "precision": 1.4285714285714286e-41,
-        "recall": 1.4285714285714286e-41,
-        "f1": 1.4285714285714286e-41
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
     },
     {
         "qid": 610,
@@ -310,13 +256,10 @@
             "http://www.wikidata.org/entity/Q765404",
             "http://www.wikidata.org/entity/Q922379"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q765404",
-            "http://www.wikidata.org/entity/Q922379"
-        ],
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0
+        "result": [],
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
     },
     {
         "qid": 614,
@@ -375,9 +318,7 @@
         "answer": [
             "4782"
         ],
-        "result": [
-            "la-tour-eiffel-paris-4"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -387,9 +328,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q12830437"
         ],
-        "result": [
-            "la-tour-eiffel-paris-4"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -448,7 +387,58 @@
             "http://www.wikidata.org/entity/Q7906403",
             "V803 Centauri"
         ],
-        "result": [],
+        "result": [
+            "http://www.wikidata.org/entity/Q922222",
+            "VFTS 682",
+            "http://www.wikidata.org/entity/Q910672",
+            "V380 Orionis",
+            "http://www.wikidata.org/entity/Q906905",
+            "V509 Cassiopeiae",
+            "http://www.wikidata.org/entity/Q287073",
+            "V849 Ophiuchi",
+            "http://www.wikidata.org/entity/Q951640",
+            "DT Virginis",
+            "http://www.wikidata.org/entity/Q939984",
+            "V500 Aquilae",
+            "http://www.wikidata.org/entity/Q966427",
+            "W Virginis",
+            "http://www.wikidata.org/entity/Q968611",
+            "Lambda Virginis",
+            "http://www.wikidata.org/entity/Q657686",
+            "V376 Carinae",
+            "http://www.wikidata.org/entity/Q868692",
+            "Van Maanen's star",
+            "http://www.wikidata.org/entity/Q753574",
+            "LBV 1806-20",
+            "http://www.wikidata.org/entity/Q973324",
+            "V337 Carinae",
+            "http://www.wikidata.org/entity/Q262076",
+            "70 Virginis",
+            "http://www.wikidata.org/entity/Q263782",
+            "Epsilon Volantis",
+            "http://www.wikidata.org/entity/Q971552",
+            "VX Sagittarii",
+            "http://www.wikidata.org/entity/Q463324",
+            "Sidus Ludoviciana",
+            "http://www.wikidata.org/entity/Q333416",
+            "SS Virginis",
+            "http://www.wikidata.org/entity/Q14200",
+            "Delta Virginis",
+            "http://www.wikidata.org/entity/Q781988",
+            "V382 Carinae",
+            "http://www.wikidata.org/entity/Q429708",
+            "3 Vulpeculae",
+            "http://www.wikidata.org/entity/Q1051077",
+            "G Velorum",
+            "http://www.wikidata.org/entity/Q5179084",
+            "Iota Volantis",
+            "http://www.wikidata.org/entity/Q5179020",
+            "Theta Virginis",
+            "http://www.wikidata.org/entity/Q5179009",
+            "Sigma Virginis",
+            "http://www.wikidata.org/entity/Q1044082",
+            "V429 Geminorum"
+        ],
         "precision": 0.44,
         "recall": 0.44,
         "f1": 0.44
@@ -471,9 +461,7 @@
             "http://www.wikidata.org/entity/Q308",
             "http://www.wikidata.org/entity/Q313"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q1715"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -537,9 +525,9 @@
             "http://www.wikidata.org/entity/Q84"
         ],
         "result": [],
-        "precision": 0.23809523809523808,
-        "recall": 0.8333333333333334,
-        "f1": 0.37037037037037035
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
     },
     {
         "qid": 629,
@@ -639,7 +627,11 @@
         "answer": [
             "http://www.wikidata.org/entity/Q181923"
         ],
-        "result": [],
+        "result": [
+            "http://www.wikidata.org/entity/Q181923",
+            "http://www.wikidata.org/entity/Q189561",
+            "http://www.wikidata.org/entity/Q12174"
+        ],
         "precision": 0.3333333333333333,
         "recall": 1.0,
         "f1": 0.5
@@ -651,10 +643,14 @@
             "http://www.wikidata.org/entity/Q21171224",
             "http://www.wikidata.org/entity/Q22030706"
         ],
-        "result": [],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "result": [
+            "http://www.wikidata.org/entity/Q3783",
+            "http://www.wikidata.org/entity/Q21171224",
+            "http://www.wikidata.org/entity/Q22030706"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 633,
@@ -693,9 +689,7 @@
         "answer": [
             "391"
         ],
-        "result": [
-            "1939-01-01T00:00:00Z"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -717,9 +711,7 @@
             "http://www.wikidata.org/entity/Q6553110",
             "http://www.wikidata.org/entity/Q6553140"
         ],
-        "result": [
-            "1939-01-01T00:00:00Z"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -729,9 +721,7 @@
         "answer": [
             "1938-01-01T00:00:00Z"
         ],
-        "result": [
-            "1939-01-01T00:00:00Z"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -788,9 +778,7 @@
             "http://www.wikidata.org/entity/Q2200381",
             "http://www.wikidata.org/entity/Q21131500"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q11699"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -801,9 +789,7 @@
             "http://www.wikidata.org/entity/Q9674",
             "http://www.wikidata.org/entity/Q9680"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q11699"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -845,13 +831,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q962908"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q18888193",
-            "http://www.wikidata.org/entity/Q18888197",
-            "http://www.wikidata.org/entity/Q18888190",
-            "http://www.wikidata.org/entity/Q18888089",
-            "http://www.wikidata.org/entity/Q18888130"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -861,13 +841,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q641697"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q18888193",
-            "http://www.wikidata.org/entity/Q18888197",
-            "http://www.wikidata.org/entity/Q18888190",
-            "http://www.wikidata.org/entity/Q18888089",
-            "http://www.wikidata.org/entity/Q18888130"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -880,10 +854,15 @@
             "http://www.wikidata.org/entity/Q1027879",
             "http://www.wikidata.org/entity/Q47407603"
         ],
-        "result": [],
-        "precision": 1e-40,
-        "recall": 2.5e-41,
-        "f1": 3.9999999999999995e-41
+        "result": [
+            "http://www.wikidata.org/entity/Q11629",
+            "http://www.wikidata.org/entity/Q174705",
+            "http://www.wikidata.org/entity/Q1027879",
+            "http://www.wikidata.org/entity/Q47407603"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 647,
@@ -1218,10 +1197,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q623138"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q3083725",
-            "zymosan"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -1231,10 +1207,7 @@
         "answer": [
             "\u0430\u0437\u0435 025"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q3083725",
-            "zymosan"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -1250,22 +1223,23 @@
             "http://www.wikidata.org/entity/Q516479"
         ],
         "result": [
-            "http://www.wikidata.org/entity/Q3083725",
-            "zymosan"
+            "http://www.wikidata.org/entity/Q917138",
+            "http://www.wikidata.org/entity/Q167214",
+            "http://www.wikidata.org/entity/Q221467",
+            "http://www.wikidata.org/entity/Q282159",
+            "http://www.wikidata.org/entity/Q917067",
+            "http://www.wikidata.org/entity/Q516479"
         ],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 659,
         "answer": [
             "http://www.wikidata.org/entity/Q183257"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q3083725",
-            "zymosan"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -1318,11 +1292,11 @@
             "http://www.wikidata.org/entity/Q30"
         ],
         "result": [
-            "http://www.wikidata.org/entity/Q3091268"
+            "http://www.wikidata.org/entity/Q30"
         ],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 664,
@@ -1394,9 +1368,7 @@
             "http://www.wikidata.org/entity/Q608293",
             "http://www.wikidata.org/entity/Q10461933"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q3091268"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -1447,12 +1419,10 @@
         "answer": [
             "22000000"
         ],
-        "result": [
-            "22000000"
-        ],
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0
+        "result": [],
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
     },
     {
         "qid": 668,
@@ -1471,9 +1441,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q215530"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q1135146"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -1483,10 +1451,12 @@
         "answer": [
             "http://www.wikidata.org/entity/Q9592"
         ],
-        "result": [],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "result": [
+            "http://www.wikidata.org/entity/Q9592"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 671,
@@ -1552,27 +1522,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q413690"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q3895",
-            "http://www.wikidata.org/entity/Q2813",
-            "http://www.wikidata.org/entity/Q3895",
-            "http://www.wikidata.org/entity/Q4548",
-            "http://www.wikidata.org/entity/Q13646",
-            "http://www.wikidata.org/entity/Q29311",
-            "http://www.wikidata.org/entity/Q35349",
-            "http://www.wikidata.org/entity/Q38076",
-            "http://www.wikidata.org/entity/Q113215",
-            "http://www.wikidata.org/entity/Q163241",
-            "http://www.wikidata.org/entity/Q373724",
-            "http://www.wikidata.org/entity/Q590952",
-            "http://www.wikidata.org/entity/Q1431486",
-            "http://www.wikidata.org/entity/Q1450805",
-            "http://www.wikidata.org/entity/Q1622293",
-            "http://www.wikidata.org/entity/Q2527941",
-            "http://www.wikidata.org/entity/Q3535551",
-            "http://www.wikidata.org/entity/Q5887924",
-            "http://www.wikidata.org/entity/Q24189171"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -1600,12 +1550,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q757097"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q119807",
-            "http://www.wikidata.org/entity/Q182252",
-            "http://www.wikidata.org/entity/Q184201",
-            "http://www.wikidata.org/entity/Q259770"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -1615,12 +1560,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q1450662"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q119807",
-            "http://www.wikidata.org/entity/Q182252",
-            "http://www.wikidata.org/entity/Q184201",
-            "http://www.wikidata.org/entity/Q259770"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -1642,9 +1582,7 @@
         "answer": [
             "1982-01-01T00:00:00Z"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q153890"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -1685,10 +1623,6 @@
             "pensiveness",
             "http://www.wikidata.org/entity/Q70761814",
             "argumentativeness",
-            "http://www.wikidata.org/entity/Q1036653",
-            "highly sensitive person",
-            "http://www.wikidata.org/entity/Q920550",
-            "assertiveness",
             "http://www.wikidata.org/entity/Q107289411",
             "competitiveness",
             "http://www.wikidata.org/entity/Q107387341",
@@ -1701,14 +1635,6 @@
             "vengefulness",
             "http://www.wikidata.org/entity/Q107294708",
             "creativity",
-            "http://www.wikidata.org/entity/Q122731841",
-            "reservedness",
-            "http://www.wikidata.org/entity/Q123356150",
-            "possessiveness",
-            "http://www.wikidata.org/entity/Q123356125",
-            "obsessiveness",
-            "http://www.wikidata.org/entity/Q1385437",
-            "extravagance",
             "http://www.wikidata.org/entity/Q1576973",
             "competitive eating",
             "http://www.wikidata.org/entity/Q1549918",
@@ -1718,7 +1644,19 @@
             "http://www.wikidata.org/entity/Q112134900",
             "manipulativeness",
             "http://www.wikidata.org/entity/Q111307385",
-            "irreverence"
+            "irreverence",
+            "http://www.wikidata.org/entity/Q113989831",
+            "reclusiveness",
+            "http://www.wikidata.org/entity/Q111994529",
+            "cleverness",
+            "http://www.wikidata.org/entity/Q1385437",
+            "extravagance",
+            "http://www.wikidata.org/entity/Q1036653",
+            "highly sensitive person",
+            "http://www.wikidata.org/entity/Q920550",
+            "assertiveness",
+            "http://www.wikidata.org/entity/Q4394121",
+            "decisiveness"
         ],
         "precision": 0.04,
         "recall": 0.5,
@@ -1729,58 +1667,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q14820063"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q127046469",
-            "perverted",
-            "http://www.wikidata.org/entity/Q127588",
-            "introversion and extraversion",
-            "http://www.wikidata.org/entity/Q22977859",
-            "ambiversion",
-            "http://www.wikidata.org/entity/Q23808211",
-            "civility",
-            "http://www.wikidata.org/entity/Q26214118",
-            "extraversion",
-            "http://www.wikidata.org/entity/Q107261314",
-            "dismissiveness",
-            "http://www.wikidata.org/entity/Q107261283",
-            "pensiveness",
-            "http://www.wikidata.org/entity/Q70761814",
-            "argumentativeness",
-            "http://www.wikidata.org/entity/Q1036653",
-            "highly sensitive person",
-            "http://www.wikidata.org/entity/Q920550",
-            "assertiveness",
-            "http://www.wikidata.org/entity/Q107289411",
-            "competitiveness",
-            "http://www.wikidata.org/entity/Q107387341",
-            "nature lover",
-            "http://www.wikidata.org/entity/Q107294428",
-            "machiavellianism",
-            "http://www.wikidata.org/entity/Q107532667",
-            "mischeviousness",
-            "http://www.wikidata.org/entity/Q107274054",
-            "vengefulness",
-            "http://www.wikidata.org/entity/Q107294708",
-            "creativity",
-            "http://www.wikidata.org/entity/Q122731841",
-            "reservedness",
-            "http://www.wikidata.org/entity/Q123356150",
-            "possessiveness",
-            "http://www.wikidata.org/entity/Q123356125",
-            "obsessiveness",
-            "http://www.wikidata.org/entity/Q1385437",
-            "extravagance",
-            "http://www.wikidata.org/entity/Q1576973",
-            "competitive eating",
-            "http://www.wikidata.org/entity/Q1549918",
-            "impulsivity",
-            "http://www.wikidata.org/entity/Q112136541",
-            "overconfidence",
-            "http://www.wikidata.org/entity/Q112134900",
-            "manipulativeness",
-            "http://www.wikidata.org/entity/Q111307385",
-            "irreverence"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -1808,12 +1695,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q6103029"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q194280",
-            "http://www.wikidata.org/entity/Q459029",
-            "http://www.wikidata.org/entity/Q194280",
-            "http://www.wikidata.org/entity/Q3107204"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -1846,9 +1728,7 @@
             "http://www.wikidata.org/entity/Q98391507",
             "ton of TNT"
         ],
-        "result": [
-            "8c49c64a-bc44-4e21-848f-c8c2a0b800a0"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -1858,9 +1738,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q27058638"
         ],
-        "result": [
-            "8c49c64a-bc44-4e21-848f-c8c2a0b800a0"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -1913,7 +1791,9 @@
             "http://www.wikidata.org/entity/Q1754",
             "http://www.wikidata.org/entity/Q90"
         ],
-        "result": [],
+        "result": [
+            "http://www.wikidata.org/entity/Q30051005"
+        ],
         "precision": 1e-40,
         "recall": 5e-41,
         "f1": 6.666666666666665e-41
@@ -1968,9 +1848,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q115793839"
         ],
-        "result": [
-            "0000623"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -2000,9 +1878,7 @@
             "http://www.wikidata.org/entity/Q59227",
             "http://www.wikidata.org/entity/Q59233"
         ],
-        "result": [
-            "0000623"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -2012,9 +1888,7 @@
         "answer": [
             "1989-01-01T00:00:00Z"
         ],
-        "result": [
-            "0000623"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -2088,118 +1962,67 @@
             "Cammarano v. United States"
         ],
         "result": [
-            "http://www.wikidata.org/entity/Q4979716",
-            "Brushaber v. Union Pacific Railroad",
-            "http://www.wikidata.org/entity/Q4947199",
-            "Bose Corp. v. Consumers Union of United States, Inc.",
-            "http://www.wikidata.org/entity/Q4804759",
-            "Ashcroft v. American Civil Liberties Union",
-            "http://www.wikidata.org/entity/Q5177808",
-            "County of Allegheny v. American Civil Liberties Union",
-            "http://www.wikidata.org/entity/Q19021914",
-            "Union Bank of Tennessee v. Vaiden",
-            "http://www.wikidata.org/entity/Q19021957",
-            "Union Company v. Dull",
-            "http://www.wikidata.org/entity/Q19021963",
-            "Union Dry Goods Company v. Georgia Public Service Corporation",
-            "http://www.wikidata.org/entity/Q19021969",
-            "Union Edge Setter Company v. Keith",
-            "http://www.wikidata.org/entity/Q19022002",
-            "Union Insurance Company v. Hoge",
-            "http://www.wikidata.org/entity/Q19021922",
-            "Union Bank Trust Company v. Phelps",
-            "http://www.wikidata.org/entity/Q19021929",
-            "Union Bank v. Laird",
-            "http://www.wikidata.org/entity/Q19021991",
-            "Union Insulting Construction Company v. United States",
-            "http://www.wikidata.org/entity/Q19021949",
-            "Union Brokerage Company v. Jensen",
-            "http://www.wikidata.org/entity/Q19022009",
-            "Union Insurance Company v. Smith",
-            "http://www.wikidata.org/entity/Q19021983",
-            "Union Fish Company v. Erickson",
-            "http://www.wikidata.org/entity/Q19021906",
-            "Union Bank of Louisianas v. Stafford",
-            "http://www.wikidata.org/entity/Q19021934",
-            "Union Bank v. Wolas",
-            "http://www.wikidata.org/entity/Q19021941",
-            "Union Bridge Company v. United States",
-            "http://www.wikidata.org/entity/Q19022154",
-            "Union Pacific Company v. Hadley",
-            "http://www.wikidata.org/entity/Q19022161",
-            "Union Pacific Company v. Huxoll",
-            "http://www.wikidata.org/entity/Q19022079",
-            "Union Mutual Life Insurance Company v. Waters",
-            "http://www.wikidata.org/entity/Q19022087",
-            "Union National Bank of Chicago v. Louisville, New Albany and Chicago Railway Company",
-            "http://www.wikidata.org/entity/Q19022120",
-            "Union Naval Stores Company v. United States",
-            "http://www.wikidata.org/entity/Q19022149",
-            "Union Pacific Company v. Burke",
-            "http://www.wikidata.org/entity/Q19022235",
-            "Union Pacific Railroad Company v. Snow"
+            "http://www.wikidata.org/entity/Q472298",
+            "United States v. The Amistad",
+            "http://www.wikidata.org/entity/Q175958",
+            "Muskrat v. United States",
+            "http://www.wikidata.org/entity/Q24307",
+            "Korematsu v. United States",
+            "http://www.wikidata.org/entity/Q4732743",
+            "Allison Engine Co. v. United States ex rel. Sanders",
+            "http://www.wikidata.org/entity/Q4743114",
+            "American Automobile Association v. United States",
+            "http://www.wikidata.org/entity/Q4733750",
+            "Almeida-Sanchez v. United States",
+            "http://www.wikidata.org/entity/Q4797812",
+            "Arthur Andersen LLP v. United States",
+            "http://www.wikidata.org/entity/Q4733768",
+            "Almendarez-Torres v. United States",
+            "http://www.wikidata.org/entity/Q4922494",
+            "Black v. United States",
+            "http://www.wikidata.org/entity/Q4880418",
+            "Begay v. United States",
+            "http://www.wikidata.org/entity/Q870728",
+            "United States v. Lopez",
+            "http://www.wikidata.org/entity/Q745103",
+            "Bob Jones University v. United States",
+            "http://www.wikidata.org/entity/Q5129781",
+            "Clawson v. United States",
+            "http://www.wikidata.org/entity/Q5095511",
+            "Chicago Board of Trade v. United States",
+            "http://www.wikidata.org/entity/Q5123889",
+            "City of Richmond v. United States",
+            "http://www.wikidata.org/entity/Q5117948",
+            "Church of the Holy Trinity v. United States",
+            "http://www.wikidata.org/entity/Q5130853",
+            "Clearfield Trust Co. v. United States",
+            "http://www.wikidata.org/entity/Q5096202",
+            "Chickasaw Nation v. United States",
+            "http://www.wikidata.org/entity/Q5132312",
+            "Cleveland v. United States",
+            "http://www.wikidata.org/entity/Q5141024",
+            "Coffin v. United States",
+            "http://www.wikidata.org/entity/Q5091191",
+            "Cheney v. United States District Court",
+            "http://www.wikidata.org/entity/Q5091604",
+            "Cheong Ah Moy v. United States",
+            "http://www.wikidata.org/entity/Q5130061",
+            "Clay v. United States",
+            "http://www.wikidata.org/entity/Q5046639",
+            "Carroll v. United States",
+            "http://www.wikidata.org/entity/Q5061139",
+            "Central Green Co. v. United States"
         ],
-        "precision": 0.72,
-        "recall": 0.72,
-        "f1": 0.72
+        "precision": 0.64,
+        "recall": 0.64,
+        "f1": 0.64
     },
     {
         "qid": 701,
         "answer": [
             "http://www.wikidata.org/entity/Q187336"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q4979716",
-            "Brushaber v. Union Pacific Railroad",
-            "http://www.wikidata.org/entity/Q4947199",
-            "Bose Corp. v. Consumers Union of United States, Inc.",
-            "http://www.wikidata.org/entity/Q4804759",
-            "Ashcroft v. American Civil Liberties Union",
-            "http://www.wikidata.org/entity/Q5177808",
-            "County of Allegheny v. American Civil Liberties Union",
-            "http://www.wikidata.org/entity/Q19021914",
-            "Union Bank of Tennessee v. Vaiden",
-            "http://www.wikidata.org/entity/Q19021957",
-            "Union Company v. Dull",
-            "http://www.wikidata.org/entity/Q19021963",
-            "Union Dry Goods Company v. Georgia Public Service Corporation",
-            "http://www.wikidata.org/entity/Q19021969",
-            "Union Edge Setter Company v. Keith",
-            "http://www.wikidata.org/entity/Q19022002",
-            "Union Insurance Company v. Hoge",
-            "http://www.wikidata.org/entity/Q19021922",
-            "Union Bank Trust Company v. Phelps",
-            "http://www.wikidata.org/entity/Q19021929",
-            "Union Bank v. Laird",
-            "http://www.wikidata.org/entity/Q19021991",
-            "Union Insulting Construction Company v. United States",
-            "http://www.wikidata.org/entity/Q19021949",
-            "Union Brokerage Company v. Jensen",
-            "http://www.wikidata.org/entity/Q19022009",
-            "Union Insurance Company v. Smith",
-            "http://www.wikidata.org/entity/Q19021983",
-            "Union Fish Company v. Erickson",
-            "http://www.wikidata.org/entity/Q19021906",
-            "Union Bank of Louisianas v. Stafford",
-            "http://www.wikidata.org/entity/Q19021934",
-            "Union Bank v. Wolas",
-            "http://www.wikidata.org/entity/Q19021941",
-            "Union Bridge Company v. United States",
-            "http://www.wikidata.org/entity/Q19022154",
-            "Union Pacific Company v. Hadley",
-            "http://www.wikidata.org/entity/Q19022161",
-            "Union Pacific Company v. Huxoll",
-            "http://www.wikidata.org/entity/Q19022079",
-            "Union Mutual Life Insurance Company v. Waters",
-            "http://www.wikidata.org/entity/Q19022087",
-            "Union National Bank of Chicago v. Louisville, New Albany and Chicago Railway Company",
-            "http://www.wikidata.org/entity/Q19022120",
-            "Union Naval Stores Company v. United States",
-            "http://www.wikidata.org/entity/Q19022149",
-            "Union Pacific Company v. Burke",
-            "http://www.wikidata.org/entity/Q19022235",
-            "Union Pacific Railroad Company v. Snow"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -2806,6 +2629,96 @@
             "http://www.wikidata.org/entity/Q113502261",
             "http://www.wikidata.org/entity/Q113502284",
             "http://www.wikidata.org/entity/Q113502294",
+            "http://www.wikidata.org/entity/Q188987",
+            "http://www.wikidata.org/entity/Q289624",
+            "http://www.wikidata.org/entity/Q328341",
+            "http://www.wikidata.org/entity/Q438720",
+            "http://www.wikidata.org/entity/Q472457",
+            "http://www.wikidata.org/entity/Q550428",
+            "http://www.wikidata.org/entity/Q555617",
+            "http://www.wikidata.org/entity/Q727243",
+            "http://www.wikidata.org/entity/Q912432",
+            "http://www.wikidata.org/entity/Q998792",
+            "http://www.wikidata.org/entity/Q1031167",
+            "http://www.wikidata.org/entity/Q1165505",
+            "http://www.wikidata.org/entity/Q1239280",
+            "http://www.wikidata.org/entity/Q1681063",
+            "http://www.wikidata.org/entity/Q1918953",
+            "http://www.wikidata.org/entity/Q1985390",
+            "http://www.wikidata.org/entity/Q2476586",
+            "http://www.wikidata.org/entity/Q2815216",
+            "http://www.wikidata.org/entity/Q3163914",
+            "http://www.wikidata.org/entity/Q3195160",
+            "http://www.wikidata.org/entity/Q3269548",
+            "http://www.wikidata.org/entity/Q3292066",
+            "http://www.wikidata.org/entity/Q3370402",
+            "http://www.wikidata.org/entity/Q4759585",
+            "http://www.wikidata.org/entity/Q4795300",
+            "http://www.wikidata.org/entity/Q4797014",
+            "http://www.wikidata.org/entity/Q5080914",
+            "http://www.wikidata.org/entity/Q5209782",
+            "http://www.wikidata.org/entity/Q5443861",
+            "http://www.wikidata.org/entity/Q5534595",
+            "http://www.wikidata.org/entity/Q5542231",
+            "http://www.wikidata.org/entity/Q6094833",
+            "http://www.wikidata.org/entity/Q6115597",
+            "http://www.wikidata.org/entity/Q7147677",
+            "http://www.wikidata.org/entity/Q16335533",
+            "http://www.wikidata.org/entity/Q19428900",
+            "http://www.wikidata.org/entity/Q28036990",
+            "http://www.wikidata.org/entity/Q29033420",
+            "http://www.wikidata.org/entity/Q31286149",
+            "http://www.wikidata.org/entity/Q42564292",
+            "http://www.wikidata.org/entity/Q42701739",
+            "http://www.wikidata.org/entity/Q52635106",
+            "http://www.wikidata.org/entity/Q56324320",
+            "http://www.wikidata.org/entity/Q56651144",
+            "http://www.wikidata.org/entity/Q56876773",
+            "http://www.wikidata.org/entity/Q58323285",
+            "http://www.wikidata.org/entity/Q58804715",
+            "http://www.wikidata.org/entity/Q60551388",
+            "http://www.wikidata.org/entity/Q62396176",
+            "http://www.wikidata.org/entity/Q63970014",
+            "http://www.wikidata.org/entity/Q66685225",
+            "http://www.wikidata.org/entity/Q87328951",
+            "http://www.wikidata.org/entity/Q94533249",
+            "http://www.wikidata.org/entity/Q94533353",
+            "http://www.wikidata.org/entity/Q95119029",
+            "http://www.wikidata.org/entity/Q95165399",
+            "http://www.wikidata.org/entity/Q95391706",
+            "http://www.wikidata.org/entity/Q96958838",
+            "http://www.wikidata.org/entity/Q98119826",
+            "http://www.wikidata.org/entity/Q105532665",
+            "http://www.wikidata.org/entity/Q105696327",
+            "http://www.wikidata.org/entity/Q106328697",
+            "http://www.wikidata.org/entity/Q106797918",
+            "http://www.wikidata.org/entity/Q106962583",
+            "http://www.wikidata.org/entity/Q107139441",
+            "http://www.wikidata.org/entity/Q107277484",
+            "http://www.wikidata.org/entity/Q107281760",
+            "http://www.wikidata.org/entity/Q107282219",
+            "http://www.wikidata.org/entity/Q107380383",
+            "http://www.wikidata.org/entity/Q108751785",
+            "http://www.wikidata.org/entity/Q108863785",
+            "http://www.wikidata.org/entity/Q108875686",
+            "http://www.wikidata.org/entity/Q109085695",
+            "http://www.wikidata.org/entity/Q109187122",
+            "http://www.wikidata.org/entity/Q109380012",
+            "http://www.wikidata.org/entity/Q109606952",
+            "http://www.wikidata.org/entity/Q109679382",
+            "http://www.wikidata.org/entity/Q109727734",
+            "http://www.wikidata.org/entity/Q110818469",
+            "http://www.wikidata.org/entity/Q110826034",
+            "http://www.wikidata.org/entity/Q110826032",
+            "http://www.wikidata.org/entity/Q110826038",
+            "http://www.wikidata.org/entity/Q110826036",
+            "http://www.wikidata.org/entity/Q110830611",
+            "http://www.wikidata.org/entity/Q110830617",
+            "http://www.wikidata.org/entity/Q110830624",
+            "http://www.wikidata.org/entity/Q110830630",
+            "http://www.wikidata.org/entity/Q110830642",
+            "http://www.wikidata.org/entity/Q110830647",
+            "http://www.wikidata.org/entity/Q110830645",
             "http://www.wikidata.org/entity/Q113502314",
             "http://www.wikidata.org/entity/Q113505976",
             "http://www.wikidata.org/entity/Q113505977",
@@ -2904,97 +2817,7 @@
             "http://www.wikidata.org/entity/Q126952633",
             "http://www.wikidata.org/entity/Q126952650",
             "http://www.wikidata.org/entity/Q126952648",
-            "http://www.wikidata.org/entity/Q126952649",
-            "http://www.wikidata.org/entity/Q188987",
-            "http://www.wikidata.org/entity/Q289624",
-            "http://www.wikidata.org/entity/Q328341",
-            "http://www.wikidata.org/entity/Q438720",
-            "http://www.wikidata.org/entity/Q472457",
-            "http://www.wikidata.org/entity/Q550428",
-            "http://www.wikidata.org/entity/Q555617",
-            "http://www.wikidata.org/entity/Q727243",
-            "http://www.wikidata.org/entity/Q912432",
-            "http://www.wikidata.org/entity/Q998792",
-            "http://www.wikidata.org/entity/Q1031167",
-            "http://www.wikidata.org/entity/Q1165505",
-            "http://www.wikidata.org/entity/Q1239280",
-            "http://www.wikidata.org/entity/Q1681063",
-            "http://www.wikidata.org/entity/Q1918953",
-            "http://www.wikidata.org/entity/Q1985390",
-            "http://www.wikidata.org/entity/Q2476586",
-            "http://www.wikidata.org/entity/Q2815216",
-            "http://www.wikidata.org/entity/Q3163914",
-            "http://www.wikidata.org/entity/Q3195160",
-            "http://www.wikidata.org/entity/Q3269548",
-            "http://www.wikidata.org/entity/Q3292066",
-            "http://www.wikidata.org/entity/Q3370402",
-            "http://www.wikidata.org/entity/Q4759585",
-            "http://www.wikidata.org/entity/Q4795300",
-            "http://www.wikidata.org/entity/Q4797014",
-            "http://www.wikidata.org/entity/Q5080914",
-            "http://www.wikidata.org/entity/Q5209782",
-            "http://www.wikidata.org/entity/Q5443861",
-            "http://www.wikidata.org/entity/Q5534595",
-            "http://www.wikidata.org/entity/Q5542231",
-            "http://www.wikidata.org/entity/Q6094833",
-            "http://www.wikidata.org/entity/Q6115597",
-            "http://www.wikidata.org/entity/Q7147677",
-            "http://www.wikidata.org/entity/Q16335533",
-            "http://www.wikidata.org/entity/Q19428900",
-            "http://www.wikidata.org/entity/Q28036990",
-            "http://www.wikidata.org/entity/Q29033420",
-            "http://www.wikidata.org/entity/Q31286149",
-            "http://www.wikidata.org/entity/Q42564292",
-            "http://www.wikidata.org/entity/Q42701739",
-            "http://www.wikidata.org/entity/Q52635106",
-            "http://www.wikidata.org/entity/Q56324320",
-            "http://www.wikidata.org/entity/Q56651144",
-            "http://www.wikidata.org/entity/Q56876773",
-            "http://www.wikidata.org/entity/Q58323285",
-            "http://www.wikidata.org/entity/Q58804715",
-            "http://www.wikidata.org/entity/Q60551388",
-            "http://www.wikidata.org/entity/Q62396176",
-            "http://www.wikidata.org/entity/Q63970014",
-            "http://www.wikidata.org/entity/Q66685225",
-            "http://www.wikidata.org/entity/Q87328951",
-            "http://www.wikidata.org/entity/Q94533249",
-            "http://www.wikidata.org/entity/Q94533353",
-            "http://www.wikidata.org/entity/Q95119029",
-            "http://www.wikidata.org/entity/Q95165399",
-            "http://www.wikidata.org/entity/Q95391706",
-            "http://www.wikidata.org/entity/Q96958838",
-            "http://www.wikidata.org/entity/Q98119826",
-            "http://www.wikidata.org/entity/Q105532665",
-            "http://www.wikidata.org/entity/Q105696327",
-            "http://www.wikidata.org/entity/Q106328697",
-            "http://www.wikidata.org/entity/Q106797918",
-            "http://www.wikidata.org/entity/Q106962583",
-            "http://www.wikidata.org/entity/Q107139441",
-            "http://www.wikidata.org/entity/Q107277484",
-            "http://www.wikidata.org/entity/Q107281760",
-            "http://www.wikidata.org/entity/Q107282219",
-            "http://www.wikidata.org/entity/Q107380383",
-            "http://www.wikidata.org/entity/Q108751785",
-            "http://www.wikidata.org/entity/Q108863785",
-            "http://www.wikidata.org/entity/Q108875686",
-            "http://www.wikidata.org/entity/Q109085695",
-            "http://www.wikidata.org/entity/Q109187122",
-            "http://www.wikidata.org/entity/Q109380012",
-            "http://www.wikidata.org/entity/Q109606952",
-            "http://www.wikidata.org/entity/Q109679382",
-            "http://www.wikidata.org/entity/Q109727734",
-            "http://www.wikidata.org/entity/Q110818469",
-            "http://www.wikidata.org/entity/Q110826034",
-            "http://www.wikidata.org/entity/Q110826032",
-            "http://www.wikidata.org/entity/Q110826038",
-            "http://www.wikidata.org/entity/Q110826036",
-            "http://www.wikidata.org/entity/Q110830611",
-            "http://www.wikidata.org/entity/Q110830617",
-            "http://www.wikidata.org/entity/Q110830624",
-            "http://www.wikidata.org/entity/Q110830630",
-            "http://www.wikidata.org/entity/Q110830642",
-            "http://www.wikidata.org/entity/Q110830647",
-            "http://www.wikidata.org/entity/Q110830645"
+            "http://www.wikidata.org/entity/Q126952649"
         ],
         "precision": 1.0,
         "recall": 1.0,
@@ -3018,9 +2841,9 @@
             "http://www.wikidata.org/entity/Q6655"
         ],
         "result": [],
-        "precision": 0.5,
-        "recall": 1.0,
-        "f1": 0.6666666666666666
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
     },
     {
         "qid": 709,
@@ -3066,9 +2889,9 @@
             "http://www.wikidata.org/entity/Q55593430"
         ],
         "result": [],
-        "precision": 1e-40,
-        "recall": 7.142857142857143e-42,
-        "f1": 1.3333333333333333e-41
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
     },
     {
         "qid": 712,
@@ -3076,13 +2899,10 @@
             "http://www.wikidata.org/entity/Q181602",
             "http://www.wikidata.org/entity/Q4139178"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q181602",
-            "http://www.wikidata.org/entity/Q4139178"
-        ],
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0
+        "result": [],
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
     },
     {
         "qid": 713,
@@ -3488,9 +3308,7 @@
             "http://www.wikidata.org/entity/Q41396",
             "http://www.wikidata.org/entity/Q5212563"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q12152"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -3500,9 +3318,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q174964"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q12152"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -3585,34 +3401,18 @@
             "http://www.wikidata.org/entity/Q281939"
         ],
         "result": [
-            "http://www.wikidata.org/entity/Q293597",
-            "\u00d63-Mikromann",
-            "http://www.wikidata.org/entity/Q293598",
-            "\u00d63-Wecker",
-            "http://www.wikidata.org/entity/Q293594",
-            "\u00d63-Freundeskreis",
-            "http://www.wikidata.org/entity/Q293628",
-            "\u00d63 Austria Top 40"
+            "http://www.wikidata.org/entity/Q281939"
         ],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 723,
         "answer": [
             "1"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q293597",
-            "\u00d63-Mikromann",
-            "http://www.wikidata.org/entity/Q293598",
-            "\u00d63-Wecker",
-            "http://www.wikidata.org/entity/Q293594",
-            "\u00d63-Freundeskreis",
-            "http://www.wikidata.org/entity/Q293628",
-            "\u00d63 Austria Top 40"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -3637,10 +3437,7 @@
             "http://www.wikidata.org/entity/Q362",
             "http://www.wikidata.org/entity/Q188972"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q10274",
-            "Vijayadashami"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -3650,10 +3447,7 @@
         "answer": [
             "8458"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q10274",
-            "Vijayadashami"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -3720,10 +3514,69 @@
             "http://www.wikidata.org/entity/Q958153",
             "http://www.wikidata.org/entity/Q5582862"
         ],
-        "result": [],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "result": [
+            "http://www.wikidata.org/entity/Q60",
+            "http://www.wikidata.org/entity/Q64",
+            "http://www.wikidata.org/entity/Q65",
+            "http://www.wikidata.org/entity/Q84",
+            "http://www.wikidata.org/entity/Q85",
+            "http://www.wikidata.org/entity/Q90",
+            "http://www.wikidata.org/entity/Q172",
+            "http://www.wikidata.org/entity/Q174",
+            "http://www.wikidata.org/entity/Q406",
+            "http://www.wikidata.org/entity/Q597",
+            "http://www.wikidata.org/entity/Q956",
+            "http://www.wikidata.org/entity/Q1022",
+            "http://www.wikidata.org/entity/Q1297",
+            "http://www.wikidata.org/entity/Q1335",
+            "http://www.wikidata.org/entity/Q1461",
+            "http://www.wikidata.org/entity/Q1486",
+            "http://www.wikidata.org/entity/Q1491",
+            "http://www.wikidata.org/entity/Q1524",
+            "http://www.wikidata.org/entity/Q1533",
+            "http://www.wikidata.org/entity/Q1555",
+            "http://www.wikidata.org/entity/Q1563",
+            "http://www.wikidata.org/entity/Q1754",
+            "http://www.wikidata.org/entity/Q1829",
+            "http://www.wikidata.org/entity/Q1863",
+            "http://www.wikidata.org/entity/Q1899",
+            "http://www.wikidata.org/entity/Q2807",
+            "http://www.wikidata.org/entity/Q2841",
+            "http://www.wikidata.org/entity/Q2868",
+            "http://www.wikidata.org/entity/Q2887",
+            "http://www.wikidata.org/entity/Q3110",
+            "http://www.wikidata.org/entity/Q3130",
+            "http://www.wikidata.org/entity/Q3306",
+            "http://www.wikidata.org/entity/Q3630",
+            "http://www.wikidata.org/entity/Q3820",
+            "http://www.wikidata.org/entity/Q3856",
+            "http://www.wikidata.org/entity/Q3861",
+            "http://www.wikidata.org/entity/Q5753",
+            "http://www.wikidata.org/entity/Q8678",
+            "http://www.wikidata.org/entity/Q8684",
+            "http://www.wikidata.org/entity/Q9022",
+            "http://www.wikidata.org/entity/Q11751",
+            "http://www.wikidata.org/entity/Q15682",
+            "http://www.wikidata.org/entity/Q16555",
+            "http://www.wikidata.org/entity/Q26590",
+            "http://www.wikidata.org/entity/Q33935",
+            "http://www.wikidata.org/entity/Q34820",
+            "http://www.wikidata.org/entity/Q35178",
+            "http://www.wikidata.org/entity/Q41211",
+            "http://www.wikidata.org/entity/Q52535",
+            "http://www.wikidata.org/entity/Q61306",
+            "http://www.wikidata.org/entity/Q81033",
+            "http://www.wikidata.org/entity/Q105317",
+            "http://www.wikidata.org/entity/Q159273",
+            "http://www.wikidata.org/entity/Q162677",
+            "http://www.wikidata.org/entity/Q171632",
+            "http://www.wikidata.org/entity/Q174461",
+            "http://www.wikidata.org/entity/Q958153",
+            "http://www.wikidata.org/entity/Q5582862"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 728,
@@ -3745,10 +3598,7 @@
             "http://www.wikidata.org/entity/Q131656",
             "http://www.wikidata.org/entity/Q902296"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q484165",
-            "http://www.wikidata.org/entity/Q565134"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -3829,16 +3679,7 @@
             "http://www.wikidata.org/entity/Q15731574",
             "uranium compound"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q35805",
-            "http://www.wikidata.org/entity/Q188008",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q517104",
-            "http://www.wikidata.org/entity/Q647099",
-            "http://www.wikidata.org/entity/Q693058",
-            "http://www.wikidata.org/entity/Q718113"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -3848,16 +3689,7 @@
         "answer": [
             "22730"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q35805",
-            "http://www.wikidata.org/entity/Q188008",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q517104",
-            "http://www.wikidata.org/entity/Q647099",
-            "http://www.wikidata.org/entity/Q693058",
-            "http://www.wikidata.org/entity/Q718113"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -3867,16 +3699,7 @@
         "answer": [
             "66023"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q35805",
-            "http://www.wikidata.org/entity/Q188008",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q517104",
-            "http://www.wikidata.org/entity/Q647099",
-            "http://www.wikidata.org/entity/Q693058",
-            "http://www.wikidata.org/entity/Q718113"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -3894,16 +3717,7 @@
             "http://www.wikidata.org/entity/Q586356",
             "http://www.wikidata.org/entity/Q5211225"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q35805",
-            "http://www.wikidata.org/entity/Q188008",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q517104",
-            "http://www.wikidata.org/entity/Q647099",
-            "http://www.wikidata.org/entity/Q693058",
-            "http://www.wikidata.org/entity/Q718113"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -3927,10 +3741,14 @@
             "http://www.wikidata.org/entity/Q5848529",
             "http://www.wikidata.org/entity/Q21168880"
         ],
-        "result": [],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "result": [
+            "http://www.wikidata.org/entity/Q7163",
+            "http://www.wikidata.org/entity/Q5848529",
+            "http://www.wikidata.org/entity/Q21168880"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 737,
@@ -3977,9 +3795,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q28502289"
         ],
-        "result": [
-            "500"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -3990,9 +3806,7 @@
             "http://www.wikidata.org/entity/Q949997",
             "http://www.wikidata.org/entity/Q38568"
         ],
-        "result": [
-            "500"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4002,9 +3816,7 @@
         "answer": [
             "24111700"
         ],
-        "result": [
-            "500"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4027,9 +3839,7 @@
             "http://www.wikidata.org/entity/Q508054",
             "http://www.wikidata.org/entity/Q7084"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q212129"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4043,9 +3853,7 @@
             "Slang",
             "Ka\u010da"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q212129"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4087,9 +3895,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q150"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q188411"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4102,9 +3908,7 @@
             "http://www.wikidata.org/entity/Q3247179",
             "http://www.wikidata.org/entity/Q112416756"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q188411"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4115,11 +3919,11 @@
             "4"
         ],
         "result": [
-            "0"
+            "4"
         ],
-        "precision": 1e-40,
-        "recall": 1e-40,
-        "f1": 1e-40
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 752,
@@ -4129,9 +3933,7 @@
             "http://www.wikidata.org/entity/Q17194276",
             "uSell"
         ],
-        "result": [
-            "0"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4148,9 +3950,7 @@
             "http://www.wikidata.org/entity/Q111974672",
             "http://www.wikidata.org/entity/Q111974794"
         ],
-        "result": [
-            "0"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4174,9 +3974,7 @@
             "http://www.wikidata.org/entity/Q8377",
             "http://www.wikidata.org/entity/Q281460"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q1343190"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4186,9 +3984,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q131721"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q1343190"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4198,9 +3994,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q216896"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q1343190"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4254,18 +4048,7 @@
             "67418000000",
             "82722000000"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q408331",
-            "VGF",
-            "http://www.wikidata.org/entity/Q18303446",
-            "Vgf",
-            "http://www.wikidata.org/entity/Q24395042",
-            "Vgf",
-            "http://www.wikidata.org/entity/Q24618120",
-            "VGF",
-            "http://www.wikidata.org/entity/Q29782370",
-            "vgf"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4288,18 +4071,7 @@
             "http://www.wikidata.org/entity/Q2700616",
             "http://www.wikidata.org/entity/Q62879"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q408331",
-            "VGF",
-            "http://www.wikidata.org/entity/Q18303446",
-            "Vgf",
-            "http://www.wikidata.org/entity/Q24395042",
-            "Vgf",
-            "http://www.wikidata.org/entity/Q24618120",
-            "VGF",
-            "http://www.wikidata.org/entity/Q29782370",
-            "vgf"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4310,18 +4082,7 @@
             "http://www.wikidata.org/entity/Q11197",
             "http://www.wikidata.org/entity/Q47494165"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q408331",
-            "VGF",
-            "http://www.wikidata.org/entity/Q18303446",
-            "Vgf",
-            "http://www.wikidata.org/entity/Q24395042",
-            "Vgf",
-            "http://www.wikidata.org/entity/Q24618120",
-            "VGF",
-            "http://www.wikidata.org/entity/Q29782370",
-            "vgf"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4367,9 +4128,7 @@
         "answer": [
             "110"
         ],
-        "result": [
-            "1164"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4391,9 +4150,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q525"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q335552"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4585,88 +4342,7 @@
         "answer": [
             "14387"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q16",
-            "http://www.wikidata.org/entity/Q17",
-            "http://www.wikidata.org/entity/Q20",
-            "http://www.wikidata.org/entity/Q27",
-            "http://www.wikidata.org/entity/Q28",
-            "http://www.wikidata.org/entity/Q29",
-            "http://www.wikidata.org/entity/Q30",
-            "http://www.wikidata.org/entity/Q31",
-            "http://www.wikidata.org/entity/Q33",
-            "http://www.wikidata.org/entity/Q34",
-            "http://www.wikidata.org/entity/Q35",
-            "http://www.wikidata.org/entity/Q36",
-            "http://www.wikidata.org/entity/Q37",
-            "http://www.wikidata.org/entity/Q38",
-            "http://www.wikidata.org/entity/Q39",
-            "http://www.wikidata.org/entity/Q40",
-            "http://www.wikidata.org/entity/Q43",
-            "http://www.wikidata.org/entity/Q55",
-            "http://www.wikidata.org/entity/Q96",
-            "http://www.wikidata.org/entity/Q114",
-            "http://www.wikidata.org/entity/Q115",
-            "http://www.wikidata.org/entity/Q142",
-            "http://www.wikidata.org/entity/Q145",
-            "http://www.wikidata.org/entity/Q148",
-            "http://www.wikidata.org/entity/Q155",
-            "http://www.wikidata.org/entity/Q159",
-            "http://www.wikidata.org/entity/Q183",
-            "http://www.wikidata.org/entity/Q184",
-            "http://www.wikidata.org/entity/Q189",
-            "http://www.wikidata.org/entity/Q191",
-            "http://www.wikidata.org/entity/Q211",
-            "http://www.wikidata.org/entity/Q212",
-            "http://www.wikidata.org/entity/Q213",
-            "http://www.wikidata.org/entity/Q217",
-            "http://www.wikidata.org/entity/Q218",
-            "http://www.wikidata.org/entity/Q219",
-            "http://www.wikidata.org/entity/Q221",
-            "http://www.wikidata.org/entity/Q222",
-            "http://www.wikidata.org/entity/Q224",
-            "http://www.wikidata.org/entity/Q227",
-            "http://www.wikidata.org/entity/Q229",
-            "http://www.wikidata.org/entity/Q232",
-            "http://www.wikidata.org/entity/Q233",
-            "http://www.wikidata.org/entity/Q236",
-            "http://www.wikidata.org/entity/Q241",
-            "http://www.wikidata.org/entity/Q252",
-            "http://www.wikidata.org/entity/Q258",
-            "http://www.wikidata.org/entity/Q262",
-            "http://www.wikidata.org/entity/Q265",
-            "http://www.wikidata.org/entity/Q298",
-            "http://www.wikidata.org/entity/Q399",
-            "http://www.wikidata.org/entity/Q403",
-            "http://www.wikidata.org/entity/Q408",
-            "http://www.wikidata.org/entity/Q414",
-            "http://www.wikidata.org/entity/Q419",
-            "http://www.wikidata.org/entity/Q423",
-            "http://www.wikidata.org/entity/Q664",
-            "http://www.wikidata.org/entity/Q668",
-            "http://www.wikidata.org/entity/Q717",
-            "http://www.wikidata.org/entity/Q739",
-            "http://www.wikidata.org/entity/Q794",
-            "http://www.wikidata.org/entity/Q796",
-            "http://www.wikidata.org/entity/Q801",
-            "http://www.wikidata.org/entity/Q810",
-            "http://www.wikidata.org/entity/Q811",
-            "http://www.wikidata.org/entity/Q813",
-            "http://www.wikidata.org/entity/Q822",
-            "http://www.wikidata.org/entity/Q833",
-            "http://www.wikidata.org/entity/Q843",
-            "http://www.wikidata.org/entity/Q851",
-            "http://www.wikidata.org/entity/Q858",
-            "http://www.wikidata.org/entity/Q863",
-            "http://www.wikidata.org/entity/Q865",
-            "http://www.wikidata.org/entity/Q884",
-            "http://www.wikidata.org/entity/Q902",
-            "http://www.wikidata.org/entity/Q928",
-            "http://www.wikidata.org/entity/Q954",
-            "http://www.wikidata.org/entity/Q974",
-            "http://www.wikidata.org/entity/Q1033",
-            "http://www.wikidata.org/entity/Q159583"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -4725,7 +4401,58 @@
             "http://www.wikidata.org/entity/Q233360",
             "Second Battle of Corinth"
         ],
-        "result": [],
+        "result": [
+            "http://www.wikidata.org/entity/Q1392",
+            "Battle of Nieuwpoort",
+            "http://www.wikidata.org/entity/Q323735",
+            "Battle of Warksow",
+            "http://www.wikidata.org/entity/Q4373",
+            "Battle of White Mountain",
+            "http://www.wikidata.org/entity/Q129117",
+            "Battle of Kitcheners' Wood",
+            "http://www.wikidata.org/entity/Q257137",
+            "Battle of Newtownmountkennedy",
+            "http://www.wikidata.org/entity/Q252698",
+            "Battle of Wesenberg",
+            "http://www.wikidata.org/entity/Q135468",
+            "Battle of Haw's Shop",
+            "http://www.wikidata.org/entity/Q192660",
+            "Battle of Okinawa",
+            "http://www.wikidata.org/entity/Q325602",
+            "First Battle of Nanawa",
+            "http://www.wikidata.org/entity/Q248712",
+            "Battle of Komar\u00f3w",
+            "http://www.wikidata.org/entity/Q250309",
+            "Battle of Tarawa",
+            "http://www.wikidata.org/entity/Q327044",
+            "Operation Nordwind",
+            "http://www.wikidata.org/entity/Q151290",
+            "Battle of Moscow",
+            "http://www.wikidata.org/entity/Q29730",
+            "Siege of Antwerp",
+            "http://www.wikidata.org/entity/Q140439",
+            "Battle of Markusz\u00f3w",
+            "http://www.wikidata.org/entity/Q349968",
+            "Zawiya skirmish",
+            "http://www.wikidata.org/entity/Q33570",
+            "Battle of Grunwald",
+            "http://www.wikidata.org/entity/Q281850",
+            "Battle of Stanwix Station",
+            "http://www.wikidata.org/entity/Q152295",
+            "Battle of Worringen",
+            "http://www.wikidata.org/entity/Q303953",
+            "Beit Hanoun wedge",
+            "http://www.wikidata.org/entity/Q371476",
+            "Operation Scorch Sword",
+            "http://www.wikidata.org/entity/Q208694",
+            "Sino-Indian War",
+            "http://www.wikidata.org/entity/Q316604",
+            "Battle of Welfesholz",
+            "http://www.wikidata.org/entity/Q301487",
+            "Battle of Brandywine",
+            "http://www.wikidata.org/entity/Q302519",
+            "Battle of Adwa"
+        ],
         "precision": 0.08,
         "recall": 0.08,
         "f1": 0.08
@@ -4918,11 +4645,11 @@
             "G/GoldRush1925"
         ],
         "result": [
-            "7"
+            "G/GoldRush1925"
         ],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 783,
@@ -4953,10 +4680,12 @@
         "answer": [
             "http://www.wikidata.org/entity/Q5627"
         ],
-        "result": [],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "result": [
+            "http://www.wikidata.org/entity/Q5627"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 786,
@@ -4985,9 +4714,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q21158994"
         ],
-        "result": [
-            "george-blanda"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5011,10 +4738,7 @@
         "answer": [
             "3"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q18419",
-            "http://www.wikidata.org/entity/Q188605"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5034,12 +4758,10 @@
         "answer": [
             "http://www.wikidata.org/entity/Q13261"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q13261"
-        ],
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0
+        "result": [],
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
     },
     {
         "qid": 793,
@@ -5076,7 +4798,7 @@
             "8637"
         ],
         "result": [
-            "0"
+            "1"
         ],
         "precision": 1e-40,
         "recall": 1.6666666666666665e-41,
@@ -5099,9 +4821,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q2189"
         ],
-        "result": [
-            "n88615834"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5114,14 +4834,10 @@
             "http://www.wikidata.org/entity/Q9369502",
             "http://www.wikidata.org/entity/Q31888920"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q128896",
-            "http://www.wikidata.org/entity/Q248",
-            "http://www.wikidata.org/entity/Q37156"
-        ],
-        "precision": 0.009433962264150943,
-        "recall": 1.0,
-        "f1": 0.018691588785046728
+        "result": [],
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
     },
     {
         "qid": 799,
@@ -5181,10 +4897,7 @@
             "http://www.wikidata.org/entity/Q14353100",
             "http://www.wikidata.org/entity/Q15325702"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q5904834",
-            "http://www.wikidata.org/entity/Q47492656"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5195,12 +4908,11 @@
             "+1-866-418-0232"
         ],
         "result": [
-            "http://www.wikidata.org/entity/Q5904834",
-            "http://www.wikidata.org/entity/Q47492656"
+            "+1-866-418-0232"
         ],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 805,
@@ -5232,20 +4944,18 @@
             "http://www.wikidata.org/entity/Q112165465"
         ],
         "result": [
-            "2075"
+            "http://www.wikidata.org/entity/Q112165465"
         ],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 808,
         "answer": [
             "1800-02-17T00:00:00Z"
         ],
-        "result": [
-            "2075"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5256,9 +4966,9 @@
             "http://www.wikidata.org/entity/Q61002"
         ],
         "result": [],
-        "precision": 3.333333333333333e-41,
-        "recall": 1e-40,
-        "f1": 5e-41
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
     },
     {
         "qid": 810,
@@ -5298,9 +5008,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q1340196"
         ],
-        "result": [
-            "17"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5313,10 +5021,15 @@
             "http://www.wikidata.org/entity/Q5583848",
             "http://www.wikidata.org/entity/Q6822266"
         ],
-        "result": [],
-        "precision": 0.3333333333333333,
+        "result": [
+            "http://www.wikidata.org/entity/Q821542",
+            "http://www.wikidata.org/entity/Q4810015",
+            "http://www.wikidata.org/entity/Q5583848",
+            "http://www.wikidata.org/entity/Q6822266"
+        ],
+        "precision": 1.0,
         "recall": 1.0,
-        "f1": 0.5
+        "f1": 1.0
     },
     {
         "qid": 815,
@@ -5357,10 +5070,12 @@
         "answer": [
             "240E33900CE34D44"
         ],
-        "result": [],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "result": [
+            "240E33900CE34D44"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 819,
@@ -5388,6 +5103,12 @@
         ],
         "result": [
             "http://www.wikidata.org/entity/Q435163",
+            "http://www.wikidata.org/entity/Q435163",
+            "http://www.wikidata.org/entity/Q587621",
+            "http://www.wikidata.org/entity/Q435163",
+            "http://www.wikidata.org/entity/Q435163",
+            "http://www.wikidata.org/entity/Q587621",
+            "http://www.wikidata.org/entity/Q587621",
             "http://www.wikidata.org/entity/Q587621"
         ],
         "precision": 1.0,
@@ -5401,33 +5122,29 @@
             "1950-01-01T00:00:00Z"
         ],
         "result": [
-            "http://www.wikidata.org/entity/Q435163",
-            "http://www.wikidata.org/entity/Q587621"
-        ],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
-    },
-    {
-        "qid": 821,
-        "answer": [
-            "http://www.wikidata.org/entity/Q208008"
-        ],
-        "result": [
-            "http://www.wikidata.org/entity/Q208008"
+            "1949-01-01T00:00:00Z",
+            "1950-01-01T00:00:00Z"
         ],
         "precision": 1.0,
         "recall": 1.0,
         "f1": 1.0
     },
     {
+        "qid": 821,
+        "answer": [
+            "http://www.wikidata.org/entity/Q208008"
+        ],
+        "result": [],
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
+    },
+    {
         "qid": 822,
         "answer": [
             "http://www.wikidata.org/entity/Q794"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q208008"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5452,10 +5169,7 @@
             "http://www.wikidata.org/entity/Q125421",
             "http://www.wikidata.org/entity/Q36870"
         ],
-        "result": [
-            "1986-01-01T00:00:00Z",
-            "1972-01-01T00:00:00Z"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5588,10 +5302,7 @@
             "http://www.wikidata.org/entity/Q123700330",
             "http://www.wikidata.org/entity/Q124803013"
         ],
-        "result": [
-            "1986-01-01T00:00:00Z",
-            "1972-01-01T00:00:00Z"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5613,9 +5324,7 @@
         "answer": [
             "2014-01-01T00:00:00Z"
         ],
-        "result": [
-            "j/Joyce_JA/lifes/life1"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5625,9 +5334,7 @@
         "answer": [
             "207.14"
         ],
-        "result": [
-            "j/Joyce_JA/lifes/life1"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5650,9 +5357,7 @@
             "http://www.wikidata.org/entity/Q170075",
             "http://www.wikidata.org/entity/Q47423"
         ],
-        "result": [
-            "T3604"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5662,9 +5367,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q1400521"
         ],
-        "result": [
-            "T3604"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5709,9 +5412,7 @@
         "answer": [
             "3"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q3674815"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5913,10 +5614,150 @@
             "http://www.wikidata.org/entity/Q550449",
             "http://www.wikidata.org/entity/Q3142173"
         ],
-        "result": [],
-        "precision": 1.6666666666666665e-41,
-        "recall": 1.020408163265306e-42,
-        "f1": 1.923076923076923e-42
+        "result": [
+            "http://www.wikidata.org/entity/Q7934",
+            "http://www.wikidata.org/entity/Q26116",
+            "http://www.wikidata.org/entity/Q34660",
+            "http://www.wikidata.org/entity/Q34981",
+            "http://www.wikidata.org/entity/Q47087",
+            "http://www.wikidata.org/entity/Q123078",
+            "http://www.wikidata.org/entity/Q130779",
+            "http://www.wikidata.org/entity/Q171091",
+            "http://www.wikidata.org/entity/Q181659",
+            "http://www.wikidata.org/entity/Q188987",
+            "http://www.wikidata.org/entity/Q210059",
+            "http://www.wikidata.org/entity/Q217110",
+            "http://www.wikidata.org/entity/Q229369",
+            "http://www.wikidata.org/entity/Q232772",
+            "http://www.wikidata.org/entity/Q234030",
+            "http://www.wikidata.org/entity/Q234700",
+            "http://www.wikidata.org/entity/Q240786",
+            "http://www.wikidata.org/entity/Q242162",
+            "http://www.wikidata.org/entity/Q248867",
+            "http://www.wikidata.org/entity/Q260560",
+            "http://www.wikidata.org/entity/Q268371",
+            "http://www.wikidata.org/entity/Q277308",
+            "http://www.wikidata.org/entity/Q286116",
+            "http://www.wikidata.org/entity/Q294625",
+            "http://www.wikidata.org/entity/Q295406",
+            "http://www.wikidata.org/entity/Q296256",
+            "http://www.wikidata.org/entity/Q297538",
+            "http://www.wikidata.org/entity/Q312405",
+            "http://www.wikidata.org/entity/Q312641",
+            "http://www.wikidata.org/entity/Q312853",
+            "http://www.wikidata.org/entity/Q313185",
+            "http://www.wikidata.org/entity/Q313466",
+            "http://www.wikidata.org/entity/Q315069",
+            "http://www.wikidata.org/entity/Q316610",
+            "http://www.wikidata.org/entity/Q319196",
+            "http://www.wikidata.org/entity/Q347461",
+            "http://www.wikidata.org/entity/Q357839",
+            "http://www.wikidata.org/entity/Q362742",
+            "http://www.wikidata.org/entity/Q378807",
+            "http://www.wikidata.org/entity/Q438330",
+            "http://www.wikidata.org/entity/Q607588",
+            "http://www.wikidata.org/entity/Q715256",
+            "http://www.wikidata.org/entity/Q1760899",
+            "http://www.wikidata.org/entity/Q2427544",
+            "http://www.wikidata.org/entity/Q4225496",
+            "http://www.wikidata.org/entity/Q6774606",
+            "http://www.wikidata.org/entity/Q7901282",
+            "http://www.wikidata.org/entity/Q16204354",
+            "http://www.wikidata.org/entity/Q58640138",
+            "http://www.wikidata.org/entity/Q123701317",
+            "http://www.wikidata.org/entity/Q892",
+            "http://www.wikidata.org/entity/Q34660",
+            "http://www.wikidata.org/entity/Q46248",
+            "http://www.wikidata.org/entity/Q123078",
+            "http://www.wikidata.org/entity/Q181659",
+            "http://www.wikidata.org/entity/Q181677",
+            "http://www.wikidata.org/entity/Q210059",
+            "http://www.wikidata.org/entity/Q217110",
+            "http://www.wikidata.org/entity/Q229369",
+            "http://www.wikidata.org/entity/Q242643",
+            "http://www.wikidata.org/entity/Q268755",
+            "http://www.wikidata.org/entity/Q285007",
+            "http://www.wikidata.org/entity/Q295406",
+            "http://www.wikidata.org/entity/Q314553",
+            "http://www.wikidata.org/entity/Q319196",
+            "http://www.wikidata.org/entity/Q345249",
+            "http://www.wikidata.org/entity/Q361149",
+            "http://www.wikidata.org/entity/Q363810",
+            "http://www.wikidata.org/entity/Q433291",
+            "http://www.wikidata.org/entity/Q450737",
+            "http://www.wikidata.org/entity/Q465179",
+            "http://www.wikidata.org/entity/Q465851",
+            "http://www.wikidata.org/entity/Q953288",
+            "http://www.wikidata.org/entity/Q2427544",
+            "http://www.wikidata.org/entity/Q3476794",
+            "http://www.wikidata.org/entity/Q5084448",
+            "http://www.wikidata.org/entity/Q6774606",
+            "http://www.wikidata.org/entity/Q50379894",
+            "http://www.wikidata.org/entity/Q53411010",
+            "http://www.wikidata.org/entity/Q34981",
+            "http://www.wikidata.org/entity/Q40640",
+            "http://www.wikidata.org/entity/Q47087",
+            "http://www.wikidata.org/entity/Q123078",
+            "http://www.wikidata.org/entity/Q181659",
+            "http://www.wikidata.org/entity/Q188987",
+            "http://www.wikidata.org/entity/Q220883",
+            "http://www.wikidata.org/entity/Q229369",
+            "http://www.wikidata.org/entity/Q233046",
+            "http://www.wikidata.org/entity/Q234030",
+            "http://www.wikidata.org/entity/Q234700",
+            "http://www.wikidata.org/entity/Q235899",
+            "http://www.wikidata.org/entity/Q238702",
+            "http://www.wikidata.org/entity/Q270204",
+            "http://www.wikidata.org/entity/Q285007",
+            "http://www.wikidata.org/entity/Q286116",
+            "http://www.wikidata.org/entity/Q294625",
+            "http://www.wikidata.org/entity/Q296256",
+            "http://www.wikidata.org/entity/Q298234",
+            "http://www.wikidata.org/entity/Q311253",
+            "http://www.wikidata.org/entity/Q312632",
+            "http://www.wikidata.org/entity/Q312641",
+            "http://www.wikidata.org/entity/Q313185",
+            "http://www.wikidata.org/entity/Q314553",
+            "http://www.wikidata.org/entity/Q315059",
+            "http://www.wikidata.org/entity/Q316138",
+            "http://www.wikidata.org/entity/Q316313",
+            "http://www.wikidata.org/entity/Q316610",
+            "http://www.wikidata.org/entity/Q316788",
+            "http://www.wikidata.org/entity/Q347461",
+            "http://www.wikidata.org/entity/Q361149",
+            "http://www.wikidata.org/entity/Q438164",
+            "http://www.wikidata.org/entity/Q453329",
+            "http://www.wikidata.org/entity/Q489193",
+            "http://www.wikidata.org/entity/Q534599",
+            "http://www.wikidata.org/entity/Q684748",
+            "http://www.wikidata.org/entity/Q715505",
+            "http://www.wikidata.org/entity/Q2394387",
+            "http://www.wikidata.org/entity/Q181659",
+            "http://www.wikidata.org/entity/Q220883",
+            "http://www.wikidata.org/entity/Q34981",
+            "http://www.wikidata.org/entity/Q40640",
+            "http://www.wikidata.org/entity/Q123078",
+            "http://www.wikidata.org/entity/Q298242",
+            "http://www.wikidata.org/entity/Q313185",
+            "http://www.wikidata.org/entity/Q315059",
+            "http://www.wikidata.org/entity/Q453410",
+            "http://www.wikidata.org/entity/Q2908",
+            "http://www.wikidata.org/entity/Q3335",
+            "http://www.wikidata.org/entity/Q123078",
+            "http://www.wikidata.org/entity/Q240253",
+            "http://www.wikidata.org/entity/Q248867",
+            "http://www.wikidata.org/entity/Q435056",
+            "http://www.wikidata.org/entity/Q34981",
+            "http://www.wikidata.org/entity/Q123078",
+            "http://www.wikidata.org/entity/Q248867",
+            "http://www.wikidata.org/entity/Q294625",
+            "http://www.wikidata.org/entity/Q376859",
+            "http://www.wikidata.org/entity/Q550449",
+            "http://www.wikidata.org/entity/Q3142173"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 840,
@@ -5945,9 +5786,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q22230899"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q1674029"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5957,9 +5796,7 @@
         "answer": [
             "18.0.0.0/8"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q1674029"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5981,9 +5818,7 @@
         "answer": [
             "1989-01-01T00:00:00Z"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q408"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -5994,9 +5829,7 @@
             "http://www.wikidata.org/entity/Q660051",
             "http://www.wikidata.org/entity/Q2695156"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q408"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -6007,11 +5840,11 @@
             "http://www.wikidata.org/entity/Q23308"
         ],
         "result": [
-            "http://www.wikidata.org/entity/Q408"
+            "http://www.wikidata.org/entity/Q23308"
         ],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 848,
@@ -6038,7 +5871,9 @@
             "http://www.wikidata.org/entity/Q15680807",
             "http://www.wikidata.org/entity/Q38352698"
         ],
-        "result": [],
+        "result": [
+            "http://www.wikidata.org/entity/Q212115"
+        ],
         "precision": 1e-40,
         "recall": 1.1111111111111111e-41,
         "f1": 1.9999999999999998e-41
@@ -6081,9 +5916,7 @@
         "answer": [
             "1353-01-01T00:00:00Z"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q919641"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -6096,9 +5929,7 @@
             "http://www.wikidata.org/entity/Q21405589",
             "http://www.wikidata.org/entity/Q2671955"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q919641"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -6121,9 +5952,7 @@
             "http://www.wikidata.org/entity/Q488651",
             "http://www.wikidata.org/entity/Q488651"
         ],
-        "result": [
-            "1984-01-01T00:00:00Z"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -6176,10 +6005,12 @@
         "answer": [
             "http://www.wikidata.org/entity/Q1054844"
         ],
-        "result": [],
-        "precision": 0.5,
+        "result": [
+            "http://www.wikidata.org/entity/Q1054844"
+        ],
+        "precision": 1.0,
         "recall": 1.0,
-        "f1": 0.6666666666666666
+        "f1": 1.0
     },
     {
         "qid": 862,
@@ -6188,10 +6019,14 @@
             "2004-01-01T00:00:00Z",
             "1986-01-01T00:00:00Z"
         ],
-        "result": [],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "result": [
+            "2002-01-01T00:00:00Z",
+            "2004-01-01T00:00:00Z",
+            "1986-01-01T00:00:00Z"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     },
     {
         "qid": 863,
@@ -6237,15 +6072,10 @@
             "http://www.wikidata.org/entity/Q2076167",
             "Warrensville Heights"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q140006",
-            "Westlake",
-            "http://www.wikidata.org/entity/Q2076167",
-            "Warrensville Heights"
-        ],
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0
+        "result": [],
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
     },
     {
         "qid": 867,
@@ -6308,14 +6138,7 @@
             "682513",
             "686986"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q686488",
-            "Weltmuseum Wien",
-            "http://www.wikidata.org/entity/Q638493",
-            "KunstHausWien",
-            "http://www.wikidata.org/entity/Q635399",
-            "Architekturzentrum Wien"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -6349,9 +6172,7 @@
         "answer": [
             "33"
         ],
-        "result": [
-            "636"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -6401,10 +6222,7 @@
         "answer": [
             "http://www.wikidata.org/entity/Q16736534"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q28381982",
-            "http://www.wikidata.org/entity/Q91574962"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -6452,9 +6270,7 @@
         "answer": [
             "63829"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q1507074"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -6906,406 +6722,6 @@
             "http://www.wikidata.org/entity/Q27271958"
         ],
         "result": [
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q408557",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q408557",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q408557",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q408557",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q408557",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q408557",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q408557",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q408557",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q408557",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q408557",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q408557",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q408557",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q408557",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q410551",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q410551",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q410551",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q410551",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q410551",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q410551",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q410551",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q410551",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q410551",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q410551",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q410551",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q410551",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q410551",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q420056",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q420056",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q420056",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q420056",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q420056",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q420056",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q420056",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q420056",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q420056",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q420056",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q420056",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q420056",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q420056",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q421862",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q421862",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q421862",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q421862",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q421862",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q421862",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q421862",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q421862",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q421862",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q421862",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q421862",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q421862",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q421862",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q422618",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q422618",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q422618",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q422618",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q422618",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q422618",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q422618",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q422618",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q422618",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q422618",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q422618",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q422618",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q422618",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q2502747",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q2502747",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q2502747",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q2502747",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q2502747",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q2502747",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q2502747",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q2502747",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q2502747",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q2502747",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q2502747",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q2502747",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q2502747",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q5207712",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q5207712",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q5207712",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q5207712",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q5207712",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q5207712",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q5207712",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q5207712",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q5207712",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q5207712",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q5207712",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q5207712",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q5207712",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q7160789",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q7160789",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q7160789",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q7160789",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q7160789",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q7160789",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q7160789",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q7160789",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q7160789",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q7160789",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q7160789",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q7160789",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q7160789",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q7517689",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q7517689",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q7517689",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q7517689",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q7517689",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q7517689",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q7517689",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q7517689",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q7517689",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q7517689",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q7517689",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q7517689",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q7517689",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q15409409",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q15409409",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q15409409",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q15409409",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q15409409",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q15409409",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q15409409",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q15409409",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q15409409",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q15409409",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q15409409",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q15409409",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q15409409",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q19597688",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q19597688",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q19597688",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q19597688",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q19597688",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q19597688",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q19597688",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q19597688",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q19597688",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q19597688",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q19597688",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q19597688",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q19597688",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q19786991",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q19786991",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q19786991",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q19786991",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q19786991",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q19786991",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q19786991",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q19786991",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q19786991",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q19786991",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q19786991",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q19786991",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q19786991",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q19858657",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q19858657",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q19858657",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q19858657",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q19858657",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q19858657",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q19858657",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q19858657",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q19858657",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q19858657",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q19858657",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q19858657",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q19858657",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q22673321",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q22673321",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q22673321",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q22673321",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q22673321",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q22673321",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q22673321",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q22673321",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q22673321",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q22673321",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q22673321",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q22673321",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q22673321",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q25110523",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q25110523",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q25110523",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q25110523",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q25110523",
-            "http://www.wikidata.org/entity/Q133244",
-            "http://www.wikidata.org/entity/Q25110523",
-            "http://www.wikidata.org/entity/Q147778",
-            "http://www.wikidata.org/entity/Q25110523",
-            "http://www.wikidata.org/entity/Q183425",
-            "http://www.wikidata.org/entity/Q25110523",
-            "http://www.wikidata.org/entity/Q186889",
-            "http://www.wikidata.org/entity/Q25110523",
-            "http://www.wikidata.org/entity/Q193889",
-            "http://www.wikidata.org/entity/Q25110523",
-            "http://www.wikidata.org/entity/Q254327",
-            "http://www.wikidata.org/entity/Q25110523",
-            "http://www.wikidata.org/entity/Q683498",
-            "http://www.wikidata.org/entity/Q25110523",
-            "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q25110523",
-            "http://www.wikidata.org/entity/Q9690",
-            "http://www.wikidata.org/entity/Q27271958",
-            "http://www.wikidata.org/entity/Q12078",
-            "http://www.wikidata.org/entity/Q27271958",
-            "http://www.wikidata.org/entity/Q124604",
-            "http://www.wikidata.org/entity/Q27271958",
-            "http://www.wikidata.org/entity/Q127076",
-            "http://www.wikidata.org/entity/Q27271958",
-            "http://www.wikidata.org/entity/Q131742",
-            "http://www.wikidata.org/entity/Q27271958",
             "http://www.wikidata.org/entity/Q133244",
             "http://www.wikidata.org/entity/Q27271958",
             "http://www.wikidata.org/entity/Q147778",
@@ -7347,7 +6763,407 @@
             "http://www.wikidata.org/entity/Q683498",
             "http://www.wikidata.org/entity/Q39048038",
             "http://www.wikidata.org/entity/Q1035226",
-            "http://www.wikidata.org/entity/Q39048038"
+            "http://www.wikidata.org/entity/Q39048038",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q408557",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q408557",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q408557",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q408557",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q408557",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q408557",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q408557",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q408557",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q408557",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q408557",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q408557",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q408557",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q408557",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q410551",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q410551",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q410551",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q410551",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q410551",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q410551",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q410551",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q410551",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q410551",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q410551",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q410551",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q410551",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q410551",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q420056",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q420056",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q420056",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q420056",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q420056",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q420056",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q420056",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q420056",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q420056",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q420056",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q420056",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q420056",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q420056",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q421862",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q421862",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q421862",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q421862",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q421862",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q421862",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q421862",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q421862",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q421862",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q421862",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q421862",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q421862",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q421862",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q422618",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q422618",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q422618",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q422618",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q422618",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q422618",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q422618",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q422618",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q422618",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q422618",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q422618",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q422618",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q422618",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q2502747",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q2502747",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q2502747",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q2502747",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q2502747",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q2502747",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q2502747",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q2502747",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q2502747",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q2502747",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q2502747",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q2502747",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q2502747",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q5207712",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q5207712",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q5207712",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q5207712",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q5207712",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q5207712",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q5207712",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q5207712",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q5207712",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q5207712",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q5207712",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q5207712",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q5207712",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q7160789",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q7160789",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q7160789",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q7160789",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q7160789",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q7160789",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q7160789",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q7160789",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q7160789",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q7160789",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q7160789",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q7160789",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q7160789",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q7517689",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q7517689",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q7517689",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q7517689",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q7517689",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q7517689",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q7517689",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q7517689",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q7517689",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q7517689",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q7517689",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q7517689",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q7517689",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q15409409",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q15409409",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q15409409",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q15409409",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q15409409",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q15409409",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q15409409",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q15409409",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q15409409",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q15409409",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q15409409",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q15409409",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q15409409",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q19597688",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q19597688",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q19597688",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q19597688",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q19597688",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q19597688",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q19597688",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q19597688",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q19597688",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q19597688",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q19597688",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q19597688",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q19597688",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q19786991",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q19786991",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q19786991",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q19786991",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q19786991",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q19786991",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q19786991",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q19786991",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q19786991",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q19786991",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q19786991",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q19786991",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q19786991",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q19858657",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q19858657",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q19858657",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q19858657",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q19858657",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q19858657",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q19858657",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q19858657",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q19858657",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q19858657",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q19858657",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q19858657",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q19858657",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q22673321",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q22673321",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q22673321",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q22673321",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q22673321",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q22673321",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q22673321",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q22673321",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q22673321",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q22673321",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q22673321",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q22673321",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q22673321",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q25110523",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q25110523",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q25110523",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q25110523",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q25110523",
+            "http://www.wikidata.org/entity/Q133244",
+            "http://www.wikidata.org/entity/Q25110523",
+            "http://www.wikidata.org/entity/Q147778",
+            "http://www.wikidata.org/entity/Q25110523",
+            "http://www.wikidata.org/entity/Q183425",
+            "http://www.wikidata.org/entity/Q25110523",
+            "http://www.wikidata.org/entity/Q186889",
+            "http://www.wikidata.org/entity/Q25110523",
+            "http://www.wikidata.org/entity/Q193889",
+            "http://www.wikidata.org/entity/Q25110523",
+            "http://www.wikidata.org/entity/Q254327",
+            "http://www.wikidata.org/entity/Q25110523",
+            "http://www.wikidata.org/entity/Q683498",
+            "http://www.wikidata.org/entity/Q25110523",
+            "http://www.wikidata.org/entity/Q1035226",
+            "http://www.wikidata.org/entity/Q25110523",
+            "http://www.wikidata.org/entity/Q9690",
+            "http://www.wikidata.org/entity/Q27271958",
+            "http://www.wikidata.org/entity/Q12078",
+            "http://www.wikidata.org/entity/Q27271958",
+            "http://www.wikidata.org/entity/Q124604",
+            "http://www.wikidata.org/entity/Q27271958",
+            "http://www.wikidata.org/entity/Q127076",
+            "http://www.wikidata.org/entity/Q27271958",
+            "http://www.wikidata.org/entity/Q131742",
+            "http://www.wikidata.org/entity/Q27271958"
         ],
         "precision": 1.0,
         "recall": 1.0,
@@ -7453,60 +7269,60 @@
             "Warcraft: Lord of the Clans"
         ],
         "result": [
-            "http://www.wikidata.org/entity/Q639493",
-            "History of the Peloponnesian War",
-            "http://www.wikidata.org/entity/Q115657185",
-            "Between toleration policy and combatting crime. Homosexual persecution by the Berlin police from 1848 to 1933",
-            "http://www.wikidata.org/entity/Q115657436",
-            "Enchanted in North-East. The history of Berlin lesbians and gays in Prenzlauer Berg, Pankow and Wei\u00dfensee",
-            "http://www.wikidata.org/entity/Q115658706",
-            "Maike Nowak",
-            "http://www.wikidata.org/entity/Q115658732",
-            "Horst Buchholz, the \"Young rowdy\" of Prenzlauer Berg",
-            "http://www.wikidata.org/entity/Q115658713",
-            "Art locality Pankow: Six examples",
-            "http://www.wikidata.org/entity/Q115658710",
-            "foreword of Enchanted in North-East",
-            "http://www.wikidata.org/entity/Q115658698",
-            "The interdisciplinary working group \"Homosexuality\" at the HU Berlin",
-            "http://www.wikidata.org/entity/Q115658725",
-            "Workshop: Psychosocial aspects of homosexuality",
-            "http://www.wikidata.org/entity/Q115658705",
-            "Peter Waschinsky",
-            "http://www.wikidata.org/entity/Q115658740",
-            "\"In him, nature created the famous third gender\" \u2013 Gerda von Zobeltitz, a transvestite from Wei\u00dfensee",
-            "http://www.wikidata.org/entity/Q115658742",
-            "The movement of the Weimar Republic begins in Pankow",
-            "http://www.wikidata.org/entity/Q115658730",
-            "\"Taking a bar away from the hets\"",
-            "http://www.wikidata.org/entity/Q115658712",
-            "Enchanted in Pankow",
-            "http://www.wikidata.org/entity/Q115658743",
-            "Publishers in Pankow, Wei\u00dfensee and Prenzlauer Berg",
-            "http://www.wikidata.org/entity/Q115658745",
-            "Search for traces at Wei\u00dfensee cemetery",
-            "http://www.wikidata.org/entity/Q115658746",
-            "Wei\u00dfensee \u2013 the different borough",
-            "http://www.wikidata.org/entity/Q115658716",
-            "EWA - or the story with the apple",
-            "http://www.wikidata.org/entity/Q115658738",
-            "The Golden Twenties were somewhere else",
-            "http://www.wikidata.org/entity/Q115658737",
-            "K\u00e4the Kollwitz",
-            "http://www.wikidata.org/entity/Q130225205",
-            "The First Fifty Years: a history of Western Michigan College of Education, 1903-1953",
-            "http://www.wikidata.org/entity/Q131448546",
-            "Hunzenschwil: Von der Urzeit bis zur Gegenwart",
-            "http://www.wikidata.org/entity/Q131822595",
-            "Jews and Ukrainians in Russia\u2019s Literary Borderlands: From the Shtetl Fair to the Petersburg Bookshop",
-            "http://www.wikidata.org/entity/Q132132155",
-            "William Morris and the Society for the Protection of Ancient Buildings",
-            "http://www.wikidata.org/entity/Q115682356",
-            "A house turns 100. Berlin-Pankow City Hall 1903-2003"
+            "http://www.wikidata.org/entity/Q38564",
+            "The Warlock: The Secrets of the Immortal Nicholas Flamel",
+            "http://www.wikidata.org/entity/Q137629",
+            "Tomorrow, When the War Began",
+            "http://www.wikidata.org/entity/Q204780",
+            "The Warden of the Tomb",
+            "http://www.wikidata.org/entity/Q205521",
+            "Vita \u00c6dwardi Regis",
+            "http://www.wikidata.org/entity/Q55285",
+            "Star Wars Galaxies: The Ruins of Dantooine",
+            "http://www.wikidata.org/entity/Q63998",
+            "War and Remembrance",
+            "http://www.wikidata.org/entity/Q64095",
+            "The Winds of War",
+            "http://www.wikidata.org/entity/Q161531",
+            "War and Peace",
+            "http://www.wikidata.org/entity/Q1018108",
+            "The Chocolate War",
+            "http://www.wikidata.org/entity/Q28172",
+            "World War Z",
+            "http://www.wikidata.org/entity/Q209788",
+            "The Second World War",
+            "http://www.wikidata.org/entity/Q195219",
+            "Edward II",
+            "http://www.wikidata.org/entity/Q1039475",
+            "The End of America: Letter of Warning to a Young Patriot",
+            "http://www.wikidata.org/entity/Q1040297",
+            "The Trojan War Will Not Take Place",
+            "http://www.wikidata.org/entity/Q1030518",
+            "Sun Bin's Art of War",
+            "http://www.wikidata.org/entity/Q213019",
+            "The War of the Worlds",
+            "http://www.wikidata.org/entity/Q500038",
+            "Star Wars: The Old Republic: Revan",
+            "http://www.wikidata.org/entity/Q500952",
+            "Star Wars: The Old Republic: Fatal Alliance",
+            "http://www.wikidata.org/entity/Q1056887",
+            "The War with the Fnools",
+            "http://www.wikidata.org/entity/Q528891",
+            "Anecdote from the last Prussian war",
+            "http://www.wikidata.org/entity/Q1170399",
+            "The Looking Glass Wars",
+            "http://www.wikidata.org/entity/Q544256",
+            "Schweik in the Second World War",
+            "http://www.wikidata.org/entity/Q543844",
+            "The Case of Charles Dexter Ward",
+            "http://www.wikidata.org/entity/Q1192034",
+            "Star Wars Episode II: Attack of the Clones",
+            "http://www.wikidata.org/entity/Q1099084",
+            "Storm Warning"
         ],
-        "precision": 0.88,
-        "recall": 0.88,
-        "f1": 0.88
+        "precision": 0.68,
+        "recall": 0.68,
+        "f1": 0.68
     },
     {
         "qid": 887,
@@ -7537,21 +7353,17 @@
         "answer": [
             "http://www.wikidata.org/entity/Q167510"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q167510"
-        ],
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0
+        "result": [],
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
     },
     {
         "qid": 890,
         "answer": [
             "http://www.wikidata.org/entity/Q647574"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q167510"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -7563,9 +7375,7 @@
             "http://www.wikidata.org/entity/Q1677530",
             "http://www.wikidata.org/entity/Q49135"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q167510"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -7578,6 +7388,12 @@
         ],
         "result": [
             "http://www.wikidata.org/entity/Q162606",
+            "http://www.wikidata.org/entity/Q162606",
+            "http://www.wikidata.org/entity/Q1207969",
+            "http://www.wikidata.org/entity/Q162606",
+            "http://www.wikidata.org/entity/Q162606",
+            "http://www.wikidata.org/entity/Q1207969",
+            "http://www.wikidata.org/entity/Q1207969",
             "http://www.wikidata.org/entity/Q1207969"
         ],
         "precision": 1.0,
@@ -7589,10 +7405,7 @@
         "answer": [
             "7"
         ],
-        "result": [
-            "http://www.wikidata.org/entity/Q162606",
-            "http://www.wikidata.org/entity/Q1207969"
-        ],
+        "result": [],
         "precision": 0,
         "recall": 0,
         "f1": 0
@@ -7647,9 +7460,9 @@
             "1"
         ],
         "result": [],
-        "precision": 1e-40,
-        "recall": 1e-40,
-        "f1": 1e-40
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
     },
     {
         "qid": 898,
@@ -7680,10 +7493,10 @@
             "http://www.wikidata.org/entity/Q21013651"
         ],
         "result": [
-            "http://www.wikidata.org/entity/Q389750"
+            "http://www.wikidata.org/entity/Q21013651"
         ],
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
     }
 ]
