@@ -1,4 +1,4 @@
-# Xây dựng ứng dụng trả lời câu hỏi trên đồ thị tri thức sử dụng mô hình ngôn ngữ lớn
+# XÂY DỰNG ỨNG DỤNG TRẢ LỜI CÂU HỎI TRÊN DỮ LIỆU WIKIMEDIA SỬ DỤNG MÔ HÌNH LLaMA
 
 ## 1. Giới thiệu
 
