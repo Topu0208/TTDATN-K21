@@ -19,7 +19,7 @@
 
 ## 2. Mô tả đề tài
 
-Đồ án tập trung vào việc xây dựng một hệ thống trả lời câu hỏi dựa trên đồ thị tri thức Wikidata, kết hợp với mô hình ngôn ngữ lớn (LLM). Hệ thống sẽ tiếp nhận câu hỏi từ người dùng, chuyển đổi thành biểu mẫu logic tương ứng, sau đó thực hiện quá trình truy vấn để tìm thực thể và quan hệ phù hợp tìm ra câu truy vấn SPARQL cuối cùng để truy vân dữ liệu từ Wikidata và trả về câu trả lời phù hợp.
+Đồ án tập trung vào việc xây dựng một hệ thống trả lời câu hỏi dựa trên đồ thị tri thức Wikidata, kết hợp với mô hình ngôn ngữ lớn (LLM). Hệ thống sẽ tiếp nhận câu hỏi từ người dùng, chuyển đổi thành biểu mẫu logic tương ứng, sau đó thực hiện quá trình truy vấn để tìm thực thể và quan hệ phù hợp tìm ra câu truy vấn SPARQL cuối cùng để truy vấn dữ liệu từ Wikidata và trả về câu trả lời phù hợp.
 
 ## 3. Hướng dẫn cài đặt
 
