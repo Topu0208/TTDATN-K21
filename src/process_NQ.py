@@ -11,7 +11,7 @@ def load_json(fname, mode="r", encoding="utf8"):
         return json.load(f)
     
 def load_data(split, args):
-    data_file_name = 'Data/{}/label_map/{}_{}.json'.format(args.dataset_type,args.dataset_type,split)
+    data_file_name = 'Data/{}/final_process/{}_{}.json'.format(args.dataset_type,args.dataset_type,split)
     print('Loading data from:',data_file_name)
     data_dict = load_json(data_file_name)
     return data_dict
@@ -43,8 +43,8 @@ def prepare_dataloader(args,split):
     for cnt, item in tqdm(enumerate(examples)):
         question=item['question_vi']
         input = 'Question: { '+question+' }'       
-        output = item['nor_s_expr_vi']
-        json_data.append({"instruction":instruction,"input":input,"output":output})
+        output = item['nor_s_expr']
+        json_data.append({"instruction":instruction,"input":input,"output":output,"history":[]})
                
     
     output_dir = 'LLMs/Data/{}_Wikidata_NQ_{}/examples.json'.format(args.dataset_type, split)
@@ -62,5 +62,6 @@ if __name__=='__main__':
     print(args)
     prepare_dataloader(args,'train')
     prepare_dataloader(args, 'test')
+    prepare_dataloader(args, 'dev')
     print('Finished')
 

@@ -2,25 +2,24 @@
 
  [1] TIỀN XỬ LÍ DỮ LIỆU
 Thực hiện ở thư mục "Data":
-	1.1 Dịch câu hỏi sang tiếng Việt: 
-	- Run all "translate.ipynb" tập dữ liệu được dịch sẽ lưu tại "LC-QuAD2.0/translate/".
-	1.2 Lọc lại tập dữ liệu:
+	1.1 Tạo thuộc tính "s_expr" từ thuộc tính "sparql": 
+	- Run all "sparql_to_sexpression.ipynb" tập dữ liệu được dịch sẽ lưu tại "LC-QuAD2.0/s_expression/".
+	1.2 Truy vấn trên Wikidata để lấy kết quả, lọc lại câu không cho ra kết quả, tạo thược tính ["nor_s_expr","gold_entity_map", "gold_relation_map"]:
 	- Run all "filter.ipynb" tập dữ liệu được dịch sẽ lưu tại "LC-QuAD2.0/filter/".
-	1.3 Tạo thuộc tính "s_expr" từ thuộc tính "sparql":
-	- Run all "sparql_to_sexpr.ipynb" tập dữ liệu mới sẽ lưu tại "LC-QuAD2.0/s_expr/".
-	1.4 Tạo thuộc tính "nor_sexpr" từ thuộc tính "s_expr":
-	- Run all "sexpr_to_nor_sexpr.ipynb" tập dữ liệu mới sẽ lưu tại "LC-QuAD2.0/nor_sexpr/".
-	1.4 Tạo thuộc tính "nor_sexpr_vi" từ thuộc tính "s_expr":
-	- Run all "nor_sexpr_vi.ipynb" tập dữ liệu mới sẽ lưu tại "LC-QuAD2.0/nor_sexpr/".
-	1.5 Tạo danh sách entity_label_map và relation_label_map:
-	- Run all "golden_map.ipynb" tập dữ liệu mới sẽ được lưu tại "LC-QuAD2.0/label_map/".
+	1.3 : Dịch câu hỏi sang tiếng Việt:
+	- Run all "translate.ipynb" tập dữ liệu mới sẽ lưu tại "LC-QuAD2.0/translate/".
+	1.4 Cập nhật thuộc tính "template":
+	- Run all "template_update.ipynb" tập dữ liệu mới sẽ lưu tại "LC-QuAD2.0/template/". Riêng tập test sẽ tiếp tục được lưu tại "LC-QuAD2.0/final_process/".
+	1.5 Chia tập train và tập dev (validation):
+	- Run all "split_validation_data.ipynb", 2 tập dữ liệu mới sẽ lưu tại "LC-QuAD2.0/final_process/".  
  [2] CHUẨN BỊ DỮ LIỆU CHO HUẤN LUYỆN LLM:
-- Chạy lệnh "python process_NQ.py --dataset_type LC-QuAD2.0", dữ liệu sẽ được lưu tại "LLMs\Data\WikiWebQuestions_Wikidata_NQ_test[train]\examples.json.
+- Chạy lệnh "python process_NQ.py --dataset_type LC-QuAD2.0", dữ liệu sẽ được lưu tại "LLMs\Data\LC-QuAD2.0_Wikidata_NQ_test[train][dev]\examples.json.
 
  [3] TINH CHỈNH MÔ HÌNH: Thư mục "LLMs", mô hình sẽ được huấn luyện trên "https://www.kaggle.com/":
-- File notebook được dùng để huấn luyện và model đã huấn luyện được lưu tại "LLMs\LoRA".
-- Tạo dự đoán LOGICAL FORM với LLM bum_beam = 5, mô hình sẽ cho ra 5 kết quả dự đoán input đầu vào. File notebook dùng để tạo dự đoán là "generate_prediction.ipynb" và kết quả dự đoán sự được lưu tại "LLMs\beam_prediction\generated_predictions_beam.json."
-
+- File notebook được dùng để huấn luyện và model đã huấn luyện được lưu tại "LLMs\model".
+- Tạo dự đoán LOGICAL FORM với LLM bum_beam = 5, mô hình sẽ cho ra 5 kết quả dự đoán input đầu vào. File notebook dùng để tạo dự đoán là "generate_prediction.ipynb" và kết quả dự đoán sự được lưu tại "LLMs\beam_prediction\..."
+- Đánh giá giai đoạn tạo biểu diễn logic bằng cách run all "eval_generation_phase.py" với đầu vào là file dự đoán trong thư mục beam_prediction.
  [4] Truy xuất (Retrieval) và đánh giá mô hình:
-- Run all "eval_final.ipynb" kết quả đánh giá sẽ đánh giá sẽ lưu tại "LLMs\eval_result".
+- Run all "eval_final_FACC1[SIMCSE][WIKI].ipynb" tương ứng với từng phương pháp, kết quả đánh giá sẽ đánh giá sẽ lưu tại "LLMs\eval_result".
+- Đánh giá được thực hiện bằng 3 phương pháp nên kết tương ứng sẽ được lưu cụ thể tại 3 thư mục ["SIMCSE","FACC1","WIKI"].
       

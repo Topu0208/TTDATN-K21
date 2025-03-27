@@ -1,48 +1,22 @@
 ==============HƯỚNG DẪN CÀI ĐẶT============
 
-----[1] CÀI ĐẶT VIRTUOSO OPEN SOURCE CHO CƠ SỞ TRI THỨC WIKIMEDIA:
+----[1] TẠO DỮ LIỆU FACC1:
 
-1.1 Tạo dữ liệu dump Wikimedia lấy từ dữ liệu huấn luyện:
-
-- "Run all" file generate_dump.ipynb với "input_file" là 2 tập dữ liệu ở thư mục "Data\LC-QuAD2.0". 
-- File wikidata_dump.nt sẽ được tạo ra và được lưu tại thư mục "Wiki_setup\generate_dump".
-- Copy file "wikidata_dump.nt" vào thư mục "Wiki_setup\virtuoso_db".
-
-1.2 Khởi tạo server Virtuoso Open Soure, thực thi trên môi trường Ubuntu:
-- cd vào thư mục "Wiki_setup"
- Run lệnh 'python3 virtuoso.py start 8890 -d "virtuoso_db"', khi  server đã được khởi tạo tại `localhost:8890/sparql`.
-
-
-1.3 Nạp dữ liệu dump vào server `localhost:8890/sparql`, tiếp tục thực thi trên môi trường Ubuntu và chạy lệnh sau:
-	"Wiki_setup/virtuoso-opensource/bin/isql" 18890 dba dba <<EOF
-	log_enable(2);
-	ld_dir('Wiki_setup/virtuoso_db', 'wikidata_dump.nt', 'http://www.wikidata.org');
-	rdf_loader_run();
-	checkpoint;
-	exit;
-	EOF
-
-
-1.4 Dừng chạy dịch vụ Virtuoso Open Source: 
-- Chạy lệnh "python3 virtuoso.py stop 8890"
-
-----[2] TẠO DỮ LIỆU FACC1:
-
-2.1 Đối với thực thể:
+1.1 Đối với thực thể:
 - Cài đặt các thư viện cần thiết
 - Chạy tệp "count_entity.py" để lấy danh sách thực thể và tần suất xuất hiện tương ứng từ cơ sở tri thức
 - Đối với dữ liệu tiếng Anh: Chạy tệp map_wiki_entity.py để lấy nhãn thực thể tiếng Anh
 - Đối với dữ liệu tiếng Việt: Chạy tệp map_wiki_entity_vi.py để lấy nhãn thực thể tiếng Việt
 - Chạy tệp process.py để tính toán tỷ lệ phần trăm xuất hiện của thực thể (mã thực thể) đang xét so với tổng thực thể có cùng một dạng văn bản (nhãn thực thể)
 
-2.2 Đối với quan hệ: Thực hiện các bước tương tự trên các tệp count_property.py, map_wiki_property.py, map_wiki_property_vi.py, process.py.
+1.2 Đối với quan hệ: Thực hiện các bước tương tự trên các tệp count_property.py, map_wiki_property.py, map_wiki_property_vi.py, process.py.
 
 **Lưu ý**: 
 Kiểm tra tên tệp lưu đầu vào, đầu ra
 Theo dõi tiến độ thực thi thông qua tệp processing_state.txt
 
  
-----[3] CÀI ĐẶT MÔI TRƯỜNG:
+----[2] CÀI ĐẶT MÔI TRƯỜNG:
 conda create -n chatkbqa python=3.8
 conda activate chatkbqa
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
