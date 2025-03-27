@@ -2,7 +2,7 @@
 
 ## 1. Giới thiệu
 
-**Trường Đại học Khoa học Tự nhiên - Khoa Công nghệ Thông tin**  
+**Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM - Khoa Công nghệ Thông tin**  
 **Hội đồng Công nghệ Tri thức**  
 
 **Tên đề tài:** Xây dựng ứng dụng trả lời câu hỏi trên đồ thị tri thức sử dụng mô hình ngôn ngữ lớn  
