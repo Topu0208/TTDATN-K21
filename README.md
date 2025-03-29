@@ -93,3 +93,10 @@ Dữ liệu sẽ được lưu tại `LLMs/Data/LC-QuAD2.0_Wikidata_NQ_test[trai
 - Kết quả được lưu tại `LLMs/eval_result/` trong ba thư mục tương ứng với ba phương pháp: `SIMCSE`, `FACC1`, `WIKI`.
 
 
+### 4.5 Sử dụng app
+
+1. Chạy file `server.ipynb` trên Kaggle.
+2. Chạy `app.py`.
+3. Chọn **"Tạo truy vấn Logical Form rồi trả lời câu hỏi"**.
+4. Hỏi đáp.
+5. Link demo: [DEMO - CHATKBQA - KBV](https://youtu.be/mOdXoTT_GKU)

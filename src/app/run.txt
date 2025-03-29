@@ -1,0 +1,4 @@
+Bước 1: chạy file server.ipynb trên kaggle
+Bước 2: run app.py
+Bước 3: chọn "Tạo truy vấn Logical Form rồi trả lời câu hỏi"
+Bước 4: Hỏi đáp 
