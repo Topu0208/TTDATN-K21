@@ -1,142 +1,95 @@
-# Xây dựng ứng dụng trả lời câu hỏi trên đồ thị tri thức sử dụng mô hình ngôn ngữ lớn
+# XÂY DỰNG ỨNG DỤNG TRẢ LỜI CÂU HỎI TRÊN DỮ LIỆU WIKIMEDIA SỬ DỤNG MÔ HÌNH LLaMA
 
 ## 1. Giới thiệu
 
-**Trường Đại học Khoa học Tự nhiên - Khoa Công nghệ Thông tin**\
-**Hội đồng Công nghệ Tri thức**
+**Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM - Khoa Công nghệ Thông tin**  
+**Hội đồng Công nghệ Tri thức**  
 
-**Tên đề tài:** Xây dựng ứng dụng trả lời câu hỏi trên đồ thị tri thức sử dụng mô hình ngôn ngữ lớn\
-**Mã đề tài:** *DA_2025_CNTT002*
+**Tên đề tài:** Xây dựng ứng dụng trả lời câu hỏi trên đồ thị tri thức sử dụng mô hình ngôn ngữ lớn  
+**Mã đề tài:** *DA_2025_CNTT002*  
 
-**Danh sách thành viên:**
+**Danh sách thành viên:**  
 
-- 21120110 Nguyễn Tấn Phát
-- 21120114 Nguyễn Trần Thiên Phúc
-- 21120115 Nguyễn Trọng Phúc
-- 21120140 Trần Gia Thịnh
-- 21120405 Trần Minh Triết
-- 21120417 Nguyễn Thị Ngọc Châm
+- 21120110 Nguyễn Tấn Phát  
+- 21120114 Nguyễn Trần Thiên Phúc  
+- 21120115 Nguyễn Trọng Phúc  
+- 21120140 Trần Gia Thịnh  
+- 21120405 Trần Minh Triết  
+- 21120417 Nguyễn Thị Ngọc Châm  
 
 ## 2. Mô tả đề tài
 
-Đồ án tập trung vào việc xây dựng một hệ thống trả lời câu hỏi dựa trên đồ thị tri thức Wikidata, kết hợp với mô hình ngôn ngữ lớn (LLM). Hệ thống sẽ tiếp nhận câu hỏi từ người dùng, chuyển đổi thành truy vấn SPARQL để truy xuất dữ liệu từ Wikidata và trả về câu trả lời phù hợp.
+Đồ án tập trung vào việc xây dựng một hệ thống trả lời câu hỏi dựa trên đồ thị tri thức Wikidata, kết hợp với mô hình ngôn ngữ lớn (LLM). Hệ thống sẽ tiếp nhận câu hỏi từ người dùng, chuyển đổi thành biểu mẫu logic tương ứng, sau đó thực hiện quá trình truy vấn để tìm thực thể và quan hệ phù hợp tìm ra câu truy vấn SPARQL cuối cùng để truy vấn dữ liệu từ Wikidata và trả về câu trả lời phù hợp.
 
 ## 3. Hướng dẫn cài đặt
 
-### 3.1 Cài đặt môi trường
+### 3.1 Tạo dữ liệu FACC1
 
-Chạy các lệnh sau để thiết lập môi trường làm việc:
+#### Đối với thực thể:
+1. Cài đặt các thư viện cần thiết.
+2. Chạy tệp `count_entity.py` để lấy danh sách thực thể và tần suất xuất hiện từ cơ sở tri thức.
+3. Đối với dữ liệu tiếng Anh, chạy tệp `map_wiki_entity.py` để lấy nhãn thực thể.
+4. Đối với dữ liệu tiếng Việt, chạy tệp `map_wiki_entity_vi.py` để lấy nhãn thực thể.
+5. Chạy tệp `process.py` để tính toán tỷ lệ phần trăm xuất hiện của thực thể.
 
-```bash
+#### Đối với quan hệ:
+Thực hiện các bước tương tự như trên nhưng với các tệp `count_property.py`, `map_wiki_property.py`, `map_wiki_property_vi.py`, `process.py`.
+
+**Lưu ý:**
+- Kiểm tra tên tệp đầu vào và đầu ra.
+- Theo dõi tiến trình thông qua tệp `processing_state.txt`.
+
+### 3.2 Cài đặt môi trường
+
+Chạy các lệnh sau để thiết lập môi trường:
+
+```sh
 conda create -n chatkbqa python=3.8
 conda activate chatkbqa
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 pip install -r requirement.txt
 ```
 
-### 3.2 Cài đặt Virtuoso Open Source
-
-1. Tạo dữ liệu dump từ Wikidata:
-   ```bash
-   # Chạy file tạo dump dữ liệu
-   python generate_dump.ipynb
-   ```
-2. Khởi tạo Virtuoso:
-   ```bash
-   cd Wiki_setup
-   python3 virtuoso.py start 8890 -d "virtuoso_db"
-   ```
-3. Nạp dữ liệu vào Virtuoso:
-   ```bash
-   Wiki_setup/virtuoso-opensource/bin/isql 18890 dba dba <<EOF
-   log_enable(2);
-   ld_dir('Wiki_setup/virtuoso_db', 'wikidata_dump.nt', 'http://www.wikidata.org');
-   rdf_loader_run();
-   checkpoint;
-   exit;
-   EOF
-   ```
-4. Dừng Virtuoso khi không sử dụng:
-   ```bash
-   python3 virtuoso.py stop 8890
-   ```
-
 ## 4. Hướng dẫn sử dụng
 
 ### 4.1 Tiền xử lý dữ liệu
 
-Thực hiện các bước xử lý dữ liệu trong thư mục `Data`:
+Thực hiện trong thư mục `Data`:
 
-1. **Dịch câu hỏi sang tiếng Việt:**
-   ```bash
-   run all "translate.ipynb"
-   ```
-2. **Lọc dữ liệu:**
-   ```bash
-   run all "filter.ipynb"
-   ```
-3. **Tạo các thuộc tính dữ liệu:**
-   ```bash
-   run all "sparql_to_sexpr.ipynb"
-   run all "sexpr_to_nor_sexpr.ipynb"
-   run all "nor_sexpr_vi.ipynb"
-   ```
-4. **Tạo danh sách ánh xạ thực thể và quan hệ:**
-   ```bash
-   run all "golden_map.ipynb"
-   ```
+1. **Tạo thuộc tính "s_expr" từ "sparql"**:
+   - Chạy `sparql_to_sexpression.ipynb`, dữ liệu sẽ được lưu tại `LC-QuAD2.0/s_expression/`.
+2. **Truy vấn Wikidata, lọc câu không có kết quả, tạo các thuộc tính bổ sung**:
+   - Chạy `filter.ipynb`, dữ liệu sẽ lưu tại `LC-QuAD2.0/filter/`.
+3. **Dịch câu hỏi sang tiếng Việt**:
+   - Chạy `translate.ipynb`, dữ liệu sẽ lưu tại `LC-QuAD2.0/translate/`.
+4. **Cập nhật thuộc tính "template"**:
+   - Chạy `template_update.ipynb`, dữ liệu sẽ lưu tại `LC-QuAD2.0/template/`. Riêng tập test sẽ nằm trong `LC-QuAD2.0/final_process/`.
+5. **Chia tập train và validation**:
+   - Chạy `split_validation_data.ipynb`, dữ liệu sẽ lưu tại `LC-QuAD2.0/final_process/`.
 
-### 4.2 Huấn luyện mô hình LLM
+### 4.2 Chuẩn bị dữ liệu huấn luyện LLM
 
-```bash
-python process_NQ.py --dataset_type LC-QuAD2.0
+Chạy lệnh sau để xử lý dữ liệu huấn luyện:
+
+```sh
+python process_NQ.py --dataset_type LC-QUAD2.0
 ```
 
-Dữ liệu sẽ được lưu tại `LLMs/Data/WikiWebQuestions_Wikidata_NQ_test[train]/examples.json`.
+Dữ liệu sẽ được lưu tại `LLMs/Data/LC-QuAD2.0_Wikidata_NQ_test[train][dev]/examples.json`.
 
-Huấn luyện mô hình trên Kaggle với tập dữ liệu đã xử lý:
+### 4.3 Huấn luyện mô hình
 
-- Chạy file huấn luyện trong thư mục `LLMs/LoRA`
+- Mô hình sẽ được huấn luyện trên Kaggle.
+- File notebook dùng để huấn luyện và mô hình đã huấn luyện sẽ lưu tại `LLMs/model`.
+- Dự đoán LOGICAL FORM với LLM:
+  - Sử dụng `generate_prediction.ipynb`, đầu ra lưu tại `LLMs/beam_prediction/`.
+  - Mô hình sẽ tạo 5 dự đoán (`num_beam = 5`).
+- Đánh giá giai đoạn tạo biểu diễn logic:
+  - Chạy `eval_generation_phase.py`, sử dụng dữ liệu từ `LLMs/beam_prediction/`.
 
-### 4.3 Dự đoán và đánh giá mô hình
+### 4.4 Truy xuất và đánh giá mô hình
 
-1. **Dự đoán Logical Form với LLM**:
-   ```bash
-   run all "generate_prediction.ipynb"
-   ```
-   Kết quả dự đoán lưu tại `LLMs/beam_prediction/generated_predictions_beam.json`.
-2. **Đánh giá mô hình:**
-   ```bash
-   run all "eval_final.ipynb"
-   ```
-   Kết quả lưu tại `LLMs/eval_result/`.
+- Chạy `eval_final_FACC1[SIMCSE][WIKI].ipynb` để đánh giá mô hình.
+- Kết quả được lưu tại `LLMs/eval_result/` trong ba thư mục tương ứng với ba phương pháp: `SIMCSE`, `FACC1`, `WIKI`.
 
-## 5. Cấu trúc thư mục
-
-```
-├── Data
-│   ├── LC-QuAD2.0
-│   ├── translate/
-│   ├── filter/
-│   ├── s_expr/
-│   ├── nor_sexpr/
-│   ├── label_map/
-├── LLMs
-│   ├── Data/
-│   ├── LoRA/
-│   ├── beam_prediction/
-│   ├── eval_result/
-├── Wiki_setup
-│   ├── virtuoso_db/
-│   ├── generate_dump/
-├── scripts
-│   ├── process_NQ.py
-│   ├── generate_prediction.ipynb
-│   ├── eval_final.ipynb
-```
-
-## 6. Liên hệ
-
-
----
 
